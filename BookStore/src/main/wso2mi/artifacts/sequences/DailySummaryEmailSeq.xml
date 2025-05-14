@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="DailySummaryEmailSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property name="date" expression="${formatDateTime(now(), 'yyyy-MM-dd')}"/>
+    <log category="INFO">
+        <message>${properties.synapse.date}</message>
+    </log>
+    <!-- <email.send configKey="MailConnection">
+        <from>no-reply@book.com</from>
+        <personalName></personalName>
+        <to>admin@book.com</to>
+        <cc></cc>
+        <bcc></bcc>
+        <replyTo></replyTo>
+        <subject>Daily Purchase Summary</subject>
+        <content><![CDATA[
+                <h3>Daily Summary - ${properties.synapse.date}</h3>
+                <pre><code>
+                ${properties.synapse.payload.Data}
+                </code></pre>   
+            ]]></content>
+        <contentType>text/html</contentType>
+        <encoding>UTF-8</encoding>
+        <attachments></attachments>
+        <inlineImages>[]</inlineImages>
+        <contentTransferEncoding>Base64</contentTransferEncoding>
+        <responseVariable>email_send_two</responseVariable>
+        <overwriteBody>true</overwriteBody>
+    </email.send> -->
+    <drop/>
+</sequence>

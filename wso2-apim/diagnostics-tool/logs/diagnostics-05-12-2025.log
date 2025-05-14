@@ -1,0 +1,195 @@
+2025-05-12 00:11:49 LogWatcher [INFO] Log file has been rotated. Reopening the file /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:17:24 ServerProcess [INFO] Server Process ID: 41155
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-12 00:17:24 ServerInfo [INFO] Update level: 1
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Update Level: 1
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-12 00:17:24 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-12 00:17:24 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-12 00:17:24 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:17:24 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 00:17:24 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 00:17:24 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-12 00:17:24 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-12 00:28:52 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-12 00:28:52 ServerInfo [INFO] Update level: 1
+2025-05-12 00:28:52 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 00:28:52 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse.transport.passthru(.*)
+2025-05-12 00:28:52 ServerInfo [INFO] Update level: 1
+2025-05-12 00:28:52 MetricsSnapshot [INFO] MetricsSnapshot executed successfully.
+2025-05-12 00:28:52 OpenFileFinder [INFO] OpenFileFinder executed successfully.
+2025-05-12 00:28:52 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 00:28:55 Netstat [INFO] Netstat executed successfully
+2025-05-12 00:28:57 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_00:28:52.377
+2025-05-12 00:28:57 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/41155_2025-05-12_00:28:52.377.zip
+2025-05-12 00:29:03 ThreadDumper [INFO] Thread dump execution is completed for 41155, thread dump count: 5, delay: 2000ms
+2025-05-12 00:29:08 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_00:28:52.597
+2025-05-12 00:29:08 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/41155_2025-05-12_00:28:52.597.zip
+2025-05-12 00:35:54 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-12 00:35:54 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-12 00:44:22 ServerProcess [INFO] Server Process ID: 46707
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-12 00:44:22 ServerInfo [INFO] Update level: 1
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Update Level: 1
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-12 00:44:22 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-12 00:44:22 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-12 00:44:22 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:44:22 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 00:44:22 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 00:44:22 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-12 00:44:22 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-12 00:51:50 ServerProcess [INFO] Server Process ID: 48555
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-12 00:51:50 ServerInfo [INFO] Update level: 1
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Update Level: 1
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-12 00:51:50 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-12 00:51:50 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-12 00:51:50 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:51:50 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 00:51:50 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 00:51:50 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-12 00:51:50 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-12 00:55:35 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-12 00:55:35 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-12 00:56:56 ServerProcess [INFO] Server Process ID: 49691
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-12 00:56:56 ServerInfo [INFO] Update level: 1
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Update Level: 1
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-12 00:56:56 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-12 00:56:56 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-12 00:56:56 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:56:56 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 00:56:56 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 00:56:56 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-12 00:56:56 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-12 00:57:38 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-12 00:57:38 ServerInfo [INFO] Update level: 1
+2025-05-12 00:57:38 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 00:57:38 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse.transport.passthru(.*)
+2025-05-12 00:57:38 ServerInfo [INFO] Update level: 1
+2025-05-12 00:57:38 OpenFileFinder [INFO] OpenFileFinder executed successfully.
+2025-05-12 00:57:38 MetricsSnapshot [INFO] MetricsSnapshot executed successfully.
+2025-05-12 00:57:38 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 00:57:40 Netstat [INFO] Netstat executed successfully
+2025-05-12 00:57:43 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_00:57:38.474
+2025-05-12 00:57:43 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/49691_2025-05-12_00:57:38.474.zip
+2025-05-12 00:57:49 ThreadDumper [INFO] Thread dump execution is completed for 49691, thread dump count: 5, delay: 2000ms
+2025-05-12 00:57:54 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_00:57:38.711
+2025-05-12 00:57:54 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/49691_2025-05-12_00:57:38.711.zip
+2025-05-12 00:58:31 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse.transport.passthru(.*)
+2025-05-12 00:58:31 ServerInfo [INFO] Update level: 1
+2025-05-12 00:58:31 MetricsSnapshot [INFO] MetricsSnapshot executed successfully.
+2025-05-12 00:58:31 OpenFileFinder [INFO] OpenFileFinder executed successfully.
+2025-05-12 00:58:32 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 00:58:32 Netstat [INFO] Netstat executed successfully
+2025-05-12 00:58:42 ThreadDumper [INFO] Thread dump execution is completed for 49691, thread dump count: 5, delay: 2000ms
+2025-05-12 00:58:42 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-12 00:58:42 ServerInfo [INFO] Update level: 1
+2025-05-12 00:58:42 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 00:58:47 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_00:58:31.812
+2025-05-12 00:58:47 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/49691_2025-05-12_00:58:31.812.zip
+2025-05-12 00:58:47 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_00:58:42.459
+2025-05-12 00:58:47 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/49691_2025-05-12_00:58:42.459.zip
+2025-05-12 00:59:45 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse.transport.passthru(.*)
+2025-05-12 00:59:45 ServerInfo [INFO] Update level: 1
+2025-05-12 00:59:45 MetricsSnapshot [INFO] MetricsSnapshot executed successfully.
+2025-05-12 00:59:45 OpenFileFinder [INFO] OpenFileFinder executed successfully.
+2025-05-12 00:59:45 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 00:59:45 Netstat [INFO] Netstat executed successfully
+2025-05-12 00:59:55 ThreadDumper [INFO] Thread dump execution is completed for 49691, thread dump count: 5, delay: 2000ms
+2025-05-12 00:59:55 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-12 00:59:55 ServerInfo [INFO] Update level: 1
+2025-05-12 00:59:56 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 01:00:00 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_00:59:45.315
+2025-05-12 01:00:01 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/49691_2025-05-12_00:59:45.315.zip
+2025-05-12 01:00:01 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_00:59:55.993
+2025-05-12 01:00:01 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/49691_2025-05-12_00:59:55.993.zip
+2025-05-12 01:04:26 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-12 01:04:26 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-12 01:06:59 ServerProcess [INFO] Server Process ID: 51840
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-12 01:06:59 ServerInfo [INFO] Update level: 1
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Update Level: 1
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-12 01:06:59 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-12 01:06:59 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-12 01:06:59 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-12 01:06:59 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 01:06:59 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 01:06:59 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-12 01:06:59 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-12 01:07:01 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-12 01:07:01 ServerInfo [INFO] Update level: 1
+2025-05-12 01:07:02 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 01:07:02 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse.transport.passthru(.*)
+2025-05-12 01:07:02 ServerInfo [INFO] Update level: 1
+2025-05-12 01:07:02 OpenFileFinder [INFO] OpenFileFinder executed successfully.
+2025-05-12 01:07:02 MetricsSnapshot [INFO] MetricsSnapshot executed successfully.
+2025-05-12 01:07:02 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 01:07:03 Netstat [INFO] Netstat executed successfully
+2025-05-12 01:07:07 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_01:07:01.831
+2025-05-12 01:07:07 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/51840_2025-05-12_01:07:01.831.zip
+2025-05-12 01:07:12 ThreadDumper [INFO] Thread dump execution is completed for 51840, thread dump count: 5, delay: 2000ms
+2025-05-12 01:07:17 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_01:07:02.072
+2025-05-12 01:07:17 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/51840_2025-05-12_01:07:02.072.zip
+2025-05-12 01:11:14 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-12 01:11:14 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-12 01:14:55 ServerProcess [INFO] Server Process ID: 53573
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-12 01:14:55 ServerInfo [INFO] Update level: 1
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Update Level: 1
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-12 01:14:55 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-12 01:14:55 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-12 01:14:55 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-12 01:14:55 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 01:14:55 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-12 01:14:55 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-12 01:14:55 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-12 01:16:53 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-12 01:16:53 ServerInfo [INFO] Update level: 1
+2025-05-12 01:16:53 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-12 01:16:58 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-12_01:16:53.458
+2025-05-12 01:16:58 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/53573_2025-05-12_01:16:53.458.zip
+2025-05-12 12:13:15 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.0
+2025-05-12 12:22:15 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.0
+2025-05-12 13:40:53 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.60986178694427

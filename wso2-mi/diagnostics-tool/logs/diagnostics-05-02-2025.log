@@ -1,0 +1,529 @@
+2025-05-02 14:47:40 ServerProcess [INFO] Server Process ID: 19287
+2025-05-02 14:47:40 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 14:47:40 ServerInfo [INFO] Update level: 7
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 14:47:40 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 14:47:40 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 14:47:40 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 14:47:40 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 14:47:40 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 14:47:40 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 14:47:40 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 14:49:48 ServerProcess [INFO] Server Process ID: 19495
+2025-05-02 14:49:48 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 14:49:48 ServerInfo [INFO] Update level: 7
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 14:49:48 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 14:49:48 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 14:49:48 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 14:49:48 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 14:49:48 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 14:49:48 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 14:49:48 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 14:55:19 ServerProcess [INFO] Server Process ID: 19774
+2025-05-02 14:55:19 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 14:55:19 ServerInfo [INFO] Update level: 7
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 14:55:19 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 14:55:19 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 14:55:19 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 14:55:19 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 14:55:19 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 14:55:19 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 14:55:19 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 14:56:53 ServerProcess [INFO] Server Process ID: 19920
+2025-05-02 14:56:53 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 14:56:53 ServerInfo [INFO] Update level: 7
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 14:56:53 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 14:56:53 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 14:56:53 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 14:56:53 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 14:56:53 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 14:56:53 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 14:56:53 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 14:57:38 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse.transport.passthru(.*)
+2025-05-02 14:57:38 Interpreter [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 14:57:38 ServerInfo [INFO] Update level: 7
+2025-05-02 14:57:38 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-02 14:57:38 OpenFileFinder [INFO] OpenFileFinder executed successfully.
+2025-05-02 14:57:40 Netstat [INFO] Netstat executed successfully
+2025-05-02 14:57:49 ThreadDumper [INFO] Thread dump execution is completed for 19920, thread dump count: 5, delay: 2000ms
+2025-05-02 14:57:54 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/temp/2025-05-02_14:57:38.612
+2025-05-02 14:57:54 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/data/19920_2025-05-02_14:57:38.612.zip
+2025-05-02 14:58:10 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-02 14:58:10 ServerInfo [INFO] Update level: 7
+2025-05-02 14:58:10 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-02 14:58:15 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/temp/2025-05-02_14:58:10.721
+2025-05-02 14:58:15 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/data/19920_2025-05-02_14:58:10.721.zip
+2025-05-02 14:59:10 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-02 14:59:10 ServerInfo [INFO] Update level: 7
+2025-05-02 14:59:10 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-02 14:59:15 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/temp/2025-05-02_14:59:10.829
+2025-05-02 14:59:15 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/data/19920_2025-05-02_14:59:10.829.zip
+2025-05-02 14:59:23 TrafficAnalyzerRunnable [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 8, threshold: 3.5522847498307932
+2025-05-02 15:11:18 ServerProcess [INFO] Server Process ID: 2215
+2025-05-02 15:11:18 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 15:11:18 ServerInfo [INFO] Update level: 7
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 15:11:18 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 15:11:18 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 15:11:18 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 15:11:18 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 15:11:18 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 15:11:18 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 15:11:18 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 15:14:18 TrafficAnalyzerRunnable [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 4, threshold: 1.0
+2025-05-02 15:19:22 ServerProcess [INFO] Server Process ID: 2800
+2025-05-02 15:19:22 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 15:19:22 ServerInfo [INFO] Update level: 7
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 15:19:22 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 15:19:22 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 15:19:22 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 15:19:22 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 15:19:22 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 15:19:22 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 15:19:22 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 15:26:02 ServerProcess [INFO] Server Process ID: 3233
+2025-05-02 15:26:02 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 15:26:02 ServerInfo [INFO] Update level: 7
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 15:26:02 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 15:26:02 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 15:26:02 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 15:26:02 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 15:26:02 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 15:26:02 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 15:26:02 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:13:44 ServerProcess [INFO] Server Process ID: 6492
+2025-05-02 17:13:44 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 17:13:44 ServerInfo [INFO] Update level: 7
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 17:13:44 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 17:13:44 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 17:13:44 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 17:13:44 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:13:44 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 17:13:44 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 17:13:44 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:16:31 ServerProcess [INFO] Server Process ID: 6660
+2025-05-02 17:16:31 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 17:16:31 ServerInfo [INFO] Update level: 7
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 17:16:31 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 17:16:31 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 17:16:31 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 17:16:31 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:16:31 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 17:16:31 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 17:16:31 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:18:22 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:903) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getMemoryUsage(JMXDataRetriever.java:56) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.watchers.MemoryWatcher.run(MemoryWatcher.java:58) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619) ~[?:?]
+	... 15 more
+2025-05-02 17:19:03 ServerProcess [INFO] Server Process ID: 6814
+2025-05-02 17:19:03 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 17:19:03 ServerInfo [INFO] Update level: 7
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 17:19:03 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 17:19:03 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 17:19:03 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 17:19:03 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:19:03 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 17:19:03 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 17:19:03 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:21:19 ServerProcess [INFO] Server Process ID: 6960
+2025-05-02 17:21:19 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 17:21:19 ServerInfo [INFO] Update level: 7
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 17:21:19 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 17:21:19 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 17:21:19 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 17:21:19 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:21:19 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 17:21:19 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 17:21:19 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:33:35 TrafficAnalyzerRunnable [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 4, threshold: 1.0
+2025-05-02 17:37:20 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:903) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getIntAttributeValue(JMXDataRetriever.java:47) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzerRunnable.run(TrafficAnalyzerRunnable.java:61) ~[org.wso2.carbon.mediation.diagnostics-4.7.244.jar:4.7.244]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619) ~[?:?]
+	... 15 more
+2025-05-02 17:37:20 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:903) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getMemoryUsage(JMXDataRetriever.java:56) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.watchers.MemoryWatcher.run(MemoryWatcher.java:58) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619) ~[?:?]
+	... 15 more
+2025-05-02 17:37:20 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:903) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getCpuUsage(JMXDataRetriever.java:51) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.watchers.CPUWatcher.run(CPUWatcher.java:58) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619) ~[?:?]
+	... 15 more
+2025-05-02 17:41:12 ServerProcess [INFO] Server Process ID: 7690
+2025-05-02 17:41:12 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 17:41:12 ServerInfo [INFO] Update level: 7
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 17:41:12 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 17:41:12 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 17:41:12 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 17:41:12 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:41:12 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 17:41:12 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 17:41:12 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:42:16 ServerProcess [INFO] Server Process ID: 7797
+2025-05-02 17:42:16 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 17:42:16 ServerInfo [INFO] Update level: 7
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 17:42:16 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 17:42:16 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 17:42:16 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 17:42:16 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:42:16 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 17:42:16 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 17:42:16 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:43:35 ServerProcess [INFO] Server Process ID: 7901
+2025-05-02 17:43:35 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 17:43:35 ServerInfo [INFO] Update level: 7
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 17:43:35 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 17:43:35 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 17:43:35 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 17:43:35 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:43:35 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 17:43:35 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 17:43:35 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:44:55 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:903) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getCpuUsage(JMXDataRetriever.java:51) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.watchers.CPUWatcher.run(CPUWatcher.java:58) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619) ~[?:?]
+	... 15 more
+2025-05-02 17:44:55 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:903) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getMemoryUsage(JMXDataRetriever.java:56) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at org.wso2.diagnostics.watchers.MemoryWatcher.run(MemoryWatcher.java:58) ~[runtime-diagnostics-tool-1.1.1.jar:1.1.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619) ~[?:?]
+	... 15 more
+2025-05-02 17:45:32 ServerProcess [INFO] Server Process ID: 8040
+2025-05-02 17:45:32 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-02 17:45:32 ServerInfo [INFO] Update level: 7
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Update Level: 7
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-02 17:45:32 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-02 17:45:32 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-02 17:45:32 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-02 17:45:32 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-02 17:45:32 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-02 17:45:32 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-02 17:45:32 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer

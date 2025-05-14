@@ -1,0 +1,393 @@
+<data name="BookDataService" transports="http https local" disableLegacyBoxcarringMode="true" enableBoxcarring="true">
+    <description/>
+    <!-- DATABASE CONFIGURATION -->
+    <config enableOData="false" id="BookDataSource">
+        <property name="driverClassName">com.mysql.jdbc.Driver</property>
+        <property name="url">jdbc:mysql://localhost:3306/book_store</property>
+        <property name="username">root</property>
+        <property name="password">password</property>
+    </config>
+    <!-- QUERIES -->
+    <!-- Book Queries -->
+    <query id="getBooks" useConfig="BookDataSource">
+        <sql>SELECT book_id, title, price, CASE WHEN stock_quantity > 0 THEN 'In Stock' ELSE 'Out of Stock' END AS availability FROM books</sql>
+        <result element="Data" rowName="Books">
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="availability" name="availability" xsdType="string"/>
+        </result>
+    </query>
+    <query id="getPaginationBooks" useConfig="BookDataSource">
+        <sql>SELECT book_id, title, price, CASE WHEN stock_quantity > 0 THEN 'In Stock' ELSE 'Out of Stock' END AS availability FROM books LIMIT :fetch OFFSET :skip</sql>
+        <param name="fetch" paramType="SCALAR" sqlType="INTEGER"/>
+        <param name="skip" paramType="SCALAR" sqlType="INTEGER"/>
+        <result element="Data" rowName="Books">
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="availability" name="availability" xsdType="string"/>
+        </result>
+    </query>
+    <query id="getBook" useConfig="BookDataSource">
+        <sql>SELECT book_id, title, price, CASE WHEN stock_quantity > 0 THEN 'In Stock' ELSE 'Out of Stock' END AS availability FROM books WHERE book_id = :book_id</sql>
+        <param name="book_id" paramType="SCALAR" sqlType="STRING"/>
+        <result element="Book">
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="availability" name="availability" xsdType="string"/>
+        </result>
+    </query>
+    <query id="getAllDetailBook" useConfig="BookDataSource">
+        <sql>SELECT * FROM books WHERE book_id = :book_id</sql>
+        <param name="book_id" paramType="SCALAR" sqlType="STRING"/>
+        <result element="Book">
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="stock_quantity" name="stock_quantity" xsdType="integer"/>
+        </result>
+    </query>
+    <query id="getLastInsertedBook" useConfig="BookDataSource">
+        <sql>SELECT * FROM books WHERE book_id = LAST_INSERT_ID()</sql>
+        <result element="Book">
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="stock_quantity" name="stock_quantity" xsdType="integer"/>
+        </result>
+    </query>
+    <query id="addBook" useConfig="BookDataSource">
+        <sql>INSERT INTO books (title, price, stock_quantity) VALUE (:title, :price, :stock_quantity)</sql>
+        <param name="title" paramType="SCALAR" sqlType="STRING"/>
+        <param name="price" paramType="SCALAR" sqlType="DOUBLE"/>
+        <param name="stock_quantity" paramType="SCALAR" sqlType="INTEGER"/>
+    </query>
+    <query id="updateBook" useConfig="BookDataSource">
+        <sql>UPDATE books SET price = :price, stock_quantity = :stock_quantity WHERE book_id = :book_id</sql>
+        <param name="book_id" paramType="SCALAR" sqlType="STRING"/>
+        <param name="price" paramType="SCALAR" sqlType="DOUBLE"/>
+        <param name="stock_quantity" paramType="SCALAR" sqlType="INTEGER"/>
+    </query>
+    <query id="updateBookQuantity" useConfig="BookDataSource">
+        <sql>UPDATE books SET stock_quantity = :stock_quantity WHERE book_id = :book_id</sql>
+        <param name="book_id" paramType="SCALAR" sqlType="STRING"/>
+        <param name="stock_quantity" paramType="SCALAR" sqlType="INTEGER"/>
+    </query>
+    <query id="deleteBook" useConfig="BookDataSource">
+        <sql>DELETE FROM books WHERE book_id = :book_id</sql>
+        <param name="book_id" paramType="SCALAR" sqlType="STRING"/>
+    </query>
+    <!-- Order Queries -->
+    <query id="getOrder" useConfig="BookDataSource">
+        <sql>SELECT * FROM orders WHERE user_email = :user_email</sql>
+        <param name="user_email" paramType="SCALAR" sqlType="STRING"/>
+        <result element="Order">
+            <element column="order_id" name="order_id" xsdType="string"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+            <element column="total_amount" name="total_amount" xsdType="double"/>
+        </result>
+    </query>
+    <query id="getOrderByOrderId" useConfig="BookDataSource">
+        <sql>SELECT * FROM orders WHERE order_id = :order_id</sql>
+        <param name="order_id" paramType="SCALAR" sqlType="INTEGER"/>
+        <result element="Order">
+            <element column="order_id" name="order_id" xsdType="string"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+            <element column="total_amount" name="total_amount" xsdType="double"/>
+        </result>
+    </query>
+    <query id="getLastInsertedOrder" useConfig="BookDataSource">
+        <sql>SELECT * FROM orders WHERE order_id = LAST_INSERT_ID()</sql>
+        <result element="Order">
+            <element column="order_id" name="order_id" xsdType="string"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+            <element column="total_amount" name="total_amount" xsdType="double"/>
+        </result>
+    </query>
+    <query id="addOrder" useConfig="BookDataSource">
+        <sql>INSERT INTO orders (user_email, payment_status, total_amount) VALUE (:user_email, 'pending', :total_amount)</sql>
+        <param name="user_email" paramType="SCALAR" sqlType="STRING"/>
+        <param name="total_amount" paramType="SCALAR" sqlType="DOUBLE"/>
+    </query>
+    <query id="updateOrderStatus" useConfig="BookDataSource">
+        <sql>UPDATE orders SET payment_status = 'completed' WHERE order_id = :order_id</sql>
+        <param name="order_id" paramType="SCALAR" sqlType="INTEGER"/>
+    </query>
+    <!-- Order Items Queries -->
+    <query id="addOrderItem" useConfig="BookDataSource">
+        <sql>INSERT INTO order_items (order_id , book_id, quantity) VALUE (:order_id, :book_id, :quantity)</sql>
+        <param name="order_id" paramType="SCALAR" sqlType="INTEGER"/>
+        <param name="book_id" paramType="SCALAR" sqlType="INTEGER"/>
+        <param name="quantity" paramType="SCALAR" sqlType="INTEGER"/>
+    </query>
+    <!-- Payment Queries -->
+    <query id="getLastInsertedPayment" useConfig="BookDataSource">
+        <sql>SELECT * FROM payments WHERE payment_id = LAST_INSERT_ID()</sql>
+        <result element="Payment">
+            <element column="payment_id" name="payment_id" xsdType="integer"/>
+            <element column="order_id" name="order_id" xsdType="integer"/>
+            <element column="payment_amount" name="payment_amount" xsdType="double"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+        </result>
+    </query>
+    <query id="addPayment" useConfig="BookDataSource">
+        <sql>INSERT INTO payments (order_id , payment_amount, payment_status) VALUE (:order_id, :payment_amount, 'pending')</sql>
+        <param name="order_id" paramType="SCALAR" sqlType="INTEGER"/>
+        <param name="payment_amount" paramType="SCALAR" sqlType="DOUBLE"/>
+    </query>
+    <query id="updatePaymentStatus" useConfig="BookDataSource">
+        <sql>UPDATE payments SET payment_status = 'completed' WHERE order_id = :order_id</sql>
+        <param name="order_id" paramType="SCALAR" sqlType="INTEGER"/>
+    </query>
+    <!-- Join Queries -->
+    <query id="getOrderPayment" useConfig="BookDataSource">
+        <sql>SELECT o.order_id, o.user_email, o.order_date, b.book_id, b.title, b.price, oi.quantity, p.payment_id, p.payment_amount, p.payment_status FROM orders o JOIN order_items oi ON o.order_id = oi.order_id JOIN books b ON oi.book_id = b.book_id JOIN payments p ON o.order_id = p.order_id</sql>
+        <result  element="Data" rowName="Orders">
+            <element column="order_id" name="order_id" xsdType="integer"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="quantity" name="quantity" xsdType="integre"/>
+            <element column="payment_id" name="payment_id" xsdType="integer"/>
+            <element column="payment_amount" name="payment_amount" xsdType="double"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+        </result>
+    </query>
+    <query id="getPaginationOrderPayment" useConfig="BookDataSource">
+        <sql>SELECT o.order_id, o.user_email, o.order_date, b.book_id, b.title, b.price, oi.quantity, p.payment_id, p.payment_amount, p.payment_status FROM orders o JOIN order_items oi ON o.order_id = oi.order_id JOIN books b ON oi.book_id = b.book_id JOIN payments p ON o.order_id = p.order_id LIMIT :fetch OFFSET :skip</sql>
+        <param name="fetch" paramType="SCALAR" sqlType="INTEGER"/>
+        <param name="skip" paramType="SCALAR" sqlType="INTEGER"/>
+        <result  element="Data" rowName="Orders">
+            <element column="order_id" name="order_id" xsdType="integer"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="quantity" name="quantity" xsdType="integre"/>
+            <element column="payment_id" name="payment_id" xsdType="integer"/>
+            <element column="payment_amount" name="payment_amount" xsdType="double"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+        </result>
+    </query>
+    <query id="getOrderPaymentByStatus" useConfig="BookDataSource">
+        <sql>SELECT o.order_id, o.user_email, o.order_date, b.book_id, b.title, b.price, oi.quantity, p.payment_id, p.payment_amount, p.payment_status FROM orders o JOIN order_items oi ON o.order_id = oi.order_id JOIN books b ON oi.book_id = b.book_id JOIN payments p ON o.order_id = p.order_id WHERE p.payment_status = :payment_status</sql>
+        <param name="payment_status" paramType="SCALAR" sqlType="STRING"/>
+        <result  element="Data" rowName="Orders">
+            <element column="order_id" name="order_id" xsdType="integer"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="quantity" name="quantity" xsdType="integre"/>
+            <element column="payment_id" name="payment_id" xsdType="integer"/>
+            <element column="payment_amount" name="payment_amount" xsdType="double"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+        </result>
+    </query>
+    <query id="getPaginationOrderPaymentByStatus" useConfig="BookDataSource">
+        <sql>SELECT o.order_id, o.user_email, o.order_date, b.book_id, b.title, b.price, oi.quantity, p.payment_id, p.payment_amount, p.payment_status FROM orders o JOIN order_items oi ON o.order_id = oi.order_id JOIN books b ON oi.book_id = b.book_id JOIN payments p ON o.order_id = p.order_id WHERE p.payment_status = :payment_status LIMIT :fetch OFFSET :skip</sql>
+        <param name="payment_status" paramType="SCALAR" sqlType="STRING"/>
+        <param name="fetch" paramType="SCALAR" sqlType="INTEGER"/>
+        <param name="skip" paramType="SCALAR" sqlType="INTEGER"/>
+        <result  element="Data" rowName="Orders">
+            <element column="order_id" name="order_id" xsdType="integer"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="quantity" name="quantity" xsdType="integre"/>
+            <element column="payment_id" name="payment_id" xsdType="integer"/>
+            <element column="payment_amount" name="payment_amount" xsdType="double"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+        </result>
+    </query>
+    <query id="getOrderPaymentByOrderId" useConfig="BookDataSource">
+        <sql>SELECT o.order_id, o.user_email, o.order_date, b.book_id, b.title, b.price, oi.quantity, p.payment_id, p.payment_amount, p.payment_status FROM orders o JOIN order_items oi ON o.order_id = oi.order_id JOIN books b ON oi.book_id = b.book_id JOIN payments p ON o.order_id = p.order_id WHERE o.order_id = :order_id</sql>
+        <param name="order_id" paramType="SCALAR" sqlType="INTEGER"/>
+        <result element="Order">
+            <element column="order_id" name="order_id" xsdType="integer"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="quantity" name="quantity" xsdType="integre"/>
+            <element column="payment_id" name="payment_id" xsdType="integer"/>
+            <element column="payment_amount" name="payment_amount" xsdType="double"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+        </result>
+    </query>
+    <query id="getLastInsertedOrderPayment" useConfig="BookDataSource">
+        <sql>SELECT o.order_id, o.user_email, o.order_date, b.book_id, b.title, b.price, oi.quantity, p.payment_id, p.payment_amount, p.payment_status FROM orders o JOIN order_items oi ON o.order_id = oi.order_id JOIN books b ON oi.book_id = b.book_id JOIN payments p ON o.order_id = p.order_id WHERE p.payment_id = LAST_INSERT_ID()</sql>
+        <result element="Order">
+            <element column="order_id" name="order_id" xsdType="integer"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="quantity" name="quantity" xsdType="integre"/>
+            <element column="payment_id" name="payment_id" xsdType="integer"/>
+            <element column="payment_amount" name="payment_amount" xsdType="double"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+        </result>
+    </query>
+     <query id="getDailyOrderPayment" useConfig="BookDataSource">
+        <sql>SELECT o.order_id, o.user_email, o.order_date, b.book_id, b.title, b.price, oi.quantity, p.payment_id, p.payment_amount, p.payment_status FROM orders o JOIN order_items oi ON o.order_id = oi.order_id JOIN books b ON oi.book_id = b.book_id JOIN payments p ON o.order_id = p.order_id WHERE DATE(o.order_date) = CURDATE();</sql>
+        <result  element="Data" rowName="Orders">
+            <element column="order_id" name="order_id" xsdType="integer"/>
+            <element column="user_email" name="user_email" xsdType="string"/>
+            <element column="order_date" name="order_date" xsdType="date"/>
+            <element column="book_id" name="book_id" xsdType="integer"/>
+            <element column="title" name="title" xsdType="string"/>
+            <element column="price" name="price" xsdType="double"/>
+            <element column="quantity" name="quantity" xsdType="integre"/>
+            <element column="payment_id" name="payment_id" xsdType="integer"/>
+            <element column="payment_amount" name="payment_amount" xsdType="double"/>
+            <element column="payment_status" name="payment_status" xsdType="string"/>
+        </result>
+    </query>
+    <!-- OPERATIONS -->
+    <!-- Book Operations -->
+    <operation name="getBooks" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getBooks"/>
+    </operation>
+    <operation name="getPaginationBooks" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getPaginationBooks">
+            <with-param name="fetch" query-param="fetch" optional="false"/>
+            <with-param name="skip" query-param="skip" optional="true"/>
+        </call-query>
+    </operation>
+    <operation name="getBook" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getBook">
+            <with-param name="book_id" query-param="book_id"/>
+        </call-query>
+    </operation>
+    <operation name="getAllDetailBook" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getAllDetailBook">
+            <with-param name="book_id" query-param="book_id"/>
+        </call-query>
+    </operation>
+    <operation name="getLastInsertedBook" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getLastInsertedBook"/>
+    </operation>
+    <operation name="addBook" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="addBook">
+            <with-param name="title" query-param="title"/>
+            <with-param name="price" query-param="price"/>
+            <with-param name="stock_quantity" query-param="stock_quantity"/>
+        </call-query>
+    </operation>
+    <operation name="updateBook" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="updateBook">
+            <with-param name="book_id" query-param="book_id"/>
+            <with-param name="price" query-param="price"/>
+            <with-param name="stock_quantity" query-param="stock_quantity"/>
+        </call-query>
+    </operation>
+    <operation name="updateBookQuantity" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="updateBookQuantity">
+            <with-param name="book_id" query-param="book_id"/>
+            <with-param name="stock_quantity" query-param="stock_quantity"/>
+        </call-query>
+    </operation>
+    <operation name="deleteBook" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="deleteBook">
+            <with-param name="book_id" query-param="book_id"/>
+        </call-query>
+    </operation>
+    <!-- Order Operations -->
+    <operation name="getOrder" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getOrder">
+            <with-param name="user_email" query-param="user_email"/>
+        </call-query>
+    </operation>
+    <operation name="getOrderByOrderId" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getOrderByOrderId">
+            <with-param name="order_id" query-param="order_id"/>
+        </call-query>
+    </operation>
+    <operation name="addOrder" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="addOrder">
+            <with-param name="user_email" query-param="user_email"/>
+            <with-param name="total_amount" query-param="total_amount"/>
+        </call-query>
+    </operation>
+    <operation name="getLastInsertedOrder" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getLastInsertedOrder"/>
+    </operation>
+    <operation name="updateOrderStatus" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="updateOrderStatus">
+            <with-param name="order_id" query-param="order_id"/>
+        </call-query>
+    </operation>
+    <!-- Order Items Operations -->
+    <operation name="addOrderItem" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="addOrderItem">
+            <with-param name="order_id" query-param="order_id"/>
+            <with-param name="book_id" query-param="book_id"/>
+            <with-param name="quantity" query-param="quantity"/>
+        </call-query>
+    </operation>
+    <!-- Payment Operations -->
+    <operation name="addPayment" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="addPayment">
+            <with-param name="order_id" query-param="order_id"/>
+            <with-param name="payment_amount" query-param="payment_amount"/>
+        </call-query>
+    </operation>
+    <operation name="updatePaymentStatus" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="updatePaymentStatus">
+            <with-param name="order_id" query-param="order_id"/>
+        </call-query>
+    </operation>
+    <!-- Other Operations -->
+    <operation name="getOrderPayment" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getOrderPayment"/>
+    </operation>
+    <operation name="getPaginationOrderPaymentByStatus" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getPaginationOrderPaymentByStatus">
+            <with-param name="payment_status" query-param="payment_status"/>
+            <with-param name="fetch" query-param="fetch" optional="false"/>
+            <with-param name="skip" query-param="skip" optional="true"/>
+        </call-query>
+    </operation>
+    <operation name="getPaginationOrderPayment" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getPaginationOrderPayment">
+            <with-param name="fetch" query-param="fetch" optional="false"/>
+            <with-param name="skip" query-param="skip" optional="true"/>
+        </call-query>
+    </operation>
+    <operation name="getDailyOrderPayment" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getDailyOrderPayment"/>
+    </operation>
+    <operation name="getOrderPaymentByOrderId" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getOrderPaymentByOrderId">
+            <with-param name="order_id" query-param="order_id"/>
+        </call-query>
+    </operation>
+    <operation name="getOrderPaymentByStatus" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getOrderPaymentByStatus">
+            <with-param name="payment_status" query-param="payment_status"/>
+        </call-query>
+    </operation>
+    <operation name="getLastInsertedOrderPayment" disableStreaming="true" returnRequestStatus="true">
+        <call-query href="getLastInsertedOrderPayment"/>
+    </operation>
+</data>
+
+
+

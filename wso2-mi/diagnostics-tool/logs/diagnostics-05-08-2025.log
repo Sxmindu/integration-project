@@ -1,0 +1,22 @@
+2025-05-08 09:46:00 LogWatcher [INFO] Log file has been rotated. Reopening the file /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-08 17:11:57 ServerProcess [INFO] Server Process ID: 86149
+2025-05-08 17:11:57 DiagnosticsApp [ERROR] Action executor MetricsSnapshot is not available.
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-08 17:11:57 ServerInfo [INFO] Update level: 7
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Server name: WSO2 Micro Integrator
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Version: 4.4.0
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Update Level: 7
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-08 17:11:57 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-08 17:11:57 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-08 17:11:57 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2error.log
+2025-05-08 17:11:57 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Initiated Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer
+2025-05-08 17:11:57 TrafficAnalyzer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-08 17:11:57 TrafficAnalyzer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-08 17:11:57 DiagnosticsApp [INFO] Started Custom Watcher: org.wso2.carbon.diagnostics.trafficanalyzer.TrafficAnalyzer

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="AddBookSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log category="INFO">
+        <message>Adding Book: ${payload}</message>
+    </log>
+    <dataServiceCall serviceName="BookDataService">
+        <operations type="request-box">
+            <operation name="addBook">
+                <param evaluator="json" expression="json-eval($.title)" name="title"/>
+                <param evaluator="json" expression="json-eval($.price)" name="price"/>
+                <param evaluator="json" expression="json-eval($.stock_quantity)" name="stock_quantity"/>
+            </operation>
+            <operation name="getLastInsertedBook"/>
+        </operations>
+        <source type="inline"/>
+        <target type="body"/>
+    </dataServiceCall>
+    <payloadFactory media-type="json">
+        <format>
+            {
+                "message": "Book Added Succesfully!",
+                "data": $1
+            }
+        </format>
+        <args>
+            <arg evaluator="json" expression="json-eval($.DATA_SERVICE_REQUEST_BOX_RESPONSE.Book)"/>
+        </args>
+    </payloadFactory>
+    <respond/>
+</sequence>

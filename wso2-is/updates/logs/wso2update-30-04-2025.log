@@ -1,0 +1,543 @@
+[30-04-2025 16:59:09] DEBUG - wso2update version: 1.7.17
+[30-04-2025 16:59:09] DEBUG - Executed wso2update on Wed, 30 Apr 2025 16:59:09 +0530
+
+[30-04-2025 16:59:09] DEBUG - Product Directory : /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0
+[30-04-2025 16:59:09] DEBUG - Product Updates Directory : /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/updates
+[30-04-2025 16:59:09] DEBUG - Updates configurations written to /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/updates/config.json
+[30-04-2025 16:59:09] DEBUG - Backup directory has been set to default
+[30-04-2025 16:59:09] INFO - Initializing updates with credentials
+[30-04-2025 16:59:16] INFO - Authenticating
+[30-04-2025 16:59:16] DEBUG - Invoking WSO2 Update token API
+[30-04-2025 16:59:18] DEBUG - Token invoked with status code 200.
+[30-04-2025 16:59:18] DEBUG - Updates configurations written to /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/updates/config.json
+[30-04-2025 16:59:18] INFO - Authenticated user janithas@wso2.com
+[30-04-2025 16:59:18] INFO - Checking for latest update tool version
+[30-04-2025 16:59:19] DEBUG - Checking for the latest update tool client completed successfully
+[30-04-2025 16:59:19] DEBUG - Validating update levels
+[30-04-2025 16:59:19] DEBUG - Update level not defined. Requested update level set to 0. Attempting to fetch latest update.
+[30-04-2025 16:59:19] INFO - Checking for updates
+[30-04-2025 16:59:19] DEBUG - Check updates API URL: https://api.updates.wso2.com/updates/1.0.0/check-updates
+[30-04-2025 16:59:19] INFO - The latest update level is 'wso2is-7.1.0.5'. 
+This consists of 8 updates applied on top of 'wso2is-7.1.0.4'
+[30-04-2025 16:59:19] INFO - Creating a backup of '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0'
+[30-04-2025 16:59:19] DEBUG - Backing up product directory to /Users/janitha/.wso2-updates/backup/wso2is-7.1.0-688d4c55-e6e0-4747-8e32-67d37a8b71c0
+[30-04-2025 16:59:24] DEBUG - Validating backup...
+[30-04-2025 16:59:24] DEBUG - Size of product directory: 551873730
+[30-04-2025 16:59:24] DEBUG - Size of backup directory: 551873730
+[30-04-2025 16:59:24] DEBUG - Updates configurations written to /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/updates/config.json
+[30-04-2025 16:59:24] INFO - Successfully created the backup at : /Users/janitha/.wso2-updates/backup/wso2is-7.1.0-688d4c55-e6e0-4747-8e32-67d37a8b71c0
+[30-04-2025 16:59:24] DEBUG - Fetching update files
+[30-04-2025 16:59:24] DEBUG - Update file list API URL: https://api.updates.wso2.com/updates/1.0.0/list-updates
+[30-04-2025 16:59:25] DEBUG - Creating update directory
+[30-04-2025 16:59:25] DEBUG - Update download directory: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5
+[30-04-2025 16:59:25] DEBUG - Update info file: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/update.json
+[30-04-2025 16:59:25] DEBUG - Applied updates: 13224, 13236, 13202, 13151, 13180, 13308, 13274, 12971
+[30-04-2025 16:59:25] DEBUG - Update information written to /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/update.json
+[30-04-2025 16:59:25] INFO - Downloading updates
+[30-04-2025 16:59:25] DEBUG - Reading update information from file /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/update.json
+[30-04-2025 16:59:25] DEBUG - Normalizing update file paths to OS specific paths
+[30-04-2025 16:59:25] DEBUG - Attempt: 1
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/x509certificateauthenticationendpoint/css/product-footer.css
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js.br
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/accountrecoveryendpoint/css/product-footer.css
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/components/dropins/org.wso2.carbon.is.migration-1.1.152.jar
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js.br
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/runtime.cc83f803.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js.gz
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/3161.139d243a.chunk.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/mssql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/authenticationendpoint/css/product-footer.css
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js.br
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js.gz
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js.gz
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/console/home.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/console/home.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/components/plugins/org.wso2.carbon.user.mgt_7.8.23.17.jar
+[30-04-2025 16:59:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.xml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.xml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/components/plugins/org.wso2.carbon.identity.application.authentication.framework_7.8.23.16.jar
+[30-04-2025 16:59:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/components/plugins/org.wso2.carbon.identity.organization.management.application_1.4.118.9.jar
+[30-04-2025 16:59:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/migration-config.yaml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/migration-config.yaml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/components/plugins/org.wso2.carbon.identity.oauth_7.0.259.8.jar
+[30-04-2025 16:59:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.xml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.xml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.xml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.xml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.xml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.xml
+[30-04-2025 16:59:52] DEBUG - Verification for downloaded files passed.
+[30-04-2025 16:59:52] DEBUG - Applying updates to product at /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0 from updates at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5
+[30-04-2025 16:59:52] INFO - Updating product
+[30-04-2025 16:59:52] DEBUG - Checking for similar added and removed components
+[30-04-2025 16:59:52] DEBUG - Removing files from product
+[30-04-2025 16:59:52] DEBUG - Removing jar by abstract file name for /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/dropins/org.wso2.carbon.is.migration-1.1.149.jar
+[30-04-2025 16:59:52] DEBUG - Following files have been removed successfully:
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1765.d10d8c1a.chunk.js.br
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/2409.102996c8.chunk.js.br
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/runtime.f8afa47e.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1785.0686dacc.chunk.js.br
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/3161.3275fc7b.chunk.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1785.0686dacc.chunk.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1765.d10d8c1a.chunk.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1785.0686dacc.chunk.js.gz
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/2409.102996c8.chunk.js.gz
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/2409.102996c8.chunk.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1765.d10d8c1a.chunk.js.gz
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/dropins/org.wso2.carbon.is.migration-1.1.149.jar
+
+[30-04-2025 16:59:52] DEBUG - Adding new files to product
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/x509certificateauthenticationendpoint/css/product-footer.css
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js.br
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/accountrecoveryendpoint/css/product-footer.css
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/components/dropins/org.wso2.carbon.is.migration-1.1.152.jar
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js.br
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/runtime.cc83f803.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js.gz
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/3161.139d243a.chunk.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/mssql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/authenticationendpoint/css/product-footer.css
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js.br
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js.gz
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/migration-resources/7.1.0/dbscripts/step0/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/add/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js.gz
+[30-04-2025 16:59:52] DEBUG - Following files have been added successfully:
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/css/product-footer.css
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js.br
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step0/identity/mysql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/css/product-footer.css
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/dropins/org.wso2.carbon.is.migration-1.1.152.jar
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step0/identity/oracle_rac.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step0/identity/db2.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js.br
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/runtime.cc83f803.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js.gz
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/3161.139d243a.chunk.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step0/identity/oracle.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step0/identity/mssql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/css/product-footer.css
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/2409.3f23bd44.chunk.js
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js.br
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1785.e648aba3.chunk.js.gz
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step0/identity/h2.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step0/identity/postgresql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step0/identity/mysql_cluster.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/static/js/1765.dcb08c0e.chunk.js.gz
+
+[30-04-2025 16:59:52] DEBUG - Modifying files
+[30-04-2025 16:59:52] DEBUG - The following bundles.info files have been identified:
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/console/home.jsp as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/home.jsp
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/console/home.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/console/home.jsp
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/console/home.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/console/home.jsp
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/home.jsp' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.properties as diffApply
+[30-04-2025 16:59:52] DEBUG - Skipping diffApply to file repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.properties. Replacing file instead
+[30-04-2025 16:59:52] DEBUG - Replacing existing repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.properties with new repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.properties
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp' modified successfully
+[30-04-2025 16:59:52] DEBUG - Replacing existing repository/components/plugins/org.wso2.carbon.user.mgt_7.8.23.jar with new repository/components/plugins/org.wso2.carbon.user.mgt_7.8.23.17.jar
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/components/plugins/org.wso2.carbon.user.mgt_7.8.23.17.jar
+[30-04-2025 16:59:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[30-04-2025 16:59:52] DEBUG - Updating jar file version of org.wso2.carbon.user.mgt_7.8.23.jar from 7.8.23 to 7.8.23.17 in /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[30-04-2025 16:59:52] DEBUG - Replacing bundles info entry: 
+[30-04-2025 16:59:52] DEBUG - Original bundles entry: org.wso2.carbon.user.mgt,7.8.23,../plugins/org.wso2.carbon.user.mgt_7.8.23.jar,4,true
+[30-04-2025 16:59:52] DEBUG - New bundles entry: org.wso2.carbon.user.mgt,7.8.23.17,../plugins/org.wso2.carbon.user.mgt_7.8.23.17.jar,4,true
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying migration-resources/7.1.0/dbscripts/step1/identity/h2.sql as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.xml as diffApply
+[30-04-2025 16:59:52] DEBUG - Skipping diffApply to file repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.xml. Replacing file instead
+[30-04-2025 16:59:52] DEBUG - Replacing existing repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.xml with new repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.xml
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.xml
+[30-04-2025 16:59:52] DEBUG - Modifying migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying migration-resources/7.1.0/dbscripts/step1/identity/db2.sql as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql' modified successfully
+[30-04-2025 16:59:52] DEBUG - Modifying repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.properties as diffApply
+[30-04-2025 16:59:52] DEBUG - Skipping diffApply to file repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.properties. Replacing file instead
+[30-04-2025 16:59:52] DEBUG - Replacing existing repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.properties with new repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.properties
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.properties
+[30-04-2025 16:59:52] DEBUG - Modifying migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql as diffApply
+[30-04-2025 16:59:52] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+[30-04-2025 16:59:52] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:52] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql' modified successfully
+[30-04-2025 16:59:52] DEBUG - Replacing existing repository/components/plugins/org.wso2.carbon.identity.application.authentication.framework_7.8.23.1.jar with new repository/components/plugins/org.wso2.carbon.identity.application.authentication.framework_7.8.23.16.jar
+[30-04-2025 16:59:52] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/components/plugins/org.wso2.carbon.identity.application.authentication.framework_7.8.23.16.jar
+[30-04-2025 16:59:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[30-04-2025 16:59:53] DEBUG - Updating jar file version of org.wso2.carbon.identity.application.authentication.framework_7.8.23.1.jar from 7.8.23.1 to 7.8.23.16 in /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[30-04-2025 16:59:53] DEBUG - Replacing bundles info entry: 
+[30-04-2025 16:59:53] DEBUG - Original bundles entry: org.wso2.carbon.identity.application.authentication.framework,7.8.23.1,../plugins/org.wso2.carbon.identity.application.authentication.framework_7.8.23.1.jar,4,true
+[30-04-2025 16:59:53] DEBUG - New bundles entry: org.wso2.carbon.identity.application.authentication.framework,7.8.23.16,../plugins/org.wso2.carbon.identity.application.authentication.framework_7.8.23.16.jar,4,true
+[30-04-2025 16:59:53] DEBUG - Modifying migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql as diffApply
+[30-04-2025 16:59:53] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+[30-04-2025 16:59:53] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+[30-04-2025 16:59:53] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+[30-04-2025 16:59:53] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:53] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql' modified successfully
+[30-04-2025 16:59:53] DEBUG - Replacing existing repository/components/plugins/org.wso2.carbon.identity.organization.management.application_1.4.118.jar with new repository/components/plugins/org.wso2.carbon.identity.organization.management.application_1.4.118.9.jar
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/components/plugins/org.wso2.carbon.identity.organization.management.application_1.4.118.9.jar
+[30-04-2025 16:59:53] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[30-04-2025 16:59:53] DEBUG - Updating jar file version of org.wso2.carbon.identity.organization.management.application_1.4.118.jar from 1.4.118 to 1.4.118.9 in /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[30-04-2025 16:59:53] DEBUG - Replacing bundles info entry: 
+[30-04-2025 16:59:53] DEBUG - Original bundles entry: org.wso2.carbon.identity.organization.management.application,1.4.118,../plugins/org.wso2.carbon.identity.organization.management.application_1.4.118.jar,4,true
+[30-04-2025 16:59:53] DEBUG - New bundles entry: org.wso2.carbon.identity.organization.management.application,1.4.118.9,../plugins/org.wso2.carbon.identity.organization.management.application_1.4.118.9.jar,4,true
+[30-04-2025 16:59:53] DEBUG - Modifying migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql as diffApply
+[30-04-2025 16:59:53] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+[30-04-2025 16:59:53] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+[30-04-2025 16:59:53] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+[30-04-2025 16:59:53] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:53] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql' modified successfully
+[30-04-2025 16:59:53] DEBUG - Modifying migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql as diffApply
+[30-04-2025 16:59:53] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+[30-04-2025 16:59:53] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+[30-04-2025 16:59:53] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+[30-04-2025 16:59:53] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:53] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql' modified successfully
+[30-04-2025 16:59:53] DEBUG - Modifying migration-resources/migration-config.yaml as diffApply
+[30-04-2025 16:59:53] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/migration-config.yaml
+[30-04-2025 16:59:53] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/migration-config.yaml
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/migration-config.yaml
+[30-04-2025 16:59:53] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/migration-config.yaml
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/migration-config.yaml
+[30-04-2025 16:59:53] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:53] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/migration-config.yaml' modified successfully
+[30-04-2025 16:59:53] DEBUG - Replacing existing repository/components/plugins/org.wso2.carbon.identity.oauth_7.0.259.7.jar with new repository/components/plugins/org.wso2.carbon.identity.oauth_7.0.259.8.jar
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/components/plugins/org.wso2.carbon.identity.oauth_7.0.259.8.jar
+[30-04-2025 16:59:53] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[30-04-2025 16:59:53] DEBUG - Updating jar file version of org.wso2.carbon.identity.oauth_7.0.259.7.jar from 7.0.259.7 to 7.0.259.8 in /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[30-04-2025 16:59:53] DEBUG - Replacing bundles info entry: 
+[30-04-2025 16:59:53] DEBUG - Original bundles entry: org.wso2.carbon.identity.oauth,7.0.259.7,../plugins/org.wso2.carbon.identity.oauth_7.0.259.7.jar,4,true
+[30-04-2025 16:59:53] DEBUG - New bundles entry: org.wso2.carbon.identity.oauth,7.0.259.8,../plugins/org.wso2.carbon.identity.oauth_7.0.259.8.jar,4,true
+[30-04-2025 16:59:53] DEBUG - Modifying migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql as diffApply
+[30-04-2025 16:59:53] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+[30-04-2025 16:59:53] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+[30-04-2025 16:59:53] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+[30-04-2025 16:59:53] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:53] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql' modified successfully
+[30-04-2025 16:59:53] DEBUG - Modifying repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.xml as diffApply
+[30-04-2025 16:59:53] DEBUG - Skipping diffApply to file repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.xml. Replacing file instead
+[30-04-2025 16:59:53] DEBUG - Replacing existing repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.xml with new repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.xml
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.xml
+[30-04-2025 16:59:53] DEBUG - Modifying repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.xml as diffApply
+[30-04-2025 16:59:53] DEBUG - Skipping diffApply to file repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.xml. Replacing file instead
+[30-04-2025 16:59:53] DEBUG - Replacing existing repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.xml with new repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.xml
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.xml
+[30-04-2025 16:59:53] DEBUG - Modifying repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.properties as diffApply
+[30-04-2025 16:59:53] DEBUG - Skipping diffApply to file repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.properties. Replacing file instead
+[30-04-2025 16:59:53] DEBUG - Replacing existing repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.properties with new repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.properties
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.properties
+[30-04-2025 16:59:53] DEBUG - Modifying repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.properties as diffApply
+[30-04-2025 16:59:53] DEBUG - Skipping diffApply to file repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.properties. Replacing file instead
+[30-04-2025 16:59:53] DEBUG - Replacing existing repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.properties with new repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.properties
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.properties
+[30-04-2025 16:59:53] DEBUG - Modifying migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql as diffApply
+[30-04-2025 16:59:53] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+[30-04-2025 16:59:53] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+[30-04-2025 16:59:53] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+[30-04-2025 16:59:53] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:53] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql' modified successfully
+[30-04-2025 16:59:53] DEBUG - Modifying migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql as diffApply
+[30-04-2025 16:59:53] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+[30-04-2025 16:59:53] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+[30-04-2025 16:59:53] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+[30-04-2025 16:59:53] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:53] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql' modified successfully
+[30-04-2025 16:59:53] DEBUG - Modifying repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp as diffApply
+[30-04-2025 16:59:53] DEBUG - File path in product: /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:53] DEBUG - Original file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/original/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:53] DEBUG - New file path: /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+[30-04-2025 16:59:53] DEBUG - Applying diff-match-patch to file
+[30-04-2025 16:59:53] DEBUG - Product file '/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp' modified successfully
+[30-04-2025 16:59:53] DEBUG - Modifying repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.xml as diffApply
+[30-04-2025 16:59:53] DEBUG - Skipping diffApply to file repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.xml. Replacing file instead
+[30-04-2025 16:59:53] DEBUG - Replacing existing repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.xml with new repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.xml
+[30-04-2025 16:59:53] DEBUG - Validating updated file with SHA256 at /Users/janitha/.wso2-updates/updates/wso2is-7.1.0.4-7.1.0.5/modify/new/repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.xml
+[30-04-2025 16:59:53] DEBUG - Following files have been modified successfully:
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/home.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/plugins/org.wso2.carbon.user.mgt_7.8.23.17.jar
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.xml
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/META-INF/maven/org.wso2.identity.apps/authentication-portal/pom.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/plugins/org.wso2.carbon.identity.application.authentication.framework_7.8.23.16.jar
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/plugins/org.wso2.carbon.identity.organization.management.application_1.4.118.9.jar
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/migration-config.yaml
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/components/plugins/org.wso2.carbon.identity.oauth_7.0.259.8.jar
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.xml
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.xml
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/META-INF/maven/org.wso2.identity.apps/x509-certificate-authentication-portal/pom.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/META-INF/maven/org.wso2.identity.apps/recovery-portal/pom.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/META-INF/maven/org.wso2.identity.apps/console/pom.xml
+
+[30-04-2025 16:59:53] DEBUG - Following files have been merged successfully:
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/branding-preferences.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/console/home.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/WEB-INF/classes/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/includes/product-footer.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-footer.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/product-footer.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/includes/branding-preferences.jsp
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/h2.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/postgresql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/oracle_rac.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/authenticationendpoint/WEB-INF/classes/org/wso2/carbon/identity/application/authentication/endpoint/i18n/Resources_de_DE.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/mysql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/db2.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/accountrecoveryendpoint/org/wso2/carbon/identity/mgt/recovery/endpoint/i18n/Resources_de_DE.properties
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/oracle.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mysql_cluster.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/oracle_rac.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/mssql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.0.0/dbscripts/step1/reg/postgresql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/migration-config.yaml
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/oracle.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mssql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/migration-resources/7.1.0/dbscripts/step1/identity/mysql.sql
+/Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint/includes/branding-preferences.jsp
+
+[30-04-2025 16:59:53] DEBUG - Modifying bundles.info entries
+[30-04-2025 16:59:53] INFO - wso2is-7.1.0 updated successfully
+[30-04-2025 16:59:53] DEBUG - Updates configurations written to /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/updates/config.json
+[30-04-2025 16:59:55] DEBUG - wso2update version: 1.7.17
+[30-04-2025 16:59:55] DEBUG - Executed wso2update on Wed, 30 Apr 2025 16:59:55 +0530
+
+[30-04-2025 16:59:55] DEBUG - Product Directory : /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0
+[30-04-2025 16:59:55] DEBUG - Product Updates Directory : /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/updates
+[30-04-2025 16:59:55] DEBUG - Access token expired, renewing access token...
+[30-04-2025 16:59:55] DEBUG - Invoking WSO2 Update token API
+[30-04-2025 16:59:56] DEBUG - Token invoked with status code 200.
+[30-04-2025 16:59:56] DEBUG - Access token renewal completed successfully
+[30-04-2025 16:59:56] DEBUG - Updates configurations written to /Users/janitha/Documents/Packs/IAM/7.1/wso2is-7.1.0/updates/config.json
+[30-04-2025 16:59:56] INFO - Checking for latest update tool version
+[30-04-2025 16:59:57] DEBUG - Checking for the latest update tool client completed successfully
+[30-04-2025 16:59:57] DEBUG - Validating update levels
+[30-04-2025 16:59:57] DEBUG - Update level not defined. Requested update level set to 0. Attempting to fetch latest update.
+[30-04-2025 16:59:57] INFO - Checking for updates
+[30-04-2025 16:59:57] DEBUG - Check updates API URL: https://api.updates.wso2.com/updates/1.0.0/check-updates
+[30-04-2025 16:59:57] INFO - wso2is-7.1.0.5 is the latest update level available for the product wso2is-7.1.0

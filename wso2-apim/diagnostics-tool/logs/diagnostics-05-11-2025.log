@@ -1,0 +1,33 @@
+2025-05-11 00:09:36 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.9486407734873687
+2025-05-11 00:22:36 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.9403881741802524
+2025-05-11 00:41:06 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.9884324196064833
+2025-05-11 00:56:35 LogWatcher [INFO] Log file has been rotated. Reopening the file /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-11 01:20:36 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 5, threshold: 3.395270506889733
+2025-05-11 01:24:36 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 5, threshold: 3.683447036639901
+2025-05-11 01:29:06 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 3, threshold: 2.0716650165000328
+2025-05-11 01:53:36 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 5, threshold: 3.840349711843852
+2025-05-11 03:11:51 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 2, new value: 3, threshold: 2.2772641831474996
+2025-05-11 03:25:36 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 4, threshold: 3.847412143595869
+2025-05-11 12:23:38 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 3, threshold: 2.4000000000000004
+2025-05-11 23:31:28 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-11 23:31:28 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-11 23:31:28 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-11 23:31:28 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-11 23:51:53 ServerProcess [INFO] Server Process ID: 34844
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-11 23:51:53 ServerInfo [INFO] Update level: 1
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Update Level: 1
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-11 23:51:53 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-11 23:51:53 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-11 23:51:53 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-11 23:51:53 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-11 23:51:53 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-11 23:51:53 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-11 23:51:53 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1

@@ -1,0 +1,606 @@
+[2025-05-06 14:25:20,144]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog163.log
+[2025-05-06 14:25:20,145]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 14:39:43,215]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog164.log
+[2025-05-06 14:39:43,217]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 14:40:09,057]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog165.log
+[2025-05-06 14:40:09,059]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 14:54:44,920]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog166.log
+[2025-05-06 14:54:44,921]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 14:55:59,658]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog167.log
+[2025-05-06 14:55:59,659]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 14:56:23,661]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog168.log
+[2025-05-06 14:56:23,661]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:01:07,812]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 15:01:07,813]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 15:01:32,951]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog169.log
+[2025-05-06 15:01:32,952]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:04:50,469]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog170.log
+[2025-05-06 15:04:50,470]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:06:15,376]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog171.log
+[2025-05-06 15:06:15,377]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:08:01,499]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog172.log
+[2025-05-06 15:08:01,500]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:10:11,969]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog173.log
+[2025-05-06 15:10:11,970]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:14:19,714]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog174.log
+[2025-05-06 15:14:19,715]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:15:26,863]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog175.log
+[2025-05-06 15:15:26,864]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:24:21,115]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog176.log
+[2025-05-06 15:24:21,117]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:24:54,941]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog177.log
+[2025-05-06 15:24:54,942]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:24:59,496]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog177.log
+[2025-05-06 15:24:59,497]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 15:24:59,497]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog177.log
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 15:24:59,498]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 15:25:51,299]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog178.log
+[2025-05-06 15:25:51,300]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:27:40,747]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog179.log
+[2025-05-06 15:27:40,749]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:27:45,380]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog179.log
+[2025-05-06 15:27:45,380]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 15:27:45,380]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog179.log
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 15:27:45,381]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 15:27:45,382]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 15:27:45,382]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 15:27:45,382]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 15:27:45,382]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 15:27:45,382]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 15:27:45,382]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 15:35:30,134]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog180.log
+[2025-05-06 15:35:30,135]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:36:36,206]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog181.log
+[2025-05-06 15:36:36,208]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:36:40,826]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog181.log
+[2025-05-06 15:36:40,826]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 15:36:40,826]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog181.log
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 15:36:40,827]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 15:37:07,414]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog182.log
+[2025-05-06 15:37:07,415]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:37:11,998]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog182.log
+[2025-05-06 15:37:11,998]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 15:37:11,999]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog182.log
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 15:37:12,000]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 15:37:49,086]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog183.log
+[2025-05-06 15:37:49,087]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:38:57,519]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog184.log
+[2025-05-06 15:38:57,520]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:39:52,042]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog185.log
+[2025-05-06 15:39:52,043]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:40:23,955]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog186.log
+[2025-05-06 15:40:23,957]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:40:28,287]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog186.log
+[2025-05-06 15:40:28,287]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 15:40:28,288]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog186.log
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 15:40:28,289]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 15:40:50,648]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog187.log
+[2025-05-06 15:40:50,649]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:42:54,025]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog188.log
+[2025-05-06 15:42:54,026]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:49:07,854]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog189.log
+[2025-05-06 15:49:07,856]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:51:24,131]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog190.log
+[2025-05-06 15:51:24,131]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:52:07,020]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog191.log
+[2025-05-06 15:52:07,021]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 15:54:48,934]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog192.log
+[2025-05-06 15:54:48,934]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:00:04,003]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog193.log
+[2025-05-06 16:00:04,005]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:06:36,378]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog194.log
+[2025-05-06 16:06:36,379]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:20:29,278]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog195.log
+[2025-05-06 16:20:29,280]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:24:19,820]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog196.log
+[2025-05-06 16:24:19,821]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:26:05,269]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog197.log
+[2025-05-06 16:26:05,270]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:26:18,215]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:26:18,217]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100032
+[2025-05-06 16:26:18,224]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100032
+[2025-05-06 16:27:06,821]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200032
+[2025-05-06 16:27:06,825]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200032
+[2025-05-06 16:42:04,194]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog198.log
+[2025-05-06 16:42:19,421]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:42:19,424]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100033
+[2025-05-06 16:42:19,431]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100033
+[2025-05-06 16:42:19,433]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200033
+[2025-05-06 16:42:19,438]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - rollback() done of transaction 192.168.1.4.tm0000200033
+[2025-05-06 16:42:52,201]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog199.log
+[2025-05-06 16:43:07,551]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:43:07,554]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100034
+[2025-05-06 16:43:07,561]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100034
+[2025-05-06 16:43:07,562]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200034
+[2025-05-06 16:43:07,567]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200034
+[2025-05-06 16:43:38,039]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog200.log
+[2025-05-06 16:43:53,603]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:43:53,606]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100035
+[2025-05-06 16:43:53,613]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100035
+[2025-05-06 16:43:53,615]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200035
+[2025-05-06 16:43:53,619]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200035
+[2025-05-06 16:59:16,701]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog201.log
+[2025-05-06 16:59:21,142]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog201.log
+[2025-05-06 16:59:21,148]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100035 with state COMMITTING
+[2025-05-06 16:59:21,149]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100035 with state COMMITTING
+[2025-05-06 16:59:21,149]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000200035 with state COMMITTING
+[2025-05-06 16:59:21,149]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000200035 with state COMMITTING
+[2025-05-06 16:59:21,149]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 16:59:21,149]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog201.log
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 16:59:21,150]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 16:59:33,993]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 16:59:33,996]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100036
+[2025-05-06 16:59:34,002]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100036
+[2025-05-06 16:59:34,004]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200036
+[2025-05-06 16:59:34,020]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - rollback() done of transaction 192.168.1.4.tm0000200036
+[2025-05-06 17:01:21,323]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog202.log
+[2025-05-06 17:01:37,328]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:01:37,332]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100037
+[2025-05-06 17:01:37,339]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100037
+[2025-05-06 17:01:37,341]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200037
+[2025-05-06 17:01:37,346]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200037
+[2025-05-06 17:03:56,801]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog203.log
+[2025-05-06 17:04:01,455]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog203.log
+[2025-05-06 17:04:01,462]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100037 with state COMMITTING
+[2025-05-06 17:04:01,462]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100037 with state COMMITTING
+[2025-05-06 17:04:01,462]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000200037 with state COMMITTING
+[2025-05-06 17:04:01,462]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000200037 with state COMMITTING
+[2025-05-06 17:04:01,462]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 17:04:01,462]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog203.log
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 17:04:01,463]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 17:06:21,634]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog204.log
+[2025-05-06 17:06:21,634]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:06:26,229]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog204.log
+[2025-05-06 17:06:26,229]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 17:06:26,229]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog204.log
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 17:06:26,230]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 17:06:44,945]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:06:44,949]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100039
+[2025-05-06 17:06:44,956]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100039
+[2025-05-06 17:06:44,960]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200039
+[2025-05-06 17:06:44,964]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200039
+[2025-05-06 17:08:04,321]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog205.log
+[2025-05-06 17:08:08,904]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog205.log
+[2025-05-06 17:08:08,910]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100039 with state COMMITTING
+[2025-05-06 17:08:08,910]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100039 with state COMMITTING
+[2025-05-06 17:08:08,910]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000200039 with state COMMITTING
+[2025-05-06 17:08:08,910]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000200039 with state COMMITTING
+[2025-05-06 17:08:08,910]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 17:08:08,911]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog205.log
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 17:08:08,912]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 17:08:18,741]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:08:18,744]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100040
+[2025-05-06 17:08:18,752]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100040
+[2025-05-06 17:08:18,754]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200040
+[2025-05-06 17:08:18,758]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200040
+[2025-05-06 17:09:15,452]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog206.log
+[2025-05-06 17:09:32,307]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:09:32,310]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100041
+[2025-05-06 17:09:32,317]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100041
+[2025-05-06 17:09:32,318]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200041
+[2025-05-06 17:09:32,323]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200041
+[2025-05-06 17:10:20,643]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog207.log
+[2025-05-06 17:10:40,449]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:10:40,458]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100042
+[2025-05-06 17:10:40,471]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100042
+[2025-05-06 17:10:40,473]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200042
+[2025-05-06 17:10:40,483]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200042
+[2025-05-06 17:13:57,366]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog208.log
+[2025-05-06 17:16:07,039]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog209.log
+[2025-05-06 17:16:07,039]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:21:46,417]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog210.log
+[2025-05-06 17:21:46,418]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:25:20,636]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog211.log
+[2025-05-06 17:25:20,637]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:31:53,251]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog212.log
+[2025-05-06 17:31:53,252]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:34:52,242]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog213.log
+[2025-05-06 17:34:52,244]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:37:41,627]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog214.log
+[2025-05-06 17:37:41,628]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:38:46,403]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog215.log
+[2025-05-06 17:38:46,404]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 17:40:22,765]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog216.log
+[2025-05-06 17:40:22,766]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:17:31,640]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog217.log
+[2025-05-06 21:17:31,642]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:18:25,929]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:18:25,934]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100052
+[2025-05-06 21:18:25,941]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100052
+[2025-05-06 21:18:39,853]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200052
+[2025-05-06 21:18:39,859]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200052
+[2025-05-06 21:47:27,902]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog218.log
+[2025-05-06 21:47:32,719]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog218.log
+[2025-05-06 21:47:32,725]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100052 with state COMMITTING
+[2025-05-06 21:47:32,725]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100052 with state COMMITTING
+[2025-05-06 21:47:32,726]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000200052 with state COMMITTING
+[2025-05-06 21:47:32,726]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000200052 with state COMMITTING
+[2025-05-06 21:47:32,726]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 21:47:32,726]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog218.log
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 21:47:32,727]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 21:48:12,399]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog219.log
+[2025-05-06 21:48:12,399]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:51:51,667]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:51:51,673]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100054
+[2025-05-06 21:51:51,693]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100054
+[2025-05-06 21:51:58,563]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog220.log
+[2025-05-06 21:52:27,769]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100054 with state COMMITTING
+[2025-05-06 21:52:27,769]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100054 with state COMMITTING
+[2025-05-06 21:52:27,770]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 21:52:27,770]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog220.log
+[2025-05-06 21:52:27,770]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 21:52:27,770]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 21:52:27,770]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 21:52:27,771]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 21:52:38,236]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:52:38,240]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100055
+[2025-05-06 21:52:38,259]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100055
+[2025-05-06 21:53:35,283]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog221.log
+[2025-05-06 21:53:53,298]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:53:53,302]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100056
+[2025-05-06 21:53:53,322]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100056
+[2025-05-06 21:55:35,773]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog222.log
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 21:55:40,458]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 21:55:49,725]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:55:49,728]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100057
+[2025-05-06 21:55:49,748]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100057
+[2025-05-06 21:56:45,479]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog223.log
+[2025-05-06 21:56:50,033]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog223.log
+[2025-05-06 21:56:50,039]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100057 with state COMMITTING
+[2025-05-06 21:56:50,039]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100057 with state COMMITTING
+[2025-05-06 21:56:50,039]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 21:56:50,039]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog223.log
+[2025-05-06 21:56:50,040]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 21:56:50,040]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 21:56:50,040]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 21:56:50,040]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 21:56:50,040]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 21:56:50,040]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 21:56:50,041]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 21:57:01,525]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:57:01,530]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100058
+[2025-05-06 21:57:01,550]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100058
+[2025-05-06 21:59:01,299]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog224.log
+[2025-05-06 21:59:17,759]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 21:59:17,763]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100059
+[2025-05-06 21:59:17,787]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100059
+[2025-05-06 21:59:43,244]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200059
+[2025-05-06 21:59:43,251]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200059
+[2025-05-06 22:02:26,063]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog225.log
+[2025-05-06 22:02:43,929]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:02:43,933]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100060
+[2025-05-06 22:02:43,959]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100060
+[2025-05-06 22:04:39,177]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000200060
+[2025-05-06 22:04:39,192]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000200060
+[2025-05-06 22:07:50,887]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog226.log
+[2025-05-06 22:08:05,277]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:08:05,280]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100061
+[2025-05-06 22:08:05,305]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100061
+[2025-05-06 22:14:26,138]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog227.log
+[2025-05-06 22:14:40,500]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:14:40,505]  INFO {com.atomikos.icatch.imp.BaseTransactionManager} - createCompositeTransaction ( 10000 ): created new ROOT transaction with id 192.168.1.4.tm0000100062
+[2025-05-06 22:14:40,531]  INFO {com.atomikos.icatch.imp.CompositeTransactionImp} - commit() done (by application) of transaction 192.168.1.4.tm0000100062
+[2025-05-06 22:15:55,871]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog228.log
+[2025-05-06 22:16:00,542]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog228.log
+[2025-05-06 22:16:00,548]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100062 with state COMMITTING
+[2025-05-06 22:16:00,548]  WARN {com.atomikos.icatch.imp.CoordinatorImp} - Local heuristic termination of coordinator 192.168.1.4.tm0000100062 with state COMMITTING
+[2025-05-06 22:16:00,548]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2025-05-06 22:16:00,548]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog228.log
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = ./
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = WARN
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = ./
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = -1
+[2025-05-06 22:16:00,549]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 300000
+[2025-05-06 22:16:00,550]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.4.tm
+[2025-05-06 22:16:00,550]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2025-05-06 22:16:00,550]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2025-05-06 22:16:00,550]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2025-05-06 22:16:00,550]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[2025-05-06 22:16:00,550]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 10000
+[2025-05-06 22:20:44,519]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog229.log
+[2025-05-06 22:20:44,520]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:29:42,929]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog231.log
+[2025-05-06 22:29:42,930]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:30:27,301]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog232.log
+[2025-05-06 22:30:27,302]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:32:40,474]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog233.log
+[2025-05-06 22:32:40,475]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:33:08,282]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog234.log
+[2025-05-06 22:33:08,284]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:40:09,760]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog235.log
+[2025-05-06 22:40:09,762]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:41:34,602]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog236.log
+[2025-05-06 22:41:34,603]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:41:52,137]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog237.log
+[2025-05-06 22:41:52,138]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...
+[2025-05-06 22:45:33,410]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /Users/samindu/Workspace/intergration-project/wso2-mi/./tmlog238.log
+[2025-05-06 22:45:33,411]  INFO {com.atomikos.icatch.imp.thread.TaskManager} - THREADS: using JDK thread pooling...

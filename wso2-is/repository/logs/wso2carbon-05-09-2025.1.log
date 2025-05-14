@@ -1,0 +1,54 @@
+TID: [] [] [2025-05-09 11:36:24,274] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-05-09 11:36:24,371] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-05-09 11:36:24,371] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Mac OS X 15.4.1, aarch64
+TID: [] [] [2025-05-09 11:36:24,371] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+TID: [] [] [2025-05-09 11:36:24,371] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 21.0.7
+TID: [] [] [2025-05-09 11:36:24,372] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 21.0.7+6-LTS,Eclipse Adoptium
+TID: [] [] [2025-05-09 11:36:24,372] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /Users/samindu/Workspace/intergration-project/wso2-is
+TID: [] [] [2025-05-09 11:36:24,372] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /Users/samindu/Workspace/intergration-project/wso2-is/tmp
+TID: [] [] [2025-05-09 11:36:24,372] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : samindu, en-LK, Asia/Colombo
+TID: [] [] [2025-05-09 11:36:26,347] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-05-09 11:36:26,918] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 18ms
+TID: [] [] [2025-05-09 11:36:26,925] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-05-09 11:36:26,925] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-05-09 11:36:26,938] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [] [] [2025-05-09 11:36:26,939] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 0ms
+TID: [] [] [2025-05-09 11:36:26,940] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-05-09 11:36:27,828] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-05-09 11:36:27,931] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-05-09 11:36:28,107] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-05-09 11:36:28,941] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /Users/samindu/Workspace/intergration-project/wso2-is/repository/deployment/server/
+TID: [] [] [2025-05-09 11:36:28,953] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-05-09 11:36:28,958] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-05-09 11:36:29,033] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-05-09 11:36:29,034] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-05-09 11:36:29,034] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-05-09 11:36:29,034] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-05-09 11:36:30,362] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-05-09 11:36:30,774] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-05-09 11:36:31,119] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-05-09 11:36:31,221] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-05-09 11:36:31,221] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-05-09 11:36:31,233] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-09 11:36:32,277] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-05-09 11:36:34,946] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-05-09 11:36:40,500] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9764
+TID: [] [] [2025-05-09 11:36:40,501] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9444
+TID: [] [] [2025-05-09 11:36:40,565] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/Users/samindu/Workspace/intergration-project/wso2-is/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/Users/samindu/Workspace/intergration-project/wso2-is/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-05-09 11:36:40,586] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9444/myaccount
+TID: [] [] [2025-05-09 11:36:40,586] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9444/console
+TID: [] [] [2025-05-09 11:36:40,586] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-05-09 11:36:40,587] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 18 sec
+TID: [-1234] [] [2025-05-09 11:38:22,919] [b895589d-e96e-4db1-9e2b-107332eaf7ca]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : eed15400-d657-4569-a086-ce762e82d3c7
+TID: [-1234] [] [2025-05-09 15:01:24,776] [8b9aae28-8e1d-470d-bda7-a3cbe1579982]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 204a06d5-e905-4dfd-ac7f-6ceab6a2525d
+TID: [-1234] [] [2025-05-09 15:13:22,643] [982b2ce7-199b-4188-be16-d6189dc99b84]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 959ec178-033f-497e-bd18-cc2d5c1093fc
+TID: [-1234] [] [2025-05-09 16:11:15,850] [2d472da5-b611-4796-90af-811ce00330d9]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 9df011d6-b5e0-4b4f-9f9d-caddc5ee8f4c
+TID: [-1234] [] [2025-05-09 16:11:21,037] [7f6a3144-faa6-4469-9245-f4b3212d23c5]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [oauth2] [2025-05-09 16:12:14,426] [c9cb1101-ee1f-4de2-9b41-abfb2c7e3516]  WARN {org.wso2.carbon.identity.oauth2.authz.validators.AbstractResponseTypeRequestValidator} - Provided Callback URL does not match with the registered one.

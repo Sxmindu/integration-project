@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry key="BookStore" xmlns="http://ws.apache.org/ns/synapse">
+  <http.init>
+    <connectionType>HTTP</connectionType>
+    <baseUrl>http://samindu.local:8290/services/BookDataService</baseUrl>
+    <authType>None</authType>
+    <timeoutAction>Never</timeoutAction>
+    <retryCount>0</retryCount>
+    <retryDelay>0</retryDelay>
+    <suspendInitialDuration>-1</suspendInitialDuration>
+    <suspendProgressionFactor>1</suspendProgressionFactor>
+    <name>BookStore</name>
+  </http.init>
+</localEntry>

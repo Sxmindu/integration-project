@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/bookstore" name="BookStoreAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/books">
+        <inSequence>
+            <sequence key="GetBooksSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="POST" uri-template="/books">
+        <inSequence>
+            <sequence key="AddBookSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET" uri-template="/books/{book_id}">
+        <inSequence>
+            <sequence key="GetBookSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="PUT" uri-template="/books/{book_id}">
+        <inSequence>
+            <sequence key="UpdateBookSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="DELETE" uri-template="/books/{book_id}">
+        <inSequence>
+            <sequence key="DeleteBookSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET" uri-template="/orders">
+        <inSequence>
+            <sequence key="GetOrdersSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="POST" uri-template="/orders">
+        <inSequence>
+            <sequence key="AddOrderSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET" uri-template="/orders/{order_id}">
+        <inSequence>
+            <sequence key="GetOrderSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="PUT" uri-template="/orders/{order_id}">
+        <inSequence>
+            <sequence key="UpdateOrderSeq"/>
+        </inSequence>
+        <faultSequence>
+            <sequence key="FaultSeq"/>
+        </faultSequence>
+    </resource>
+</api>

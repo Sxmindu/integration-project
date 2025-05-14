@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="UpdateOrderSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property expression="get-property('uri.var.order_id')" name="order_id"/>
+    <log category="INFO">
+        <message>Updating order ${params.pathParams.order_id} status</message>
+    </log>
+
+    <dataServiceCall serviceName="BookDataService">
+        <operations type="single">
+            <operation name="getOrderByOrderId">
+                <param name="order_id" expression="get-property('order_id')"/>
+            </operation>
+        </operations>
+        <source type="inline"/>
+        <target type="body"/>
+    </dataServiceCall>
+
+    <filter xpath="${exists($.Order)}">
+        <then>
+            <filter regex="completed" source="${payload.Order.payment_status}">
+                <then>
+                    <payloadFactory media-type="json">
+                        <format>
+                            {
+                            "message": "Oredr id $1 is already completed"
+                            }
+                        </format>
+                        <args>
+                            <arg expression="get-property('order_id')"/>
+                        </args>
+                    </payloadFactory>
+                </then>
+                <else>
+                    <dataServiceCall serviceName="BookDataService">
+                        <operations type="request-box">
+                            <operation name="updateOrderStatus">
+                                <param name="order_id" expression="get-property('order_id')"/>
+                            </operation>
+                            <operation name="updatePaymentStatus">
+                                <param name="order_id" expression="get-property('order_id')"/>
+                            </operation>
+                            <operation name="getOrderPaymentByOrderId">
+                                <param name="order_id" expression="get-property('order_id')"/>
+                            </operation>
+                        </operations>
+                        <source type="inline"/>
+                        <target type="body"/>
+                    </dataServiceCall>
+                    <property name="user_email" expression="${payload.DATA_SERVICE_REQUEST_BOX_RESPONSE.Order.user_email}"/>
+                    <property name="title" expression="${payload.DATA_SERVICE_REQUEST_BOX_RESPONSE.Order.title}"/>
+                    <property name="quantity" expression="${payload.DATA_SERVICE_REQUEST_BOX_RESPONSE.Order.quantity}"/>
+
+                    <log category="INFO">
+                        <message>Order ${params.pathParams.order_id} payment Confirmed!</message>
+                    </log>
+
+                    <payloadFactory media-type="json">
+                        <format>
+                            {
+                            "message": "Order Updated Succesfully!",
+                            "data": $1
+                            }
+                        </format>
+                        <args>
+                            <arg evaluator="json" expression="json-eval($.DATA_SERVICE_REQUEST_BOX_RESPONSE.Order)"/>
+                        </args>
+                    </payloadFactory>
+
+                    <store messageStore="BookStoreServiceMessageStore" description="Book Store Message Store"/>
+                </else>
+            </filter>
+        </then>
+        <else>
+            <payloadFactory media-type="json">
+                <format>
+                    {
+                    "message": "No order found for order id $1 to completed"
+                    }
+                </format>
+                <args>
+                    <arg expression="get-property('order_id')"/>
+                </args>
+            </payloadFactory>
+        </else>
+    </filter>
+    
+    <respond/>
+</sequence>

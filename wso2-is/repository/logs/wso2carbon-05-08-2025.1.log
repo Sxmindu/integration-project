@@ -1,0 +1,246 @@
+TID: [2025-05-08 11:15:18,238]  INFO {org.wso2.config.mapper.ConfigParser} - Initializing configurations with deployment configurations {org.wso2.config.mapper.ConfigParser}
+TID: [] [] [2025-05-08 11:15:19,712] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-05-08 11:15:19,798] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-05-08 11:15:19,798] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Mac OS X 15.4.1, aarch64
+TID: [] [] [2025-05-08 11:15:19,798] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+TID: [] [] [2025-05-08 11:15:19,798] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 21.0.7
+TID: [] [] [2025-05-08 11:15:19,798] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 21.0.7+6-LTS,Eclipse Adoptium
+TID: [] [] [2025-05-08 11:15:19,798] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /Users/samindu/Workspace/intergration-project/wso2-is
+TID: [] [] [2025-05-08 11:15:19,798] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /Users/samindu/Workspace/intergration-project/wso2-is/tmp
+TID: [] [] [2025-05-08 11:15:19,798] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : samindu, en-LK, Asia/Colombo
+TID: [] [] [2025-05-08 11:15:21,231] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-05-08 11:15:21,842] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 26ms
+TID: [] [] [2025-05-08 11:15:21,866] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-05-08 11:15:21,866] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 1ms
+TID: [] [] [2025-05-08 11:15:21,904] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [] [] [2025-05-08 11:15:21,905] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 0ms
+TID: [] [] [2025-05-08 11:15:21,909] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-05-08 11:15:22,830] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-05-08 11:15:22,917] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-05-08 11:15:23,074] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-05-08 11:15:23,795] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /Users/samindu/Workspace/intergration-project/wso2-is/repository/deployment/server/
+TID: [] [] [2025-05-08 11:15:23,810] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-05-08 11:15:23,815] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-05-08 11:15:23,881] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-05-08 11:15:23,882] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-05-08 11:15:23,882] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-05-08 11:15:23,882] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-05-08 11:15:24,885] []  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - Resource: ocspvalidator added successfully
+TID: [] [] [2025-05-08 11:15:24,886] []  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - Resource: crlvalidator added successfully
+TID: [] [] [2025-05-08 11:15:25,108] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-05-08 11:15:25,479] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-05-08 11:15:25,800] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-05-08 11:15:25,924] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-05-08 11:15:25,925] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-05-08 11:15:25,934] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-08 11:15:29,040] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-05-08 11:15:33,721] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9764
+TID: [] [] [2025-05-08 11:15:33,721] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9444
+TID: [] [] [2025-05-08 11:15:33,785] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/Users/samindu/Workspace/intergration-project/wso2-is/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/Users/samindu/Workspace/intergration-project/wso2-is/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-05-08 11:15:33,807] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9444/myaccount
+TID: [] [] [2025-05-08 11:15:33,808] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9444/console
+TID: [] [] [2025-05-08 11:15:33,808] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-05-08 11:15:33,808] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 15 sec
+TID: [] [] [2025-05-08 11:15:33,816] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-05-08 11:39:11,785] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-05-08 11:39:11,787] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-08 11:39:11,789] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-05-08 11:39:11,791] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-05-08 11:39:11,791] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-05-08 11:39:11,794] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-05-08 11:39:11,794] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-05-08 11:39:11,820] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-05-08 11:39:11,824] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-05-08 11:39:11,830] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-05-08 11:39:11,849] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-05-08 11:39:11,873] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-05-08 11:39:11,875] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-05-08 11:39:11,877] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-05-08 11:39:11,878] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-05-08 11:39:11,884] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-05-08 11:39:11,886] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-05-08 11:39:11,891] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-05-08 11:39:11,899] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-05-08 11:39:11,899] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-05-08 11:39:11,899] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-05-08 11:39:11,900] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-05-08 11:39:11,900] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-08 11:39:11,900] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-05-08 11:39:11,908] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-05-08 11:39:11,909] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-05-08 11:39:12,044] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-05-08 11:39:12,307]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-05-08 11:39:12,308]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [] [] [2025-05-08 11:39:25,948] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-05-08 11:39:26,034] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-05-08 11:39:26,034] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Mac OS X 15.4.1, aarch64
+TID: [] [] [2025-05-08 11:39:26,034] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+TID: [] [] [2025-05-08 11:39:26,034] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 21.0.7
+TID: [] [] [2025-05-08 11:39:26,034] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 21.0.7+6-LTS,Eclipse Adoptium
+TID: [] [] [2025-05-08 11:39:26,034] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /Users/samindu/Workspace/intergration-project/wso2-is
+TID: [] [] [2025-05-08 11:39:26,034] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /Users/samindu/Workspace/intergration-project/wso2-is/tmp
+TID: [] [] [2025-05-08 11:39:26,034] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : samindu, en-LK, Asia/Colombo
+TID: [] [] [2025-05-08 11:39:27,611] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-05-08 11:39:28,172] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 22ms
+TID: [] [] [2025-05-08 11:39:28,179] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-05-08 11:39:28,179] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-05-08 11:39:28,191] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [] [] [2025-05-08 11:39:28,191] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 0ms
+TID: [] [] [2025-05-08 11:39:28,192] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-05-08 11:39:28,979] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-05-08 11:39:29,056] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-05-08 11:39:29,207] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-05-08 11:39:29,945] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /Users/samindu/Workspace/intergration-project/wso2-is/repository/deployment/server/
+TID: [] [] [2025-05-08 11:39:29,956] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-05-08 11:39:29,959] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-05-08 11:39:30,022] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-05-08 11:39:30,022] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-05-08 11:39:30,022] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-05-08 11:39:30,022] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-05-08 11:39:31,188] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-05-08 11:39:31,556] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-05-08 11:39:31,869] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-05-08 11:39:31,962] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-05-08 11:39:31,962] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-05-08 11:39:31,973] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-08 11:39:32,828] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-05-08 11:39:34,911] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-05-08 11:39:39,386] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9764
+TID: [] [] [2025-05-08 11:39:39,387] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9444
+TID: [] [] [2025-05-08 11:39:39,463] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/Users/samindu/Workspace/intergration-project/wso2-is/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/Users/samindu/Workspace/intergration-project/wso2-is/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-05-08 11:39:39,483] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9444/myaccount
+TID: [] [] [2025-05-08 11:39:39,483] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9444/console
+TID: [] [] [2025-05-08 11:39:39,484] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-05-08 11:39:39,484] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 15 sec
+TID: [] [] [2025-05-08 11:55:01,738] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-05-08 11:55:01,740] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-08 11:55:01,742] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-05-08 11:55:01,743] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-05-08 11:55:01,743] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-05-08 11:55:01,745] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-05-08 11:55:01,746] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-05-08 11:55:01,769] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-05-08 11:55:01,773] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-05-08 11:55:01,810] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-05-08 11:55:01,821] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-05-08 11:55:01,842] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-05-08 11:55:01,844] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-05-08 11:55:01,846] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-05-08 11:55:01,848] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-05-08 11:55:01,853] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-05-08 11:55:01,855] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-05-08 11:55:01,858] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-05-08 11:55:01,865] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-05-08 11:55:01,865] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-05-08 11:55:01,865] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-05-08 11:55:01,865] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-05-08 11:55:01,865] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-08 11:55:01,865] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-05-08 11:55:01,872] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-05-08 11:55:01,873] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-05-08 11:55:01,919] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-05-08 11:55:03,203]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-05-08 11:55:03,203]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [2025-05-08 12:02:27,737]  INFO {org.wso2.config.mapper.ConfigParser} - Configurations Changed in :repository/conf/deployment.toml {org.wso2.config.mapper.ConfigParser}
+TID: [2025-05-08 12:02:27,738]  INFO {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /Users/samindu/Workspace/intergration-project/wso2-is {org.wso2.config.mapper.ConfigParser}
+TID: [] [] [2025-05-08 12:02:29,453] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-05-08 12:02:29,539] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-05-08 12:02:29,540] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Mac OS X 15.4.1, aarch64
+TID: [] [] [2025-05-08 12:02:29,540] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+TID: [] [] [2025-05-08 12:02:29,540] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 21.0.7
+TID: [] [] [2025-05-08 12:02:29,540] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 21.0.7+6-LTS,Eclipse Adoptium
+TID: [] [] [2025-05-08 12:02:29,540] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /Users/samindu/Workspace/intergration-project/wso2-is
+TID: [] [] [2025-05-08 12:02:29,540] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /Users/samindu/Workspace/intergration-project/wso2-is/tmp
+TID: [] [] [2025-05-08 12:02:29,540] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : samindu, en-LK, Asia/Colombo
+TID: [] [] [2025-05-08 12:02:31,161] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-05-08 12:02:31,758] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 16ms
+TID: [] [] [2025-05-08 12:02:31,765] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-05-08 12:02:31,765] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 1ms
+TID: [] [] [2025-05-08 12:02:31,779] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [] [] [2025-05-08 12:02:31,779] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 0ms
+TID: [] [] [2025-05-08 12:02:31,780] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-05-08 12:02:32,638] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-05-08 12:02:32,725] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-05-08 12:02:32,886] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-05-08 12:02:33,612] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /Users/samindu/Workspace/intergration-project/wso2-is/repository/deployment/server/
+TID: [] [] [2025-05-08 12:02:33,624] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-05-08 12:02:33,629] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-05-08 12:02:33,697] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-05-08 12:02:33,698] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-05-08 12:02:33,698] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-05-08 12:02:33,698] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-05-08 12:02:34,872] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-05-08 12:02:35,247] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-05-08 12:02:35,558] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-05-08 12:02:35,653] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-05-08 12:02:35,653] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-05-08 12:02:35,665] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-08 12:02:38,511] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-05-08 12:02:43,023] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9764
+TID: [] [] [2025-05-08 12:02:43,023] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9444
+TID: [] [] [2025-05-08 12:02:43,084] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/Users/samindu/Workspace/intergration-project/wso2-is/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/Users/samindu/Workspace/intergration-project/wso2-is/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-05-08 12:02:43,105] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9444/myaccount
+TID: [] [] [2025-05-08 12:02:43,105] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9444/console
+TID: [] [] [2025-05-08 12:02:43,106] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-05-08 12:02:43,106] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 15 sec
+TID: [] [] [2025-05-08 12:02:43,114] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [-1234] [] [2025-05-08 12:02:59,560] [a9fcf673-c1dd-485d-b824-cbf68c2d0d52]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : fcdac915-a458-4b7b-8ac4-61c78bd47303
+TID: [-1234] [] [2025-05-08 12:05:02,470] [b70393a3-df05-4ad6-8e72-cce74b71ac5e]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 4b5efbba-61a8-45aa-abea-6702a3d91352
+TID: [-1234] [] [2025-05-08 12:11:25,859] [bde2fd65-f373-4a7e-a20a-6363b72c1458]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 58ba372a-658f-4923-9ab7-af34a1a4bf40
+TID: [-1234] [] [2025-05-08 12:18:30,845] [68ea5583-d967-4ff5-ad2e-e33904003f3c]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 17e669fc-a5d8-4cec-bae6-14fd97746a60
+TID: [-1234] [] [2025-05-08 13:02:32,356] [6fbdbc91-476d-4ac4-a895-f71063694a4f]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 7ca3b9fc-4590-4e07-895d-7b5bd1794e5f
+TID: [-1234] [] [2025-05-08 15:08:08,955] [c0800ebd-f599-401e-b985-24c319a875d9]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-08 15:08:08,955+0530]
+TID: [-1234] [] [2025-05-08 15:08:42,414] [f42b5fc6-27c2-42b4-ab67-0aba36a9a731]  INFO {org.wso2.carbon.core.services.authentication.AuthenticationAdmin} - 'admin@carbon.super [-1234]' logged out at [2025-05-08 15:08:42,0413]
+TID: [-1234] [] [2025-05-08 15:13:57,939] [4af5f541-14b5-41d2-8c29-fa31cdf3df51]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 9f13ae01-77af-41fa-bd2b-e25e5ee11846
+TID: [-1234] [] [2025-05-08 15:14:03,077] [289e892d-d787-4e55-850e-5910e7b174ed]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-08 17:06:18,203] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-05-08 17:06:18,205] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-08 17:06:18,207] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-05-08 17:06:18,208] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-05-08 17:06:18,208] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-05-08 17:06:18,211] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-05-08 17:06:18,212] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-05-08 17:06:18,258] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-05-08 17:06:18,263] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-05-08 17:06:18,271] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-05-08 17:06:18,297] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-05-08 17:06:18,331] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-05-08 17:06:18,334] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-05-08 17:06:18,338] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-05-08 17:06:18,341] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-05-08 17:06:18,348] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-05-08 17:06:18,354] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-05-08 17:06:18,362] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-05-08 17:06:18,372] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-05-08 17:06:18,372] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-05-08 17:06:18,372] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-05-08 17:06:18,372] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-05-08 17:06:18,372] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-08 17:06:18,373] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-05-08 17:06:18,386] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-05-08 17:06:18,386] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-05-08 17:06:18,460] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [] [] [2025-05-08 17:06:20,466] []  WARN {org.apache.tomcat.util.net.NioEndpoint} - Failed to unlock acceptor for [https-jsse-nio-9443] because the local address was not available
+TID: [-1234] [] [2025-05-08 17:06:20,852]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-05-08 17:06:20,852]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 

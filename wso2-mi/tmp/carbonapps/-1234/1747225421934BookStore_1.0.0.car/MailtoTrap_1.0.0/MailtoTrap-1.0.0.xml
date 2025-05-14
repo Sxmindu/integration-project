@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry key="MailtoTrap" xmlns="http://ws.apache.org/ns/synapse">
+  <email.init>
+    <connectionType>SMTP</connectionType>
+    <host>sandbox.smtp.mailtrap.io</host>
+    <port>465</port>
+    <requireAuthentication>true</requireAuthentication>
+    <username>ab0d841f1ed7e0</username>
+    <password>3acbc47c370a58</password>
+    <name>MailtoTrap</name>
+  </email.init>
+</localEntry>

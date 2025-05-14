@@ -1,0 +1,192 @@
+[02-05-2025 00:10:20] DEBUG - Updates config file does not exist. Creating config.json
+[02-05-2025 00:10:20] DEBUG - Updates Home Directory: /Users/samindu/.wso2-updates
+[02-05-2025 00:10:20] DEBUG - Product name: wso2am
+[02-05-2025 00:10:20] DEBUG - Product version: 4.5.0
+[02-05-2025 00:10:20] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-apim/wso2-apim-base/updates/config.json
+[02-05-2025 00:10:20] DEBUG - wso2update version: 1.7.15
+[02-05-2025 00:10:20] DEBUG - Executed wso2update on Fri, 02 May 2025 00:10:20 +0530
+
+[02-05-2025 00:10:20] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/wso2-apim-base
+[02-05-2025 00:10:20] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/wso2-apim-base/updates
+[02-05-2025 00:10:20] DEBUG - Updates home directory has been set manually
+[02-05-2025 00:10:20] DEBUG - Updates home directory: /Users/samindu/.wso2-updates
+[02-05-2025 00:10:20] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-apim/wso2-apim-base/updates/config.json
+[02-05-2025 00:10:20] INFO - Initializing updates with credentials
+[02-05-2025 00:10:32] INFO - Authenticating
+[02-05-2025 00:10:32] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:10:32] ERROR - Post "https://api.updates.wso2.com/token": proxyconnect tcp: dial tcp [::1]:3128: connect: connection refused
+[02-05-2025 00:12:04] DEBUG - wso2update version: 1.7.15
+[02-05-2025 00:12:04] DEBUG - Executed wso2update on Fri, 02 May 2025 00:12:04 +0530
+
+[02-05-2025 00:12:04] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/wso2-apim-base
+[02-05-2025 00:12:04] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/wso2-apim-base/updates
+[02-05-2025 00:12:04] INFO - Initializing updates with credentials
+[02-05-2025 00:12:14] INFO - Authenticating
+[02-05-2025 00:12:14] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:12:16] DEBUG - Token invoked with status code 200.
+[02-05-2025 00:12:16] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-apim/wso2-apim-base/updates/config.json
+[02-05-2025 00:12:16] INFO - Authenticated user samindu@wso2.com
+[02-05-2025 00:12:16] INFO - Checking for latest update tool version
+[02-05-2025 00:12:17] DEBUG - Update tool download link: https://product-dist.wso2.com/downloads/update-tool/release/update.zip
+[02-05-2025 00:12:17] INFO - A new update is available
+[02-05-2025 00:12:17] INFO - Attempting to download and update the WSO2 Update Tool
+[02-05-2025 00:12:17] DEBUG - Deleting directory /Users/samindu/.wso2-updates/updates/client
+[02-05-2025 00:12:17] DEBUG - Deleting directory /Users/samindu/Workspace/wso2-apim/wso2-apim-base/.tmp
+[02-05-2025 00:13:36] DEBUG - Unarchiving /Users/samindu/.wso2-updates/updates/client/update.zip to /Users/samindu/.wso2-updates/updates/client
+[02-05-2025 00:13:37] DEBUG - Unarchiving /Users/samindu/.wso2-updates/updates/client/update.zip to /Users/samindu/.wso2-updates/updates/client completed successfully
+[02-05-2025 00:13:37] DEBUG - Deleting directory /Users/samindu/.wso2-updates/updates/client
+[02-05-2025 00:15:15] ERROR - unknown flag: --version
+[02-05-2025 00:15:40] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:15:40] DEBUG - Executed wso2update on Fri, 02 May 2025 00:15:40 +0530
+
+[02-05-2025 00:15:40] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/wso2-apim-base
+[02-05-2025 00:15:40] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/wso2-apim-base/updates
+[02-05-2025 00:26:15] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:26:15] DEBUG - Executed wso2update on Fri, 02 May 2025 00:26:15 +0530
+
+[02-05-2025 00:26:15] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0
+[02-05-2025 00:26:15] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates
+[02-05-2025 00:26:15] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:26:15] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:26:15] ERROR - Post "https://api.updates.wso2.com/token": proxyconnect tcp: dial tcp [::1]:3128: connect: connection refused
+[02-05-2025 00:27:12] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:27:12] DEBUG - Executed wso2update on Fri, 02 May 2025 00:27:12 +0530
+
+[02-05-2025 00:27:12] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0
+[02-05-2025 00:27:12] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates
+[02-05-2025 00:27:12] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:27:12] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:27:12] ERROR - Post "https://api.updates.wso2.com/token": proxyconnect tcp: dial tcp [::1]:3128: connect: connection refused
+[02-05-2025 00:27:37] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:27:37] DEBUG - Executed wso2update on Fri, 02 May 2025 00:27:37 +0530
+
+[02-05-2025 00:27:37] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0
+[02-05-2025 00:27:37] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates
+[02-05-2025 00:27:37] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:27:37] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:27:37] ERROR - Post "https://api.updates.wso2.com/token": proxyconnect tcp: dial tcp [::1]:3128: connect: connection refused
+[02-05-2025 00:27:44] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:27:44] DEBUG - Executed wso2update on Fri, 02 May 2025 00:27:44 +0530
+
+[02-05-2025 00:27:44] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0
+[02-05-2025 00:27:44] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates
+[02-05-2025 00:27:44] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:27:44] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:27:44] ERROR - Post "https://api.updates.wso2.com/token": proxyconnect tcp: dial tcp [::1]:3128: connect: connection refused
+[02-05-2025 00:28:54] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:28:54] DEBUG - Executed wso2update on Fri, 02 May 2025 00:28:54 +0530
+
+[02-05-2025 00:28:54] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0
+[02-05-2025 00:28:54] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates
+[02-05-2025 00:28:54] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:28:54] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:28:54] ERROR - Post "https://api.updates.wso2.com/token": proxyconnect tcp: dial tcp [::1]:3128: connect: connection refused
+[02-05-2025 00:28:56] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:28:56] DEBUG - Executed wso2update on Fri, 02 May 2025 00:28:56 +0530
+
+[02-05-2025 00:28:56] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0
+[02-05-2025 00:28:56] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates
+[02-05-2025 00:28:56] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:28:56] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:28:56] ERROR - Post "https://api.updates.wso2.com/token": proxyconnect tcp: dial tcp [::1]:3128: connect: connection refused
+[02-05-2025 00:29:30] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:29:30] DEBUG - Executed wso2update on Fri, 02 May 2025 00:29:30 +0530
+
+[02-05-2025 00:29:30] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0
+[02-05-2025 00:29:30] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates
+[02-05-2025 00:29:30] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:29:30] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:29:31] DEBUG - Token invoked with status code 200.
+[02-05-2025 00:29:31] DEBUG - Access token renewal completed successfully
+[02-05-2025 00:29:31] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates/config.json
+[02-05-2025 00:29:31] INFO - Checking for latest update tool version
+[02-05-2025 00:29:31] DEBUG - Checking for the latest update tool client completed successfully
+[02-05-2025 00:29:31] DEBUG - Validating update levels
+[02-05-2025 00:29:31] DEBUG - Update level not defined. Requested update level set to 0. Attempting to fetch latest update.
+[02-05-2025 00:29:31] INFO - Checking for updates
+[02-05-2025 00:29:31] DEBUG - Check updates API URL: https://api.updates.wso2.com/updates/1.0.0/check-updates
+[02-05-2025 00:29:32] INFO - The latest update level is 'wso2am-4.5.0.1'. 
+This consists of 1 updates applied on top of 'wso2am-4.5.0.0'
+[02-05-2025 00:29:32] INFO - Creating a backup of '/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0'
+[02-05-2025 00:29:32] DEBUG - Backing up product directory to /Users/samindu/.wso2-updates/backup/wso2am-4.5.0-ee6abff1-3460-4af8-b2d5-08a3bfffc247
+[02-05-2025 00:29:33] DEBUG - Validating backup...
+[02-05-2025 00:29:33] DEBUG - Size of product directory: 705698956
+[02-05-2025 00:29:33] DEBUG - Size of backup directory: 705698956
+[02-05-2025 00:29:33] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates/config.json
+[02-05-2025 00:29:33] INFO - Successfully created the backup at : /Users/samindu/.wso2-updates/backup/wso2am-4.5.0-ee6abff1-3460-4af8-b2d5-08a3bfffc247
+[02-05-2025 00:29:33] DEBUG - Fetching update files
+[02-05-2025 00:29:33] DEBUG - Update file list API URL: https://api.updates.wso2.com/updates/1.0.0/list-updates
+[02-05-2025 00:29:33] DEBUG - Creating update directory
+[02-05-2025 00:29:33] DEBUG - Update download directory: /Users/samindu/.wso2-updates/updates/wso2am-4.5.0.0-4.5.0.1
+[02-05-2025 00:29:33] DEBUG - Update info file: /Users/samindu/.wso2-updates/updates/wso2am-4.5.0.0-4.5.0.1/update.json
+[02-05-2025 00:29:33] DEBUG - Applied updates: 13128
+[02-05-2025 00:29:33] DEBUG - Update information written to /Users/samindu/.wso2-updates/updates/wso2am-4.5.0.0-4.5.0.1/update.json
+[02-05-2025 00:29:33] INFO - Downloading updates
+[02-05-2025 00:29:33] DEBUG - Reading update information from file /Users/samindu/.wso2-updates/updates/wso2am-4.5.0.0-4.5.0.1/update.json
+[02-05-2025 00:29:33] DEBUG - Normalizing update file paths to OS specific paths
+[02-05-2025 00:29:33] DEBUG - Attempt: 1
+[02-05-2025 00:29:37] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2am-4.5.0.0-4.5.0.1/add/repository/components/plugins/swagger-parser_2.1.25.wso2v2.jar
+[02-05-2025 00:29:37] DEBUG - Verification for downloaded files passed.
+[02-05-2025 00:29:37] DEBUG - Applying updates to product at /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0 from updates at /Users/samindu/.wso2-updates/updates/wso2am-4.5.0.0-4.5.0.1
+[02-05-2025 00:29:37] INFO - Updating product
+[02-05-2025 00:29:37] DEBUG - Checking for similar added and removed components
+[02-05-2025 00:29:37] DEBUG - Identified added component repository/components/plugins/swagger-parser_2.1.25.wso2v2.jar is similar to removed component repository/components/plugins/swagger-parser_2.1.22.wso2v2.jar
+[02-05-2025 00:29:37] DEBUG - Removing files from product
+[02-05-2025 00:29:37] DEBUG - Following files have been removed successfully:
+
+[02-05-2025 00:29:37] DEBUG - Adding new files to product
+[02-05-2025 00:29:37] DEBUG - Following files have been added successfully:
+
+[02-05-2025 00:29:37] DEBUG - Modifying files
+[02-05-2025 00:29:37] DEBUG - The following bundles.info files have been identified:
+/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/api-devportal-deprecated/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/api-key-manager-deprecated/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/api-publisher-deprecated/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/control-plane/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/gateway-worker/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/traffic-manager/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+
+[02-05-2025 00:29:37] DEBUG - Replacing existing repository/components/plugins/swagger-parser_2.1.22.wso2v2.jar with new repository/components/plugins/swagger-parser_2.1.25.wso2v2.jar
+[02-05-2025 00:29:37] DEBUG - Modified file /Users/samindu/.wso2-updates/updates/wso2am-4.5.0.0-4.5.0.1/modify/new/repository/components/plugins/swagger-parser_2.1.25.wso2v2.jar does not exist in modified directory. Checking added files.
+[02-05-2025 00:29:37] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2am-4.5.0.0-4.5.0.1/add/repository/components/plugins/swagger-parser_2.1.25.wso2v2.jar
+[02-05-2025 00:29:37] DEBUG - Updating jar file version of swagger-parser_2.1.22.wso2v2.jar from 2.1.22.wso2v2 to 2.1.25.wso2v2 in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/api-devportal-deprecated/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:29:37] DEBUG - Original bundles entry: swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - New bundles entry: swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - Updating jar file version of swagger-parser_2.1.22.wso2v2.jar from 2.1.22.wso2v2 to 2.1.25.wso2v2 in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/api-key-manager-deprecated/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:29:37] DEBUG - Original bundles entry: swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - New bundles entry: swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - Updating jar file version of swagger-parser_2.1.22.wso2v2.jar from 2.1.22.wso2v2 to 2.1.25.wso2v2 in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/api-publisher-deprecated/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:29:37] DEBUG - Original bundles entry: swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - New bundles entry: swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - Updating jar file version of swagger-parser_2.1.22.wso2v2.jar from 2.1.22.wso2v2 to 2.1.25.wso2v2 in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/control-plane/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:29:37] DEBUG - Original bundles entry: swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - New bundles entry: swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - Updating jar file version of swagger-parser_2.1.22.wso2v2.jar from 2.1.22.wso2v2 to 2.1.25.wso2v2 in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:29:37] DEBUG - Original bundles entry: swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - New bundles entry: swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - Updating jar file version of swagger-parser_2.1.22.wso2v2.jar from 2.1.22.wso2v2 to 2.1.25.wso2v2 in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/gateway-worker/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:29:37] DEBUG - Original bundles entry: swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - New bundles entry: swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - Updating jar file version of swagger-parser_2.1.22.wso2v2.jar from 2.1.22.wso2v2 to 2.1.25.wso2v2 in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/traffic-manager/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:29:37] DEBUG - Original bundles entry: swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - New bundles entry: swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true
+[02-05-2025 00:29:37] DEBUG - Following files have been modified successfully:
+/Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/plugins/swagger-parser_2.1.25.wso2v2.jar
+
+[02-05-2025 00:29:37] DEBUG - Modifying bundles.info entries
+[02-05-2025 00:29:37] DEBUG - Applying bundles.info changes
+[02-05-2025 00:29:37] DEBUG - Getting unique ordered Changes
+[02-05-2025 00:29:37] DEBUG - Adding bundles.info entry swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true to file /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Ignoring added bundles.info entry swagger-parser,2.1.25.wso2v2,../plugins/swagger-parser_2.1.25.wso2v2.jar,4,true since it already exists in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Removing bundles.info entry swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true from file /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] DEBUG - Ignoring removed bundles.info entry swagger-parser,2.1.22.wso2v2,../plugins/swagger-parser_2.1.22.wso2v2.jar,4,true since it does not exist in /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:29:37] INFO - wso2am-4.5.0 updated successfully
+[02-05-2025 00:29:37] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-apim/fresh-packs/v4/wso2-apim-4.5.0/updates/config.json

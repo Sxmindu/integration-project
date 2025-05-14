@@ -1,0 +1,22 @@
+[2025-05-14 12:52:35,477]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 12:54:36,303]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 12:55:20,513]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 12:55:38,894]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 12:58:04,654]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:01:31,193]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:01:36,323]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:02:29,142]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:02:30,012]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:02:48,411]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:50:08,109]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:50:16,282]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:51:30,390]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:51:39,236]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 13:53:38,556]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 14:22:00,516]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 14:23:38,298]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 14:36:09,516]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 14:44:07,686]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 14:44:41,329]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 15:41:23,625]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
+[2025-05-14 16:12:00,074] ERROR {org.apache.synapse.mediators.v2.ForEachMediatorV2} - Expression payload.Data.Orders did not resolve to a valid array

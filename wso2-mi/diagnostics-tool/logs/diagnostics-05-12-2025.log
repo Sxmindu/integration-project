@@ -1,0 +1,3 @@
+2025-05-12 00:28:32 LogWatcher [INFO] Log file has been rotated. Reopening the file /Users/samindu/Workspace/intergration-project/wso2-mi/diagnostics-tool/../repository/logs/wso2error.log
+2025-05-12 00:59:59 TrafficAnalyzerRunnable [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.0
+2025-05-12 01:02:29 TrafficAnalyzerRunnable [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 3, threshold: 2.0

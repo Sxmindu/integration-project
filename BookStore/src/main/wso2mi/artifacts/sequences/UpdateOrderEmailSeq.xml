@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="UpdateOrderEmailSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <email.send configKey="MailConnection">
+        <from>no-reply@book.com</from>
+        <personalName></personalName>
+        <to>{${properties.synapse.user_email}}</to>
+        <cc></cc>
+        <bcc></bcc>
+        <replyTo></replyTo>
+        <subject>Your Order Has Being Completed</subject>
+        <content>
+            <![CDATA[
+                <h3>Order Confirmed!</h3>
+                <p>Order Details:</p>
+                    <ul> 
+                        <li>Book Title: ${properties.synapse.title}</li>
+                        <li>Orderd Quantity: ${properties.synapse.quantity}</li>
+                        <li>Status: Completed</li>
+                    </ul>    
+            ]]>
+        </content>
+        <contentType>text/html</contentType>
+        <encoding>UTF-8</encoding>
+        <attachments></attachments>
+        <inlineImages>[]</inlineImages>
+        <contentTransferEncoding>Base64</contentTransferEncoding>
+        <responseVariable>email_send_mailto</responseVariable>
+        <overwriteBody>false</overwriteBody>
+    </email.send>
+    <drop/>
+</sequence>

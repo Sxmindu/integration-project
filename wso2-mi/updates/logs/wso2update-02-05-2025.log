@@ -1,0 +1,243 @@
+[02-05-2025 00:17:56] DEBUG - wso2update version: 1.7.16
+[02-05-2025 00:17:56] DEBUG - Executed wso2update on Fri, 02 May 2025 00:17:56 +0530
+
+[02-05-2025 00:17:56] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0
+[02-05-2025 00:17:56] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates
+[02-05-2025 00:17:56] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates/config.json
+[02-05-2025 00:17:56] DEBUG - Backup directory has been set to default
+[02-05-2025 00:17:56] INFO - Initializing updates with credentials
+[02-05-2025 00:18:06] INFO - Authenticating
+[02-05-2025 00:18:06] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:18:08] DEBUG - Token invoked with status code 200.
+[02-05-2025 00:18:08] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates/config.json
+[02-05-2025 00:18:08] INFO - Authenticated user samindu@wso2.com
+[02-05-2025 00:18:08] INFO - Checking for latest update tool version
+[02-05-2025 00:18:09] DEBUG - Update tool download link: https://product-dist.wso2.com/downloads/update-tool/release/update.zip
+[02-05-2025 00:18:09] INFO - A new update is available
+[02-05-2025 00:18:09] INFO - Attempting to download and update the WSO2 Update Tool
+[02-05-2025 00:18:09] DEBUG - Deleting directory /Users/samindu/.wso2-updates/updates/client
+[02-05-2025 00:18:09] DEBUG - Deleting directory /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/.tmp
+[02-05-2025 00:18:38] ERROR - Error while downloading the update tool client: stream error: stream ID 1; INTERNAL_ERROR; received from peer
+[02-05-2025 00:32:32] DEBUG - wso2update version: 1.7.16
+[02-05-2025 00:32:32] DEBUG - Executed wso2update on Fri, 02 May 2025 00:32:32 +0530
+
+[02-05-2025 00:32:32] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0
+[02-05-2025 00:32:32] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates
+[02-05-2025 00:32:32] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:32:32] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:32:34] DEBUG - Token invoked with status code 200.
+[02-05-2025 00:32:34] DEBUG - Access token renewal completed successfully
+[02-05-2025 00:32:34] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates/config.json
+[02-05-2025 00:32:34] INFO - Checking for latest update tool version
+[02-05-2025 00:32:34] DEBUG - Update tool download link: https://product-dist.wso2.com/downloads/update-tool/release/update.zip
+[02-05-2025 00:32:34] INFO - A new update is available
+[02-05-2025 00:32:34] INFO - Attempting to download and update the WSO2 Update Tool
+[02-05-2025 00:32:34] DEBUG - Deleting directory /Users/samindu/.wso2-updates/updates/client
+[02-05-2025 00:32:34] DEBUG - Deleting directory /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/.tmp
+[02-05-2025 00:32:51] DEBUG - Unarchiving /Users/samindu/.wso2-updates/updates/client/update.zip to /Users/samindu/.wso2-updates/updates/client
+[02-05-2025 00:32:52] DEBUG - Unarchiving /Users/samindu/.wso2-updates/updates/client/update.zip to /Users/samindu/.wso2-updates/updates/client completed successfully
+[02-05-2025 00:32:52] DEBUG - Deleting directory /Users/samindu/.wso2-updates/updates/client
+[02-05-2025 00:32:59] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:32:59] DEBUG - Executed wso2update on Fri, 02 May 2025 00:32:59 +0530
+
+[02-05-2025 00:32:59] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0
+[02-05-2025 00:32:59] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates
+[02-05-2025 00:32:59] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:32:59] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:33:00] DEBUG - Token invoked with status code 200.
+[02-05-2025 00:33:00] DEBUG - Access token renewal completed successfully
+[02-05-2025 00:33:00] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates/config.json
+[02-05-2025 00:33:00] INFO - Checking for latest update tool version
+[02-05-2025 00:33:01] DEBUG - Checking for the latest update tool client completed successfully
+[02-05-2025 00:33:01] INFO - Fixing merge conflicts
+[02-05-2025 00:33:01] DEBUG - Conflicts file path: /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates/conflicts.json
+[02-05-2025 00:33:01] ERROR - There are no conflicts in the setup
+[02-05-2025 00:33:08] DEBUG - wso2update version: 1.7.17
+[02-05-2025 00:33:08] DEBUG - Executed wso2update on Fri, 02 May 2025 00:33:08 +0530
+
+[02-05-2025 00:33:08] DEBUG - Product Directory : /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0
+[02-05-2025 00:33:08] DEBUG - Product Updates Directory : /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates
+[02-05-2025 00:33:08] DEBUG - Access token expired, renewing access token...
+[02-05-2025 00:33:08] DEBUG - Invoking WSO2 Update token API
+[02-05-2025 00:33:10] DEBUG - Token invoked with status code 200.
+[02-05-2025 00:33:10] DEBUG - Access token renewal completed successfully
+[02-05-2025 00:33:10] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates/config.json
+[02-05-2025 00:33:10] INFO - Checking for latest update tool version
+[02-05-2025 00:33:11] DEBUG - Checking for the latest update tool client completed successfully
+[02-05-2025 00:33:11] DEBUG - Validating update levels
+[02-05-2025 00:33:11] DEBUG - Update level not defined. Requested update level set to 0. Attempting to fetch latest update.
+[02-05-2025 00:33:11] INFO - Checking for updates
+[02-05-2025 00:33:11] DEBUG - Check updates API URL: https://api.updates.wso2.com/updates/1.0.0/check-updates
+[02-05-2025 00:33:11] INFO - The latest update level is 'wso2mi-4.4.0.7'. 
+This consists of 4 updates applied on top of 'wso2mi-4.4.0.5'
+[02-05-2025 00:33:11] INFO - Creating a backup of '/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0'
+[02-05-2025 00:33:11] DEBUG - Backing up product directory to /Users/samindu/.wso2-updates/backup/wso2mi-4.4.0-8e351718-ccb2-4bf8-a16b-a4d5ef7d03f6
+[02-05-2025 00:33:11] DEBUG - Validating backup...
+[02-05-2025 00:33:11] DEBUG - Size of product directory: 303178961
+[02-05-2025 00:33:11] DEBUG - Size of backup directory: 303178961
+[02-05-2025 00:33:11] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates/config.json
+[02-05-2025 00:33:11] INFO - Successfully created the backup at : /Users/samindu/.wso2-updates/backup/wso2mi-4.4.0-8e351718-ccb2-4bf8-a16b-a4d5ef7d03f6
+[02-05-2025 00:33:11] DEBUG - Fetching update files
+[02-05-2025 00:33:11] DEBUG - Update file list API URL: https://api.updates.wso2.com/updates/1.0.0/list-updates
+[02-05-2025 00:33:12] DEBUG - Creating update directory
+[02-05-2025 00:33:12] DEBUG - Update download directory: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7
+[02-05-2025 00:33:12] DEBUG - Update info file: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/update.json
+[02-05-2025 00:33:12] DEBUG - Applied updates: 13250, 13227, 13270, 13283
+[02-05-2025 00:33:12] DEBUG - Update information written to /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/update.json
+[02-05-2025 00:33:12] INFO - Downloading updates
+[02-05-2025 00:33:12] DEBUG - Reading update information from file /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/update.json
+[02-05-2025 00:33:12] DEBUG - Normalizing update file paths to OS specific paths
+[02-05-2025 00:33:12] DEBUG - Attempt: 1
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/add/wso2/components/plugins/org.wso2.carbon.transports.sap_4.7.36.1.jar
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/org.wso2.micro.integrator.mediation.ntask_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/postgres/postgresql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/postgres/postgresql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/db2/db2_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/db2/db2_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/oracle/oracle_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/oracle/oracle_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/mysql/mysql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/mysql/mysql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/commons-vfs2_2.2.0.wso2v20_2.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/org.wso2.micro.integrator.ntask.core_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/synapse-core_4.0.0.wso2v215_7.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/mssql/mssql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/mssql/mssql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/oracle-rac/oracle_rac_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/oracle-rac/oracle_rac_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/org.wso2.micro.integrator.coordination_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Verification for downloaded files passed.
+[02-05-2025 00:33:26] DEBUG - Applying updates to product at /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0 from updates at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7
+[02-05-2025 00:33:26] INFO - Updating product
+[02-05-2025 00:33:26] DEBUG - Checking for similar added and removed components
+[02-05-2025 00:33:26] DEBUG - Identified added component wso2/components/plugins/org.wso2.carbon.transports.sap_4.7.36.1.jar is similar to removed component wso2/components/plugins/org.wso2.carbon.transports.sap_4.7.36.jar
+[02-05-2025 00:33:26] DEBUG - Removing files from product
+[02-05-2025 00:33:26] DEBUG - Following files have been removed successfully:
+
+[02-05-2025 00:33:26] DEBUG - Adding new files to product
+[02-05-2025 00:33:26] DEBUG - Following files have been added successfully:
+
+[02-05-2025 00:33:26] DEBUG - Modifying files
+[02-05-2025 00:33:26] DEBUG - The following bundles.info files have been identified:
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+
+[02-05-2025 00:33:26] DEBUG - Replacing existing wso2/components/plugins/org.wso2.micro.integrator.mediation.ntask_4.4.0.jar with new wso2/components/plugins/org.wso2.micro.integrator.mediation.ntask_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/org.wso2.micro.integrator.mediation.ntask_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Updating jar file version of org.wso2.micro.integrator.mediation.ntask_4.4.0.jar from 4.4.0 to 4.4.0.15 in /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:33:26] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:33:26] DEBUG - Original bundles entry: org.wso2.micro.integrator.mediation.ntask,4.4.0,../plugins/org.wso2.micro.integrator.mediation.ntask_4.4.0.jar,4,true
+[02-05-2025 00:33:26] DEBUG - New bundles entry: org.wso2.micro.integrator.mediation.ntask,4.4.0.15,../plugins/org.wso2.micro.integrator.mediation.ntask_4.4.0.15.jar,4,true
+[02-05-2025 00:33:26] DEBUG - Modifying dbscripts/postgres/postgresql_cluster.sql as diffApply
+[02-05-2025 00:33:26] DEBUG - File path in product: /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/postgres/postgresql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Original file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/postgres/postgresql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/postgres/postgresql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - New file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/postgres/postgresql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/postgres/postgresql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Applying diff-match-patch to file
+[02-05-2025 00:33:26] DEBUG - Product file '/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/postgres/postgresql_cluster.sql' modified successfully
+[02-05-2025 00:33:26] DEBUG - Modifying dbscripts/db2/db2_cluster.sql as diffApply
+[02-05-2025 00:33:26] DEBUG - File path in product: /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/db2/db2_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Original file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/db2/db2_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/db2/db2_cluster.sql
+[02-05-2025 00:33:26] DEBUG - New file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/db2/db2_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/db2/db2_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Applying diff-match-patch to file
+[02-05-2025 00:33:26] DEBUG - Product file '/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/db2/db2_cluster.sql' modified successfully
+[02-05-2025 00:33:26] DEBUG - Modifying dbscripts/oracle/oracle_cluster.sql as diffApply
+[02-05-2025 00:33:26] DEBUG - File path in product: /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/oracle/oracle_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Original file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/oracle/oracle_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/oracle/oracle_cluster.sql
+[02-05-2025 00:33:26] DEBUG - New file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/oracle/oracle_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/oracle/oracle_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Applying diff-match-patch to file
+[02-05-2025 00:33:26] DEBUG - Product file '/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/oracle/oracle_cluster.sql' modified successfully
+[02-05-2025 00:33:26] DEBUG - Modifying dbscripts/mysql/mysql_cluster.sql as diffApply
+[02-05-2025 00:33:26] DEBUG - File path in product: /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/mysql/mysql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Original file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/mysql/mysql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/mysql/mysql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - New file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/mysql/mysql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/mysql/mysql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Applying diff-match-patch to file
+[02-05-2025 00:33:26] DEBUG - Product file '/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/mysql/mysql_cluster.sql' modified successfully
+[02-05-2025 00:33:26] DEBUG - Replacing existing wso2/components/plugins/commons-vfs2_2.2.0.wso2v20_1.jar with new wso2/components/plugins/commons-vfs2_2.2.0.wso2v20_2.jar
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/commons-vfs2_2.2.0.wso2v20_2.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Updating jar file version of commons-vfs2_2.2.0.wso2v20_1.jar from 2.2.0.wso2v20_1 to 2.2.0.wso2v20_2 in /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:33:26] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:33:26] DEBUG - Original bundles entry: commons-vfs2,2.2.0.wso2v20_1,../plugins/commons-vfs2_2.2.0.wso2v20_1.jar,4,true
+[02-05-2025 00:33:26] DEBUG - New bundles entry: commons-vfs2,2.2.0.wso2v20_2,../plugins/commons-vfs2_2.2.0.wso2v20_2.jar,4,true
+[02-05-2025 00:33:26] DEBUG - Replacing existing wso2/components/plugins/org.wso2.micro.integrator.ntask.core_4.4.0.12.jar with new wso2/components/plugins/org.wso2.micro.integrator.ntask.core_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/org.wso2.micro.integrator.ntask.core_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Updating jar file version of org.wso2.micro.integrator.ntask.core_4.4.0.12.jar from 4.4.0.12 to 4.4.0.15 in /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:33:26] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:33:26] DEBUG - Original bundles entry: org.wso2.micro.integrator.ntask.core,4.4.0.12,../plugins/org.wso2.micro.integrator.ntask.core_4.4.0.12.jar,4,true
+[02-05-2025 00:33:26] DEBUG - New bundles entry: org.wso2.micro.integrator.ntask.core,4.4.0.15,../plugins/org.wso2.micro.integrator.ntask.core_4.4.0.15.jar,4,true
+[02-05-2025 00:33:26] DEBUG - Replacing existing wso2/components/plugins/synapse-core_4.0.0.wso2v215_5.jar with new wso2/components/plugins/synapse-core_4.0.0.wso2v215_7.jar
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/synapse-core_4.0.0.wso2v215_7.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Updating jar file version of synapse-core_4.0.0.wso2v215_5.jar from 4.0.0.wso2v215_5 to 4.0.0.wso2v215_7 in /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:33:26] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:33:26] DEBUG - Original bundles entry: synapse-core,4.0.0.wso2v215_5,../plugins/synapse-core_4.0.0.wso2v215_5.jar,4,true
+[02-05-2025 00:33:26] DEBUG - New bundles entry: synapse-core,4.0.0.wso2v215_7,../plugins/synapse-core_4.0.0.wso2v215_7.jar,4,true
+[02-05-2025 00:33:26] DEBUG - Modifying dbscripts/mssql/mssql_cluster.sql as diffApply
+[02-05-2025 00:33:26] DEBUG - File path in product: /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/mssql/mssql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Original file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/mssql/mssql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/mssql/mssql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - New file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/mssql/mssql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/mssql/mssql_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Applying diff-match-patch to file
+[02-05-2025 00:33:26] DEBUG - Product file '/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/mssql/mssql_cluster.sql' modified successfully
+[02-05-2025 00:33:26] DEBUG - Modifying dbscripts/oracle-rac/oracle_rac_cluster.sql as diffApply
+[02-05-2025 00:33:26] DEBUG - File path in product: /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/oracle-rac/oracle_rac_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Original file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/oracle-rac/oracle_rac_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/original/dbscripts/oracle-rac/oracle_rac_cluster.sql
+[02-05-2025 00:33:26] DEBUG - New file path: /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/oracle-rac/oracle_rac_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/dbscripts/oracle-rac/oracle_rac_cluster.sql
+[02-05-2025 00:33:26] DEBUG - Applying diff-match-patch to file
+[02-05-2025 00:33:26] DEBUG - Product file '/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/oracle-rac/oracle_rac_cluster.sql' modified successfully
+[02-05-2025 00:33:26] DEBUG - Replacing existing wso2/components/plugins/org.wso2.micro.integrator.coordination_4.4.0.jar with new wso2/components/plugins/org.wso2.micro.integrator.coordination_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/org.wso2.micro.integrator.coordination_4.4.0.15.jar
+[02-05-2025 00:33:26] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[02-05-2025 00:33:26] DEBUG - Updating jar file version of org.wso2.micro.integrator.coordination_4.4.0.jar from 4.4.0 to 4.4.0.15 in /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:33:26] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:33:26] DEBUG - Original bundles entry: org.wso2.micro.integrator.coordination,4.4.0,../plugins/org.wso2.micro.integrator.coordination_4.4.0.jar,4,true
+[02-05-2025 00:33:26] DEBUG - New bundles entry: org.wso2.micro.integrator.coordination,4.4.0.15,../plugins/org.wso2.micro.integrator.coordination_4.4.0.15.jar,4,true
+[02-05-2025 00:33:26] DEBUG - Replacing existing wso2/components/plugins/org.wso2.carbon.transports.sap_4.7.36.jar with new wso2/components/plugins/org.wso2.carbon.transports.sap_4.7.36.1.jar
+[02-05-2025 00:33:26] DEBUG - Modified file /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/modify/new/wso2/components/plugins/org.wso2.carbon.transports.sap_4.7.36.1.jar does not exist in modified directory. Checking added files.
+[02-05-2025 00:33:26] DEBUG - Validating updated file with SHA256 at /Users/samindu/.wso2-updates/updates/wso2mi-4.4.0.5-4.4.0.7/add/wso2/components/plugins/org.wso2.carbon.transports.sap_4.7.36.1.jar
+[02-05-2025 00:33:26] DEBUG - Updating jar file version of org.wso2.carbon.transports.sap_4.7.36.jar from 4.7.36 to 4.7.36.1 in /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[02-05-2025 00:33:26] DEBUG - Replacing bundles info entry: 
+[02-05-2025 00:33:26] DEBUG - Original bundles entry: org.wso2.carbon.transports.sap,4.7.36,../plugins/org.wso2.carbon.transports.sap_4.7.36.jar,4,true
+[02-05-2025 00:33:26] DEBUG - New bundles entry: org.wso2.carbon.transports.sap,4.7.36.1,../plugins/org.wso2.carbon.transports.sap_4.7.36.1.jar,4,true
+[02-05-2025 00:33:26] DEBUG - Following files have been modified successfully:
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/plugins/org.wso2.micro.integrator.mediation.ntask_4.4.0.15.jar
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/postgres/postgresql_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/db2/db2_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/oracle/oracle_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/mysql/mysql_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/plugins/commons-vfs2_2.2.0.wso2v20_2.jar
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/plugins/org.wso2.micro.integrator.ntask.core_4.4.0.15.jar
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/plugins/synapse-core_4.0.0.wso2v215_7.jar
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/mssql/mssql_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/oracle-rac/oracle_rac_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/plugins/org.wso2.micro.integrator.coordination_4.4.0.15.jar
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/wso2/components/plugins/org.wso2.carbon.transports.sap_4.7.36.1.jar
+
+[02-05-2025 00:33:26] DEBUG - Following files have been merged successfully:
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/postgres/postgresql_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/db2/db2_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/oracle/oracle_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/mysql/mysql_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/mssql/mssql_cluster.sql
+/Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/dbscripts/oracle-rac/oracle_rac_cluster.sql
+
+[02-05-2025 00:33:26] DEBUG - Modifying bundles.info entries
+[02-05-2025 00:33:26] INFO - wso2mi-4.4.0 updated successfully
+[02-05-2025 00:33:26] DEBUG - Updates configurations written to /Users/samindu/Workspace/wso2-mi/wso2-mi-base-4.4.0/updates/config.json

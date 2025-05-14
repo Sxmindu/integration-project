@@ -1,0 +1,22 @@
+{
+	"username": "janithas@wso2.com",
+	"update-level": "5",
+	"channel": "full",
+	"environment": "live",
+	"backup-dir": "/Users/janitha/.wso2-updates",
+	"product": {
+		"pattern": "wso2is-7.1.0",
+		"name": "wso2is",
+		"version": "7.1.0",
+		"backup": "/Users/janitha/.wso2-updates/backup/wso2is-7.1.0-688d4c55-e6e0-4747-8e32-67d37a8b71c0",
+		"backup-size": 551873730
+	},
+	"service": {
+		"url": "https://api.updates.wso2.com",
+		"token-url": "https://api.updates.wso2.com/token",
+		"app-key": "Njg4bTVXTzFDSGlLWGFTT216MDJKOUxMRDYwYTpSOGJnZERXb2pLY0dTdVUyQWhDdzN3OWY3OGNh",
+		"access-token": "eyJ4NXQiOiJ4ek1kUHdzZ2RXZHIwSjBPaW1sQjltNnZfcEUiLCJraWQiOiJaamMxWlRWbVlUaGhNakpsTVRZMU5EZ3dObU13WW1GbE1HWTBObVF5TURjME5tWmpOV1ZtWkRCbE5qZzRNemN5TTJObVpUSmtORGs1TjJJNE5UZzVPUV9SUzI1NiIsInR5cCI6ImF0K2p3dCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJqYW5pdGhhc0B3c28yLmNvbSIsImF1dCI6IkFQUExJQ0FUSU9OX1VTRVIiLCJhdWQiOlsiNjg4bTVXTzFDSGlLWGFTT216MDJKOUxMRDYwYSIsImNob3JlbzpkZXBsb3ltZW50OnByb2R1Y3Rpb24iXSwibmJmIjoxNzQ2MDEyNTk2LCJhenAiOiI2ODhtNVdPMUNIaUtYYVNPbXowMko5TExENjBhIiwib3JnX2lkIjoiMTE3Mzc0MjItNzA3OC04NTEwLTEwNzQtODIwODkyNjMxMTk0IiwiaXNzIjoiaHR0cHM6XC9cL2FwaS5hc2dhcmRlby5pb1wvdFwvd3NvMlwvb2F1dGgyXC90b2tlbiIsImV4cCI6MTc0NjAxNjE5Niwib3JnX25hbWUiOiJ3c28yIiwiaWF0IjoxNzQ2MDEyNTk2LCJqdGkiOiI2N2M2Y2NmNS05MDU1LTQyZjUtYmE2Zi01NTZkODdmMjZjZjEiLCJjbGllbnRfaWQiOiI2ODhtNVdPMUNIaUtYYVNPbXowMko5TExENjBhIn0.RMkynMScFo6LYzyGOgYK3-QoOlXX3Tt4PL43EmLOJHct1HSTIZwgwfnxMJNZ1jaHYWgs6JzTu4tan86H2pHAHAsjkH_Thwl6ggF2y-uo-Up1UkAWuJG8R13ytXk_ZQqRorfq2YDqDZztnv77orGxbku6RK0D40K6_ud1TffvaX3LTu5FVmHF3oKbvMPAC-m8vfo_daP32y06HhYAyqB4NmrcQdYoPbYGMay-_Rn5FXUqaSVU8Br1Fe7cULaMa3WoI8lUZEp6E0BgbI0TamF46XfIBPk6B0BlkVAC-4DMZnnL4He1adFq1boGyFHpa7QkRWclEotsiHAQBzaVbTGgjA",
+		"refresh-token": "f6cebdcf-1a6e-3913-8763-c08f15480fbf"
+	},
+	"hotfixes": null
+}

@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .navigation {
+    @apply relative flex items-center gap-2 py-2 px-4 text-main-gray hover:!text-main-purple hover:!bg-transparent active:!bg-transparent
+  }
+
+  .navigation::after {
+    @apply content-[''] bg-main-purple h-[3px] w-[0%] left-0 bottom-0 rounded-xl absolute duration-300 hover:w-[100%]
+  }
+
+  .active {
+    @apply !text-main-purple
+  }
+
+  .active::after {
+    @apply w-[100%]
+  }
+
+  .dot {
+    @apply relative bg-white
+  }
+
+  .dot::before {
+    @apply content-[''] bg-red-500/90 h-[8px] w-[8px] rounded-xl absolute z-10
+  }
+
+  .like::before {
+    @apply right-[-1px] top-[3px]
+  }
+
+  .message::before {
+    @apply right-[-1px] top-[3px]
+  }
+
+  .notification::before {
+    @apply right-[1px] -top-[2px]
+  }
+
+  .row {
+    @apply flex flex-col gap-[0.5rem] pb-[1rem] lg:flex-row
+  }
+
+  .select[aria-expanded="true"] {
+    @apply border-main-purple border-t-transparent
+  }
+
+  .select[aria-expanded="true"] ~ .select-label {
+    @apply text-main-purple
+  }
+
+  .select[aria-expanded="true"] ~ .select-label::before,
+  .select[aria-expanded="true"] ~ .select-label::after {
+    @apply border-main-purple
+  }
+
+  .swiper {
+    @apply hidden lg:block
+  }
+
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+/* Background Images */
+.signup {
+  background: url("../public/assets/images/signup.jpg") no-repeat;
+  background-size: cover;
+}
+
+.listing {
+  background: url("../public/assets/images/Listing.png") no-repeat;
+  background-size: cover;
+}
+
+.addlisting {
+  background: url("../public/assets/images/addlisting.jpg") no-repeat center;
+  background-size: contain;
+  margin-right: 3rem;
+}
+
+.coadmin {
+  background: url("../public/assets/images/coadmin.jpg") no-repeat center;
+  background-size: contain;
+  margin-right: 3rem;
+}
+
+.enterprice {
+  background-size: contain;
+  background: url("../public/assets/images/enterprice.jpg") no-repeat center;
+  margin-right: 3rem;
+}
+
+.individual_investor {
+  background: url("../public/assets/images/individual_investor.jpg") no-repeat center;
+  background-size: contain;
+  margin-right: 3rem;
+}
+
+.entrepreneur {
+  background: url("../public/assets/images/entrepreneur.jpg") no-repeat center;
+  background-size:contain;
+  margin-right: 3rem;
+}
+
+.video-container {
+  background: url("../public/assets/images/video-bg2.jpg") no-repeat;
+  background-size: cover;
+}
+
+.complaints {
+  background: url("../public/assets/images/complaints.jpg") no-repeat center;
+  background-size: contain;
+  margin-right: 3rem;
+}
+
+.investments {
+  background: url("../public/assets/images/Investment.jpg") no-repeat center;
+  background-size: contain;
+  margin-right: 3rem;
+}
+
+.play-image {
+  background: url("../public/assets/images/play-button.png") no-repeat;
+  background-size: cover;
+}
+
+.venture-logo {
+  background: url("../public/assets/images/VentureVerse-Black.png") no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  background-size: contain;
+  background: url("../public/assets/images/hero.png") no-repeat center;
+  margin-right: 3rem;
+}
+
+/* End of Section */
+
+/* Swiper */
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  filter: blur(2px);
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+/* End of Section */
+
+/* Alerts */
+.alert {
+  min-width: 250px;
+  margin-left: -125px;
+  width: auto;
+  color: var(--alert-color);
+  background-color: var(--alert-bg);
+  border-radius: 5px;
+  padding: 16px;
+  text-align: center;
+  font-size: 17px;
+  position: fixed;
+  z-index: 10;
+  right: 2rem;
+  bottom: 3rem;
+  text-transform: capitalize;
+}
+
+.alert-success {
+  --alert-color: #0d6832;
+  --alert-bg: #d0eddb;
+}
+
+.alert-failure {
+  --alert-color: #af233a;
+  --alert-bg: #f8dbe0;
+}
+
+.alert div:first-child {
+  margin-right: 0;
+}
+
+/* End of Section */
+
+/* File Input */
+.file-input-container {
+  position: relative;
+}
+
+.file-input-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #8458B3;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.file-input-text {
+  display: inline-block;
+  margin-left: 8px;
+  color: #4a5568;
+  font-size: 13px;
+}
+
+.file-input-container input[type="file"]:not(.hidden):focus + .file-input-button {
+  outline: 2px solid #4c51bf;
+}
+
+.file-input-container input[type="file"]:not(.hidden):focus + .file-input-button,
+.file-input-container input[type="file"]:not(.hidden):hover + .file-input-button {
+  background-color: #cbd5e0;
+  color: #2d3748;
+}
+
+/* End of Section */
+
+.error-message {
+  color: red;
+}
+
+.parent > div {
+  width: 30%;
+}
+
+
+/* Payment gateway */
+/* styles.css */
+.payment-element-container {
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.CardElement {
+  width: 100%;
+  padding: 10px;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* payment.css */
+.stripe-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.stripe-button-container .payment-description {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Style for the Stripe Checkout button */
+.stripe-checkout-button {
+  display: inline-block;
+  background-color: #6515dd;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.stripe-checkout-button:hover {
+  background-color: #5229a5;
+}
+
+/* End of Section */
+
+/*Menu Button*/
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn--burger {
+  width: 1.5rem;
+  height: 0.2rem;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn--burger::before,
+.menu-btn--burger::after {
+  content: '';
+  position: absolute;
+  width: 1.5rem;
+  height: 0.2rem;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn--burger::before {
+  transform: translateY(-0.4rem);
+}
+
+.menu-btn--burger::after {
+  transform: translateY(0.4rem);
+}
+
+/* ANIMATION */
+.menu-btn.open .menu-btn--burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.menu-btn.open .menu-btn--burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn--burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/* End of Section */
+
+/* Charts */
+.apexcharts-xaxistooltip {
+  background: rgba(255, 255, 255, .96) !important;
+  border: 1px solid #e3e3e3 !important;;
+  border-radius: 5px !important;;
+  box-shadow: 2px 2px 6px -4px #999 !important;;
+}
+
+.apexcharts-xaxistooltip:after,
+.apexcharts-xaxistooltip:before {
+  content: none !important;
+}
+
+.apexcharts-legend {
+  gap: 2rem;
+}
+
+.apexcharts-legend-marker {
+  margin-right: 0.5rem !important;
+}
+
+.apexcharts-yaxis {
+  width: 10rem !important;
+}
+
+/* End of Section */
+
+/* Popup */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure the popup is on top of other elements */
+}
+
+.popup-content {
+  position: relative;
+}
+
+.popup-content img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  bottom: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: red;
+}
+
+/* Styling for the close button inside the image */
+.popup-content img:hover + .close-btn {
+  display: block; /* Show the close button when hovering over the image */
+}
+
+/* End of Section */
+
+
+.download-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.document-container {
+  position: relative;
+  border-radius: 5px;
+}
+
+.custom-toast {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: white;
+  color: #4caf50;
+  border-radius: 8px;
+}
+
+.toast-icon {
+  margin-right: 10px;
+}
+
+.image-cell {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* For a circular image appearance */
+  margin: auto;
+}
+
+.leaderboard-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+/* CSS for the modal (popup) */
+.popup-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure the popup is on top of other content */
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* You may need to customize these styles further based on your design requirements */
+
+
+
+/* Style for the cards section */
+.cards-section {
+  flex: 1; /* Allow it to grow and fill available space */
+}
+
+/* Style for the filter section */
+.filter-section {
+  width: 18rem; /* Set a fixed width for the filter section */
+  position: sticky;
+  top: 0;
+  max-height: 150vh;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}

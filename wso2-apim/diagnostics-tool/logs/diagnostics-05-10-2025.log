@@ -1,0 +1,87 @@
+2025-05-10 00:06:23 LogWatcher [INFO] Log file has been rotated. Reopening the file /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-10 09:31:33 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 4, threshold: 3.7518150238824406
+2025-05-10 09:44:49 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:44:49 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:45:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:45:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:45:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:45:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:45:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:45:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:45:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:45:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:45:48 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:45:48 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:46:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:46:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:46:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:46:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:46:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:46:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:46:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:46:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:46:48 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:46:48 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:47:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:47:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:47:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:47:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:47:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:47:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:47:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:47:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:47:48 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:47:48 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:48:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:48:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:48:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:48:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:48:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:48:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:48:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:48:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:48:48 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:48:48 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:49:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:49:03 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:49:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:49:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:49:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:49:18 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 09:49:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-10 09:49:33 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-10 10:05:43 ServerProcess [INFO] Server Process ID: 1603
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-10 10:05:43 ServerInfo [INFO] Update level: 1
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Update Level: 1
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-10 10:05:43 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-10 10:05:43 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-10 10:05:43 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-10 10:05:43 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-10 10:05:43 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-10 10:05:43 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-10 10:05:43 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-10 10:06:18 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-10 10:06:18 ServerInfo [INFO] Update level: 1
+2025-05-10 10:06:18 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-10 10:06:23 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-10_10:06:18.754
+2025-05-10 10:06:23 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/1603_2025-05-10_10:06:18.754.zip
+2025-05-10 12:47:35 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.0
+2025-05-10 12:48:35 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 2, new value: 4, threshold: 2.814314222881995
+2025-05-10 12:49:50 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 3, threshold: 1.842711355080908
+2025-05-10 13:19:20 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse.transport.passthru(.*)
+2025-05-10 13:19:20 ServerInfo [INFO] Update level: 1
+2025-05-10 13:19:20 MetricsSnapshot [INFO] MetricsSnapshot executed successfully.
+2025-05-10 13:19:20 OpenFileFinder [INFO] OpenFileFinder executed successfully.
+2025-05-10 13:19:20 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-10 13:19:28 Netstat [INFO] Netstat executed successfully
+2025-05-10 13:19:31 ThreadDumper [INFO] Thread dump execution is completed for 1603, thread dump count: 5, delay: 2000ms
+2025-05-10 13:19:36 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/temp/2025-05-10_13:19:20.558
+2025-05-10 13:19:36 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project/wso2-apim/diagnostics-tool/data/1603_2025-05-10_13:19:20.558.zip

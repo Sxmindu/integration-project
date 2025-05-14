@@ -1,0 +1,22 @@
+{
+	"username": "samindu@wso2.com",
+	"update-level": "7",
+	"channel": "full",
+	"environment": "live",
+	"backup-dir": "/Users/samindu/.wso2-updates",
+	"product": {
+		"pattern": "wso2mi-4.4.0",
+		"name": "wso2mi",
+		"version": "4.4.0",
+		"backup": "/Users/samindu/.wso2-updates/backup/wso2mi-4.4.0-8e351718-ccb2-4bf8-a16b-a4d5ef7d03f6",
+		"backup-size": 303178961
+	},
+	"service": {
+		"url": "https://api.updates.wso2.com",
+		"token-url": "https://api.updates.wso2.com/token",
+		"app-key": "Njg4bTVXTzFDSGlLWGFTT216MDJKOUxMRDYwYTpSOGJnZERXb2pLY0dTdVUyQWhDdzN3OWY3OGNh",
+		"access-token": "eyJ4NXQiOiJ4ek1kUHdzZ2RXZHIwSjBPaW1sQjltNnZfcEUiLCJraWQiOiJaamMxWlRWbVlUaGhNakpsTVRZMU5EZ3dObU13WW1GbE1HWTBObVF5TURjME5tWmpOV1ZtWkRCbE5qZzRNemN5TTJObVpUSmtORGs1TjJJNE5UZzVPUV9SUzI1NiIsInR5cCI6ImF0K2p3dCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJzYW1pbmR1QHdzbzIuY29tIiwiYXV0IjoiQVBQTElDQVRJT05fVVNFUiIsImF1ZCI6WyI2ODhtNVdPMUNIaUtYYVNPbXowMko5TExENjBhIiwiY2hvcmVvOmRlcGxveW1lbnQ6cHJvZHVjdGlvbiJdLCJuYmYiOjE3NDYxMjYxOTAsImF6cCI6IjY4OG01V08xQ0hpS1hhU09tejAySjlMTEQ2MGEiLCJvcmdfaWQiOiIxMTczNzQyMi03MDc4LTg1MTAtMTA3NC04MjA4OTI2MzExOTQiLCJpc3MiOiJodHRwczpcL1wvYXBpLmFzZ2FyZGVvLmlvXC90XC93c28yXC9vYXV0aDJcL3Rva2VuIiwiZXhwIjoxNzQ2MTI5NzkwLCJvcmdfbmFtZSI6IndzbzIiLCJpYXQiOjE3NDYxMjYxOTAsImp0aSI6IjkyY2NmMjNhLWRhY2ItNDYzYy1hMTJiLWRlNTU4ZmFlZjAwZiIsImNsaWVudF9pZCI6IjY4OG01V08xQ0hpS1hhU09tejAySjlMTEQ2MGEifQ.PL2NIOCtvRSCPq02Nfes8wDuCKhjdTgFKnbp9TCEAwKc7fZi--7iQViPtyBxDKTAaqw4eCScTka4TjcsMtq6RsIN1enupyrXNOvae3LJhDYe3GFIdk3r_c_jIjG2WyK4zGjwBhNRbJr0vxR-Tz4fd_A03v5HPPdgiGngRASWpvNB6aMysdUj2MhkWh8V7-68zpu2jVlxlQMwns94eiiPM12vHQCSHCDXKeElY6BvjpuThVkfEixLr4IbQaqPcg4gPCCslvss9TJ6uJ_Vjgvt0XRR2sMUgHzftHXchGwRiVehcUOVzto7ZHRMR5rh4eIjKodvI8ZqxTLeQzZdblMosA",
+		"refresh-token": "75e19004-d67d-33a8-8c00-183449deb1a3"
+	},
+	"hotfixes": null
+}

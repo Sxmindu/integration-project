@@ -1,0 +1,148 @@
+[2025-05-08 09:46:00,041]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - Requesting Order Details!!!
+[2025-05-08 09:46:00,045]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - Sending Email
+[2025-05-08 09:46:00,082]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - Result: {"Data":null}
+[2025-05-08 09:46:00,085]  WARN {org.apache.synapse.util.xpath.SynapseExpression} - Error evaluating expression: payload.Data cause : No results for path: $['Data']
+[2025-05-08 09:46:04,356] ERROR {org.apache.synapse.mediators.base.SequenceMediator} - Not a JSON Object: null java.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:165)
+	at org.apache.synapse.mediators.eip.EIPUtils.convertMapToJsonObj(EIPUtils.java:438)
+	at org.apache.synapse.mediators.elementary.Target.insertJson(Target.java:508)
+	at org.apache.synapse.mediators.elementary.EnrichMediator.mediate(EnrichMediator.java:258)
+	at org.apache.synapse.mediators.template.InvokeMediator.doEnrich(InvokeMediator.java:605)
+	at org.apache.synapse.mediators.template.InvokeMediator.processConnectorResponse(InvokeMediator.java:572)
+	at org.apache.synapse.mediators.template.InvokeMediator.postMediate(InvokeMediator.java:450)
+	at org.apache.synapse.mediators.template.InvokeMediator.mediate(InvokeMediator.java:206)
+	at org.apache.synapse.mediators.template.InvokeMediator.mediate(InvokeMediator.java:117)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorWorker.run(MediatorWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[2025-05-08 09:46:04,358]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - To: , MessageID: urn:uuid:4af9c30b-4620-4c3e-b515-bcdfc4cf33ae, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 0, ERROR_MESSAGE = Not a JSON Object: null, Payload: {"success":true}
+[2025-05-08 13:04:53,223] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "GET /bookstore/orders/pending HTTP/1.1[\r][\n]"
+[2025-05-08 13:04:53,224] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "activityid: 8d087306-8203-442b-9f58-0a0cec27f3fc[\r][\n]"
+[2025-05-08 13:04:53,224] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Accept: */*[\r][\n]"
+[2025-05-08 13:04:53,224] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Postman-Token: 28c972ee-138e-4fdf-a92a-0fae3eb23c06[\r][\n]"
+[2025-05-08 13:04:53,224] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Accept-Encoding: gzip, deflate, br[\r][\n]"
+[2025-05-08 13:04:53,224] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Host: localhost:8290[\r][\n]"
+[2025-05-08 13:04:53,224] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Connection: Keep-Alive[\r][\n]"
+[2025-05-08 13:04:53,224] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "User-Agent: Synapse-PT-HttpComponents-NIO[\r][\n]"
+[2025-05-08 13:04:53,225] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "[\r][\n]"
+[2025-05-08 13:04:53,229]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BookStoreAPI GET /bookstore/orders/pending} Requesting Order Details!!!
+[2025-05-08 13:04:53,259]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BookStoreAPI GET /bookstore/orders/pending} Result: {"Complete_Order_Details":{"order_id":16,"user_email":"saminduwso2@gmail.com","order_date":"2025-05-07T16:00:08.000+05:30","book_id":9,"title":"The Great Gatsby 3","price":20.00,"quantity":20,"payment_id":10,"payment_amount":400.00,"payment_status":"pending"}}
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "HTTP/1.1 200 OK[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "activityid: 8d087306-8203-442b-9f58-0a0cec27f3fc[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Accept: */*[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Access-Control-Allow-Origin: [\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Access-Control-Allow-Methods: GET[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Host: localhost:8290[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Postman-Token: 28c972ee-138e-4fdf-a92a-0fae3eb23c06[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Accept-Encoding: gzip, deflate, br[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Access-Control-Allow-Headers: [\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Date: Thu, 08 May 2025 07:34:53 GMT[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Transfer-Encoding: chunked[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Connection: Keep-Alive[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "[\r][\n]"
+[2025-05-08 13:04:53,261] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "104[\r][\n]"
+[2025-05-08 13:04:53,262] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "{"Complete_Order_Details":{"order_id":16,"user_email":"saminduwso2@gmail.com","order_date":"2025-05-07T16:00:08.000+05:30","book_id":9,"title":"The Great Gatsby 3","price":20.00,"quantity":20,"payment_id":10,"payment_amount":400.00,"payment_status":"pending"}}[\r][\n]"
+[2025-05-08 13:04:53,262] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "0[\r][\n]"
+[2025-05-08 13:04:53,262] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "[\r][\n]"
+[2025-05-08 17:06:31,290]  INFO {org.wso2.micro.integrator.core.internal.CoreServerInitializer} - Gracefully shutting down WSO2 Micro Integrator...
+[2025-05-08 17:06:31,297]  INFO {org.wso2.micro.core.ServerManagement} - Starting to switch to maintenance mode...
+[2025-05-08 17:06:31,298]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8290
+[2025-05-08 17:06:31,298]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8253
+[2025-05-08 17:06:31,299]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8253
+[2025-05-08 17:06:31,299]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8290
+[2025-05-08 17:06:31,300]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+[2025-05-08 17:06:31,300]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+[2025-05-08 17:06:31,301]  INFO {org.wso2.micro.core.ServerManagement} - Stopped all transport listeners
+[2025-05-08 17:06:31,308]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for request service completion...
+[2025-05-08 17:06:31,310]  INFO {org.wso2.micro.core.ServerManagement} - All requests have been served.
+[2025-05-08 17:06:31,310]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for deployment completion...
+[2025-05-08 17:06:31,311]  INFO {org.wso2.micro.core.ServerManagement} - All deployment tasks have been completed.
+[2025-05-08 17:06:31,311]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for server task completion...
+[2025-05-08 17:06:31,312]  INFO {org.wso2.micro.core.ServerManagement} - All server tasks have been completed.
+[2025-05-08 17:06:31,338]  INFO {org.apache.synapse.deployers.interceptor.DeploymentInterceptor} - Removing Axis2 Service: __SynapseService
+[2025-05-08 17:06:31,339]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to false
+[2025-05-08 17:06:31,342]  INFO {org.apache.synapse.api.API} - {api:BookStoreAPI} Destroying API: BookStoreAPI
+[2025-05-08 17:06:31,342]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager
+[2025-05-08 17:11:29,872]  INFO {org.apache.synapse.deployers.LibraryArtifactDeployer} - Synapse Library named '{org.wso2.carbon.connector}http' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/mi-connector-http_0.1.9/mi-connector-http-0.1.9.zip
+[2025-05-08 17:11:29,873]  INFO {org.apache.synapse.config.xml.SynapseImportFactory} - Successfully created Synapse Import: http
+[2025-05-08 17:11:29,927]  INFO {org.apache.synapse.deployers.LibraryArtifactDeployer} - Synapse Library named '{org.wso2.carbon.connector}email' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/mi-connector-email_2.0.0/mi-connector-email-2.0.0.zip
+[2025-05-08 17:11:29,927]  INFO {org.apache.synapse.config.xml.SynapseImportFactory} - Successfully created Synapse Import: email
+[2025-05-08 17:11:29,960]  INFO {org.apache.synapse.deployers.LocalEntryDeployer} - LocalEntry named 'MailConnection' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/MailConnection_1.0.0/MailConnection-1.0.0.xml
+[2025-05-08 17:11:29,961]  INFO {org.apache.synapse.deployers.LocalEntryDeployer} - LocalEntry named 'BookStore' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/BookStore_1.0.0/BookStore-1.0.0.xml
+[2025-05-08 17:11:29,970]  INFO {org.apache.synapse.deployers.LocalEntryDeployer} - Endpoint named 'BookStore_INTERNAL_ENDPOINT_REFERENCE' has been deployed from the http connection file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/BookStore_1.0.0/BookStore-1.0.0.xml
+[2025-05-08 17:11:29,970]  INFO {org.apache.synapse.deployers.LocalEntryDeployer} - LocalEntry named 'MailtoTrap' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/MailtoTrap_1.0.0/MailtoTrap-1.0.0.xml
+[2025-05-08 17:11:29,971]  INFO {org.apache.synapse.deployers.EndpointDeployer} - Endpoint named 'GetBook' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/GetBook_1.0.0/GetBook-1.0.0.xml
+[2025-05-08 17:11:30,002]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'UpdateBookSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/UpdateBookSeq_1.0.0/UpdateBookSeq-1.0.0.xml
+[2025-05-08 17:11:30,005]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'GetOrderSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/GetOrderSeq_1.0.0/GetOrderSeq-1.0.0.xml
+[2025-05-08 17:11:30,006]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'DeleteBookSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/DeleteBookSeq_1.0.0/DeleteBookSeq-1.0.0.xml
+[2025-05-08 17:11:30,009]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'GetOrdersSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/GetOrdersSeq_1.0.0/GetOrdersSeq-1.0.0.xml
+[2025-05-08 17:11:30,011]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'GetBookSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/GetBookSeq_1.0.0/GetBookSeq-1.0.0.xml
+[2025-05-08 17:11:30,018]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to true
+[2025-05-08 17:11:30,018]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'DailySummarySeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/DailySummarySeq_1.0.0/DailySummarySeq-1.0.0.xml
+[2025-05-08 17:11:30,023]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'AddOrderSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/AddOrderSeq_1.0.0/AddOrderSeq-1.0.0.xml
+[2025-05-08 17:11:30,026]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'UpdateOrderSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/UpdateOrderSeq_1.0.0/UpdateOrderSeq-1.0.0.xml
+[2025-05-08 17:11:30,028]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'GetBooksSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/GetBooksSeq_1.0.0/GetBooksSeq-1.0.0.xml
+[2025-05-08 17:11:30,033]  INFO {org.apache.synapse.deployers.SequenceDeployer} - Sequence named 'AddBookSeq' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/AddBookSeq_1.0.0/AddBookSeq-1.0.0.xml
+[2025-05-08 17:11:30,039]  INFO {org.apache.synapse.deployers.TaskDeployer} - StartupTask named 'DailySummary' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/DailySummary_1.0.0/DailySummary-1.0.0.xml
+[2025-05-08 17:11:30,042]  INFO {org.apache.synapse.api.API} - {api:BookStoreAPI} Initializing API: BookStoreAPI
+[2025-05-08 17:11:30,043]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BookStoreAPI' has been deployed from file : /Users/samindu/Workspace/intergration-project/wso2-mi/tmp/carbonapps/-1234/1746704489647BookStore_1.0.0.car/BookStoreAPI_1.0.0/BookStoreAPI-1.0.0.xml
+[2025-05-08 17:11:30,043]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully Deployed Carbon Application : BookStore_1.0.0{super-tenant}
+[2025-05-08 17:11:30,107]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2025-05-08 17:11:30,108]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2025-05-08 17:11:30,157]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2025-05-08 17:11:30,178]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2025-05-08 17:11:30,178]  INFO {org.wso2.micro.integrator.initializer.StartupFinalizer} - WSO2 Micro Integrator started in 2.40 seconds
+[2025-05-08 17:11:30,195]  INFO {org.wso2.micro.integrator.ntask.core.impl.AbstractQuartzTaskManager} - Task scheduled: [ESB_TASK][DailySummary].
+[2025-05-08 17:11:53,957] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "GET /bookstore/books HTTP/1.1[\r][\n]"
+[2025-05-08 17:11:53,957] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "User-Agent: PostmanRuntime/7.43.4[\r][\n]"
+[2025-05-08 17:11:53,957] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Accept: */*[\r][\n]"
+[2025-05-08 17:11:53,957] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Postman-Token: 7e713d6c-5301-4e0e-92a4-8fa9f5efd4df[\r][\n]"
+[2025-05-08 17:11:53,957] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Host: localhost:8290[\r][\n]"
+[2025-05-08 17:11:53,957] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Accept-Encoding: gzip, deflate, br[\r][\n]"
+[2025-05-08 17:11:53,957] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "Connection: keep-alive[\r][\n]"
+[2025-05-08 17:11:53,957] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 >> "[\r][\n]"
+[2025-05-08 17:11:53,979]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BookStoreAPI GET /bookstore/books} Requesting Books!!!
+[2025-05-08 17:11:54,028]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BookStoreAPI GET /bookstore/books} Result: {"Books":[{"book_id":1,"title":"The Great Gatsby","price":10.99,"stock_quantity":50},{"book_id":2,"title":1984,"price":8.99,"stock_quantity":40},{"book_id":3,"title":"To Kill a Mockingbird","price":12.50,"stock_quantity":30},{"book_id":4,"title":"Pride and Prejudice","price":9.75,"stock_quantity":20},{"book_id":5,"title":"The Catcher in the Rye","price":11.00,"stock_quantity":35},{"book_id":6,"title":"The Great Gatsby 2","price":15.99,"stock_quantity":100},{"book_id":9,"title":"The Great Gatsby 3","price":20.00,"stock_quantity":20}]}
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "HTTP/1.1 200 OK[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "activityid: 2947cb0c-9b97-44e4-a207-9963996a84c6[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Accept: */*[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Access-Control-Allow-Origin: [\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Access-Control-Allow-Methods: GET[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Host: localhost:8290[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Postman-Token: 7e713d6c-5301-4e0e-92a4-8fa9f5efd4df[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Accept-Encoding: gzip, deflate, br[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Access-Control-Allow-Headers: [\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Date: Thu, 08 May 2025 11:41:54 GMT[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Transfer-Encoding: chunked[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "Connection: keep-alive[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "21b[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "{"Books":[{"book_id":1,"title":"The Great Gatsby","price":10.99,"stock_quantity":50},{"book_id":2,"title":1984,"price":8.99,"stock_quantity":40},{"book_id":3,"title":"To Kill a Mockingbird","price":12.50,"stock_quantity":30},{"book_id":4,"title":"Pride and Prejudice","price":9.75,"stock_quantity":20},{"book_id":5,"title":"The Catcher in the Rye","price":11.00,"stock_quantity":35},{"book_id":6,"title":"The Great Gatsby 2","price":15.99,"stock_quantity":100},{"book_id":9,"title":"The Great Gatsby 3","price":20.00,"stock_quantity":20}]}[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "0[\r][\n]"
+[2025-05-08 17:11:54,035] DEBUG {org.apache.synapse.transport.http.wire} - HTTP-Listener I/O dispatcher-1 << "[\r][\n]"
+[2025-05-08 17:12:05,418]  INFO {org.wso2.micro.integrator.core.internal.CoreServerInitializer} - Gracefully shutting down WSO2 Micro Integrator...
+[2025-05-08 17:12:05,420]  INFO {org.wso2.micro.core.ServerManagement} - Starting to switch to maintenance mode...
+[2025-05-08 17:12:05,421]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8290
+[2025-05-08 17:12:05,421]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8253
+[2025-05-08 17:12:05,421]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8290
+[2025-05-08 17:12:05,421]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8253
+[2025-05-08 17:12:05,423]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+[2025-05-08 17:12:05,423]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+[2025-05-08 17:12:05,423]  INFO {org.wso2.micro.core.ServerManagement} - Stopped all transport listeners
+[2025-05-08 17:12:05,425]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for request service completion...
+[2025-05-08 17:12:05,426]  INFO {org.wso2.micro.core.ServerManagement} - All requests have been served.
+[2025-05-08 17:12:05,426]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for deployment completion...
+[2025-05-08 17:12:05,427]  INFO {org.wso2.micro.core.ServerManagement} - All deployment tasks have been completed.
+[2025-05-08 17:12:05,427]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for server task completion...
+[2025-05-08 17:12:05,427]  INFO {org.wso2.micro.core.ServerManagement} - All server tasks have been completed.
+[2025-05-08 17:12:05,434]  INFO {org.apache.synapse.deployers.interceptor.DeploymentInterceptor} - Removing Axis2 Service: __SynapseService
+[2025-05-08 17:12:05,434]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to false
+[2025-05-08 17:12:05,435]  INFO {org.apache.synapse.api.API} - {api:BookStoreAPI} Destroying API: BookStoreAPI
+[2025-05-08 17:12:05,436]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager
