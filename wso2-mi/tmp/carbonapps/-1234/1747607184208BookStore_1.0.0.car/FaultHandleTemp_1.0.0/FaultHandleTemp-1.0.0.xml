@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template name="FaultHandleTemp" xmlns="http://ws.apache.org/ns/synapse">
+    <parameter isMandatory="true" name="status_code"/>
+    <parameter isMandatory="true" name="internal_error_code"/>
+    <parameter isMandatory="true" name="message"/>
+    <sequence>
+        <property expression="$func:status_code" name="status_code"/>
+        <property expression="$func:internal_error_code" name="internal_error_code"/>
+        <property expression="$func:message" name="message"/>
+        <payloadFactory media-type="json">
+            <format>
+                {
+                    "code": $1,
+                    "id": "$2",
+                    "message": "$3"
+                }
+            </format>
+            <args>
+                <arg expression="get-property('status_code')"/>
+                <arg expression="get-property('internal_error_code')"/>
+                <arg expression="get-property('message')"/>
+            </args>
+        </payloadFactory>
+        <property name="HTTP_SC" expression="get-property('status_code')" scope="axis2"/>
+        <log category="DEBUG">
+            <message>${payload}</message>
+        </log>
+    </sequence>
+</template>

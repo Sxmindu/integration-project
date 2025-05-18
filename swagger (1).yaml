@@ -1,0 +1,643 @@
+openapi: 3.0.1
+info:
+  title: BookStore
+  version: 1.0.0
+servers:
+  - url: /
+security:
+  - default: []
+paths:
+  /books:
+    get:
+      parameters:
+        - name: page
+          in: query
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: integer
+        - name: fetch
+          in: query
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: integer
+        - name: role
+          in: query
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                anyOf:
+                  - type: object
+                    properties:
+                      books:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/CustomerBook'
+                  - type: object
+                    properties:
+                      books:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/StaffBook'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default: []
+      x-auth-type: None
+      x-throttling-tier: 10PerMin
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+    post:
+      parameters: []
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              required:
+                - price
+                - stock_quantity
+                - title
+              type: object
+              properties:
+                title:
+                  type: string
+                price:
+                  type: number
+                  format: double
+                stock_quantity:
+                  type: integer
+                  format: int32
+              additionalProperties: false
+        required: true
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BookResponse2'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default:
+            - staff
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+  '/books/{book_id}':
+    get:
+      parameters:
+        - name: book_id
+          in: path
+          required: true
+          style: simple
+          explode: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerBook'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default: []
+      x-auth-type: None
+      x-throttling-tier: 10PerMin
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+    put:
+      parameters:
+        - name: book_id
+          in: path
+          required: true
+          style: simple
+          explode: false
+          schema:
+            type: string
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              anyOf:
+                - required:
+                    - price
+                  type: object
+                  properties:
+                    price:
+                      type: number
+                      format: double
+                  additionalProperties: false
+                - required:
+                    - stock_quantity
+                  type: object
+                  properties:
+                    stock_quantity:
+                      type: integer
+                      format: int32
+                  additionalProperties: false
+                - required:
+                    - price
+                    - stock_quantity
+                  type: object
+                  properties:
+                    price:
+                      type: number
+                      format: double
+                    stock_quantity:
+                      type: integer
+                      format: int32
+                  additionalProperties: false
+        required: true
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BookResponse1'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default:
+            - staff
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+    delete:
+      parameters:
+        - name: book_id
+          in: path
+          required: true
+          style: simple
+          explode: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                required:
+                  - message
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default:
+            - staff
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+  /orders:
+    get:
+      parameters:
+        - name: page
+          in: query
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: integer
+        - name: fetch
+          in: query
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: integer
+        - name: status
+          in: query
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  orders:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/OrderDetails'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default:
+            - staff
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+    post:
+      parameters: []
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              required:
+                - book_id
+                - quantity
+                - user_email
+              type: object
+              properties:
+                book_id:
+                  type: string
+                user_email:
+                  type: string
+                quantity:
+                  type: integer
+                  format: int32
+              additionalProperties: false
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderDetailResponse1'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '409':
+          description: Conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default:
+            - customer
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+  '/orders/{order_id}':
+    get:
+      parameters:
+        - name: order_id
+          in: path
+          required: true
+          style: simple
+          explode: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderDetails'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default:
+            - staff
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+    put:
+      parameters:
+        - name: order_id
+          in: path
+          required: true
+          style: simple
+          explode: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderDetailResponse1'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '409':
+          description: Conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - default:
+            - staff
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+          - oauth2
+        optional: false
+components:
+  schemas:
+    ErrorResponse:
+      required:
+        - code
+        - id
+        - message
+      type: object
+      properties:
+        code:
+          type: integer
+        id:
+          type: string
+        message:
+          type: string
+    CustomerBook:
+      required:
+        - availability
+        - book_id
+        - price
+        - title
+      type: object
+      properties:
+        book_id:
+          type: string
+        title:
+          type: string
+        price:
+          type: number
+          format: double
+        availability:
+          type: string
+    StaffBook:
+      required:
+        - book_id
+        - price
+        - stock_quantity
+        - title
+      type: object
+      properties:
+        book_id:
+          type: string
+        title:
+          type: string
+        price:
+          type: number
+          format: double
+        stock_quantity:
+          type: integer
+          format: int32
+    BookResponse1:
+      required:
+        - data
+        - message
+      type: object
+      properties:
+        message:
+          type: string
+        data:
+          $ref: '#/components/schemas/CustomerBook'
+      additionalProperties: false
+    BookResponse2:
+      required:
+        - data
+        - message
+      type: object
+      properties:
+        message:
+          type: string
+        data:
+          $ref: '#/components/schemas/CustomerBook'
+      additionalProperties: false
+    OrderDetails:
+      required:
+        - book_id
+        - order_date
+        - order_id
+        - payment_amount
+        - payment_id
+        - payment_status
+        - price
+        - quantity
+        - title
+        - user_email
+      type: object
+      properties:
+        book_id:
+          type: string
+        order_id:
+          type: string
+        payment_id:
+          type: string
+        user_email:
+          type: string
+        title:
+          type: string
+        payment_status:
+          type: string
+        order_date:
+          type: string
+        payment_amount:
+          type: number
+          format: double
+        price:
+          type: number
+          format: double
+        quantity:
+          type: integer
+          format: int32
+    OrderDetailResponse1:
+      required:
+        - data
+        - message
+      type: object
+      properties:
+        message:
+          type: string
+        data:
+          $ref: '#/components/schemas/OrderDetails'
+  securitySchemes:
+    default:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: 'https://test.com'
+          scopes:
+            customer: ''
+            staff: ''
+          x-scopes-bindings:
+            staff: 'staff,admin'
+            customer: customer
+x-wso2-api-key-header: ApiKey
+x-wso2-auth-header: Authorization
+x-wso2-cors:
+  corsConfigurationEnabled: true
+  accessControlAllowOrigins:
+    - '*'
+  accessControlAllowCredentials: true
+  accessControlAllowHeaders:
+    - authorization
+    - Access-Control-Allow-Origin
+    - Content-Type
+    - SOAPAction
+    - apikey
+    - Internal-Key
+  accessControlAllowMethods:
+    - GET
+    - PUT
+    - POST
+    - DELETE
+    - PATCH
+    - OPTIONS
+x-wso2-production-endpoints:
+  urls:
+    - 'https://mi.books.com/bookstore'
+  type: http
+x-wso2-sandbox-endpoints:
+  urls:
+    - 'https://mi.books.com/bookstore'
+  type: http
+x-wso2-basePath: /bookstore/1.0.0
+x-wso2-transports:
+  - https
+x-wso2-application-security:
+  security-types:
+    - oauth2
+  optional: false
+x-wso2-response-cache:
+  enabled: false
+  cacheTimeoutInSeconds: 300

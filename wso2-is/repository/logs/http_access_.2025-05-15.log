@@ -1,0 +1,15 @@
+127.0.0.1 - - [15/May/2025:11:13:49 +0530] POST /oauth2/introspect HTTP/1.1 200 16 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.212
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] GET /api/server/v1/api-resources?%7Bparameters%7D&filter=identifier+eq+User-defined-oauth2-resource HTTP/1.1 200 308 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.214
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] DELETE /api/server/v1/api-resources/2302fcda-ff4c-407e-af99-f1c0da104b01/scopes/staff HTTP/1.1 204 - "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.015
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] DELETE /api/server/v1/api-resources/2302fcda-ff4c-407e-af99-f1c0da104b01/scopes/customer HTTP/1.1 204 - "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.005
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] GET /api/server/v1/api-resources/2302fcda-ff4c-407e-af99-f1c0da104b01/scopes HTTP/1.1 200 12 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.005
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] PATCH /api/server/v1/api-resources/2302fcda-ff4c-407e-af99-f1c0da104b01 HTTP/1.1 204 - "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.052
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] POST /scim2/v2/Roles/.search HTTP/1.1 200 641 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.056
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] GET /scim2/v2/Roles/911c7428-f4e9-4329-bc5c-7ebe0e34167f HTTP/1.1 200 573 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.007
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] PATCH /scim2/v2/Roles/911c7428-f4e9-4329-bc5c-7ebe0e34167f HTTP/1.1 200 566 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.023
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] POST /scim2/v2/Roles/.search HTTP/1.1 200 635 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.007
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] GET /scim2/v2/Roles/182b271a-9748-4d01-9d29-b6da5f79d84a HTTP/1.1 200 567 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.005
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] PATCH /scim2/v2/Roles/182b271a-9748-4d01-9d29-b6da5f79d84a HTTP/1.1 200 554 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.006
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] POST /scim2/v2/Roles/.search HTTP/1.1 200 635 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.005
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] GET /scim2/v2/Roles/2b22fda8-a6fd-4ef0-a094-10f6546121ce HTTP/1.1 200 567 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.004
+127.0.0.1 - - [15/May/2025:13:42:46 +0530] PATCH /scim2/v2/Roles/2b22fda8-a6fd-4ef0-a094-10f6546121ce HTTP/1.1 200 554 "-" "Apache-HttpClient/4.5.13 (Java/21.0.7)" 0.028

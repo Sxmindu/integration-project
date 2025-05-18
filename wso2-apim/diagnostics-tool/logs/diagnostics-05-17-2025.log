@@ -1,0 +1,10 @@
+2025-05-17 00:13:28 LogWatcher [INFO] Log file has been rotated. Reopening the file /Users/samindu/Workspace/intergration-project-ss/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-17 09:49:22 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 1, new value: 4, threshold: 2.0
+2025-05-17 10:13:52 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 1, new value: 3, threshold: 2.9350722631907162
+2025-05-17 10:22:52 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 1, new value: 4, threshold: 3.9655172413793096
+2025-05-17 10:28:52 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 1, new value: 3, threshold: 2.7248958682233395
+2025-05-17 10:49:22 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 1, new value: 4, threshold: 2.6937125001479787
+2025-05-17 10:51:52 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 1, new value: 4, threshold: 2.8120353029117506
+2025-05-17 10:56:22 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 2, new value: 8, threshold: 2.919236669258972
+2025-05-17 10:59:22 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 3, new value: 5, threshold: 4.537400511095356
+2025-05-17 11:41:43 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 2, new value: 5, threshold: 4.389836358767556

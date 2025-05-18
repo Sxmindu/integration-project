@@ -1,0 +1,84 @@
+2025-05-18 00:19:43 LogWatcher [INFO] Log file has been rotated. Reopening the file /Users/samindu/Workspace/intergration-project-ss/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-18 10:55:25 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 8, threshold: 4.45646729749337
+2025-05-18 10:59:55 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 2, new value: 21, threshold: 7.174748316074326
+2025-05-18 11:03:10 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 14, threshold: 13.66130641658942
+2025-05-18 11:05:40 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 2, new value: 12, threshold: 9.306932943229636
+2025-05-18 11:08:40 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-18 11:08:40 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-18 11:08:45 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(RMIConnectionImpl_Stub.java:279) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:903) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) ~[runtime-diagnostics-tool-1.0.17.jar:1.0.17]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getCpuUsage(JMXDataRetriever.java:51) ~[runtime-diagnostics-tool-1.0.17.jar:1.0.17]
+	at org.wso2.diagnostics.watchers.CPUWatcher.run(CPUWatcher.java:58) ~[runtime-diagnostics-tool-1.0.17.jar:1.0.17]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619) ~[?:?]
+	... 14 more
+2025-05-18 11:09:19 ServerProcess [INFO] Server Process ID: 79285
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-18 11:09:19 ServerInfo [INFO] Update level: 1
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Update Level: 1
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-18 11:09:19 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-18 11:09:19 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-18 11:09:19 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project-ss/wso2-apim/diagnostics-tool
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-18 11:09:19 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project-ss/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-18 11:09:19 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-18 11:09:19 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-18 11:09:19 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-18 11:10:49 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 4, threshold: 1.0
+2025-05-18 11:12:34 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2025-05-18 11:12:34 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2025-05-18 11:13:19 ServerProcess [INFO] Server Process ID: 80273
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2025-05-18 11:13:19 ServerInfo [INFO] Update level: 1
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Version: 4.5.0
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Update Level: 1
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Java Version: 21.0.7
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+2025-05-18 11:13:19 DiagnosticsApp [INFO] OS Name: Mac OS X
+2025-05-18 11:13:19 DiagnosticsApp [INFO] OS Version: 15.4.1
+2025-05-18 11:13:19 DiagnosticsApp [INFO] OS Architecture: aarch64
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Diagnostic App Home: /Users/samindu/Workspace/intergration-project-ss/wso2-apim/diagnostics-tool
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2025-05-18 11:13:19 LogWatcher [INFO] Initiating LogWatcher for file: /Users/samindu/Workspace/intergration-project-ss/wso2-apim/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-18 11:13:19 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2025-05-18 11:13:19 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2025-05-18 11:13:19 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2025-05-18 11:13:51 Interpreter [INFO] Executing the action executors for the log line matching the regex pattern (.*)org.apache.synapse(.*)
+2025-05-18 11:13:51 ServerInfo [INFO] Update level: 1
+2025-05-18 11:13:52 ServerInfo [INFO] ServerInfo executed successfully.
+2025-05-18 11:13:57 ZipFileExecutor [INFO] Zipping the folder at /Users/samindu/Workspace/intergration-project-ss/wso2-apim/diagnostics-tool/temp/2025-05-18_11:13:51.546
+2025-05-18 11:13:57 ZipFileExecutor [INFO] Diagnosis Dumped in :/Users/samindu/Workspace/intergration-project-ss/wso2-apim/diagnostics-tool/data/80273_2025-05-18_11:13:51.546.zip
+2025-05-18 11:16:19 TrafficAnalyzer [INFO] Attribute LastMinuteRequests of type https-listener increased more than the threshold, old value: 0, new value: 2, threshold: 1.0
+2025-05-18 11:17:49 TrafficAnalyzer [INFO] Attribute Last15SecondRequests of type https-listener increased more than the threshold, old value: 0, new value: 20, threshold: 2.0

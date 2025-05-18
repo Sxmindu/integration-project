@@ -14,3 +14,4 @@
 2025-05-14T12:59:33,787 [-] [PassThroughMessageProcessor-27]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /bookstore/books, HEALTH CHECK URL = /bookstore/books
 2025-05-14T13:00:15,910 [-] [PassThroughMessageProcessor-28]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /bookstore/book/1, HEALTH CHECK URL = /bookstore/book/1
 2025-05-14T13:00:37,189 [-] [PassThroughMessageProcessor-29]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /bookstore/book/1, HEALTH CHECK URL = /bookstore/book/1
+2025-05-16T18:32:25,354 [-] [PassThroughMessageProcessor-12]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /login, HEALTH CHECK URL = /login

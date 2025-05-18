@@ -1,0 +1,299 @@
+TID: [] [2025-05-15 11:13:27,958]  INFO {AUDIT_LOG} - {"performedBy":"SYSTEM: carbon.super","action":"deployed","type":"API"}
+TID: [] [2025-05-15 11:13:27,964]  INFO {AUDIT_LOG} - {"performedBy":"SYSTEM: carbon.super","action":"deployed","type":"API"}
+TID: [] [2025-05-15 11:13:28,154]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,154]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,154]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,154]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,154]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,154]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,154]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,155]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,155]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,155]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,155]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,156]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,156]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,156]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,156]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,156]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,156]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,156]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,156]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,157]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,157]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,157]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,157]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,157]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,157]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,157]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,158]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,158]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,158]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,158]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,158]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,158]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,158]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,173]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,173]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,173]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,173]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,173]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,173]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,175]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,175]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,175]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,176]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,177]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,177]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,177]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,178]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,178]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,179]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,180]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,180]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,180]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,180]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,181]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,182]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,183]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,183]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,184]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,184]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,184]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,185]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,185]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,186]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,198]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-Roles-of-User Target=a***n Data={"Filter":"*","Roles":["Internal/subscriber","Internal/creator","Internal/publisher","Internal/everyone","Internal/devops","admin","Internal/analytics","Internal/observer","Internal/integration_dev","customer"]} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,235]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,236]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,236]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,236]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,236]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,237]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,237]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,237]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,238]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,238]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,238]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,238]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,239]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,239]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,239]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,239]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,239]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,243]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,242]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,242]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,242]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,243]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,243]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,243]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,243]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,243]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,243]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,244]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,244]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,244]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,545]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,545]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,545]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,545]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,546]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,546]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,601]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,601]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,601]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,638]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,638]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,638]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,785]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,786]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,786]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,787]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,788]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,789]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,789]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,789]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,789]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,789]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,789]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,789]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,789]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,790]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,790]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,791]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,791]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,791]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,792]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,793]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,793]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,801]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,801]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,802]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:28,895]  INFO {AUDIT_LOG} - {"performedBy":"SYSTEM: carbon.super","action":"deployed","type":"API","info":"9831e519-1314-4b7b-b139-65c1842a4127"}
+TID: [-1234] [2025-05-15 11:13:28,956]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,956]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,956]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,956]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,956]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,956]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,960]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,960]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 11:13:28,960]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:39,385]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:39,385]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 11:13:39,386]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,510]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-List Target=null Data={"ServiceProviderName":"apim_publisher","Claim Value":"a***n","Users":["a***n"],"Claim":"http://wso2.org/claims/username"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,514]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,514]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,514]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,517]  INFO {AUDIT_LOG} - Initiator : a***n | Action : LoginStepSuccess | Target : ApplicationAuthenticationFramework | Data : { "ContextIdentifier" : "eac5af50-52e0-4c41-bd33-6eb8fc8ec3ea","AuthenticatedUser" : "a***n","AuthenticatedUserTenantDomain" : "carbon.super","ServiceProviderName" : "apim_publisher","RequestType" : "oidc","RelyingParty" : "khdvFkyjN2yjjh0Umxi0Gqgc8aca","AuthenticatedIdP" : "LOCAL","User Agent" : "null","RemoteAddress" : "null","UserStoreDomain" : "PRIMARY" } | Result : Success 
+TID: [-1234] [2025-05-15 12:23:48,519]  INFO {AUDIT_LOG} - Initiator : a****************r | Action : Authenticate | Target : ApplicationAuthenticationFramework | Data : { Step: 1, IDP: LOCAL, Authenticator:BasicAuthenticator } | Result : Success 
+TID: [-1234] [2025-05-15 12:23:48,522]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-Roles-of-User Target=a***n Data={"ServiceProviderName":"apim_publisher","Filter":"*","Roles":["Internal/subscriber","Internal/creator","Internal/publisher","Internal/everyone","Internal/devops","admin","Internal/analytics","Internal/observer","Internal/integration_dev","customer"]} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,522]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{"http://wso2.org/claims/username":"a***n","http://wso2.org/claims/userid":"b2fad880-11b5-4fa1-b5e4-d1ef2e68f953","http://wso2.org/claims/role":"I********************************************************************************************************************************************************************r","http://wso2.org/claims/userprincipal":"a***n"}} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,563]  INFO {AUDIT_LOG} - Initiator : b2fad880-11b5-4fa1-b5e4-d1ef2e68f953 | Action : StoreSession | Data : { {"traceId":"e1b403ce-2409-4105-b3db-921777073553","RememberMe":false,"sessionContextId":"9790d9f85f5bf598e56061e7e6c0ce38a671ca6f8aa0d241aa42c28c4f7cb516","AuthenticatedUserTenantDomain":"carbon.super","AuthenticatedUser":"a***n","LastAccessedTimestamp":1747292028527} } | Result : Success 
+TID: [-1234] [2025-05-15 12:23:48,572]  INFO {AUDIT_LOG} - Initiator : b2fad880-11b5-4fa1-b5e4-d1ef2e68f953 | Action : Login | Target : ApplicationAuthenticationFramework | Data : { "ContextIdentifier" : "eac5af50-52e0-4c41-bd33-6eb8fc8ec3ea","AuthenticatedUser" : "a***n","AuthenticatedUserTenantDomain" : "carbon.super","ServiceProviderName" : "apim_publisher","RequestType" : "oidc","RelyingParty" : "khdvFkyjN2yjjh0Umxi0Gqgc8aca","AuthenticatedIdPs" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3c28yIiwiZXhwIjoxNzQ3MjkyMDMxNTE5LCJpYXQiOjE3NDcyOTIwMjg1MTksImlkcHMiOlt7ImlkcCI6IkxPQ0FMIiwiYXV0aGVudGljYXRvciI6IkJhc2ljQXV0aGVudGljYXRvciJ9XX0.IVm0rb_benfg7acdlS3KRBgcGIZCUwtR7wNxgNrhFL0","User Agent" : "null","RemoteAddress" : "null","UserStoreDomain" : "PRIMARY" } | Result : Success 
+TID: [-1234] [2025-05-15 12:23:48,781]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-List Target=null Data={"Claim Value":"a***n","Users":["a***n"],"Claim":"http://wso2.org/claims/username"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,783]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,784]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:48,784]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:49,266]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Value Target=a***n Data={"Claim":"http://wso2.org/claims/organization"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:49,266]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Value Target=a***n Data={"Claim":"http://wso2.org/claims/organization"} Outcome=Success
+TID: [-1234] [2025-05-15 12:23:49,483]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis?limit=10&offset=0 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:49,483]  INFO {AUDIT_LOG} - GET /api/am/publisher/settings user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:51,826]  INFO {AUDIT_LOG} - GET /api/am/publisher/tenants?state=active user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:51,827]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:51,979]  INFO {AUDIT_LOG} - GET /api/am/publisher/me/organization-information user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:51,979]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/swagger user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:51,979]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions?query=deployed%3Atrue user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:51,979]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:52,024]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions?query=deployed%3Atrue user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:52,053]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions?query=deployed%3Atrue user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:52,053]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/swagger user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:52,080]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/swagger user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:52,081]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions?query=deployed%3Atrue user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 12:23:56,095]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/swagger user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:54,743]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-List Target=null Data={"ServiceProviderName":"apim_publisher","Claim Value":"a***n","Users":["a***n"],"Claim":"http://wso2.org/claims/username"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:54,747]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-List Target=null Data={"ServiceProviderName":"apim_publisher","Claim Value":"a***n","Users":["a***n"],"Claim":"http://wso2.org/claims/username"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:54,749]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:54,750]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:54,750]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:54,752]  INFO {AUDIT_LOG} - Initiator : a***n | Action : Login | Target : ApplicationAuthenticationFramework | Data : { "ContextIdentifier" : "4485df0b-6850-4534-8812-d652b6feed23","ServiceProviderName" : "apim_publisher","RequestType" : "oidc","RelyingParty" : "khdvFkyjN2yjjh0Umxi0Gqgc8aca","StepNo" : "1","User Agent" : "null","RemoteAddress" : "null","UserStoreDomain" : "PRIMARY" } | Result : Failed 
+TID: [-1234] [2025-05-15 13:39:58,091]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-List Target=null Data={"ServiceProviderName":"apim_publisher","Claim Value":"a***n","Users":["a***n"],"Claim":"http://wso2.org/claims/username"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,094]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,095]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,095]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,095]  INFO {AUDIT_LOG} - Initiator : a***n | Action : LoginStepSuccess | Target : ApplicationAuthenticationFramework | Data : { "ContextIdentifier" : "4485df0b-6850-4534-8812-d652b6feed23","AuthenticatedUser" : "a***n","AuthenticatedUserTenantDomain" : "carbon.super","ServiceProviderName" : "apim_publisher","RequestType" : "oidc","RelyingParty" : "khdvFkyjN2yjjh0Umxi0Gqgc8aca","AuthenticatedIdP" : "LOCAL","User Agent" : "null","RemoteAddress" : "null","UserStoreDomain" : "PRIMARY" } | Result : Success 
+TID: [-1234] [2025-05-15 13:39:58,095]  INFO {AUDIT_LOG} - Initiator : a****************r | Action : Authenticate | Target : ApplicationAuthenticationFramework | Data : { Step: 1, IDP: LOCAL, Authenticator:BasicAuthenticator } | Result : Success 
+TID: [-1234] [2025-05-15 13:39:58,097]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-Roles-of-User Target=a***n Data={"ServiceProviderName":"apim_publisher","Filter":"*","Roles":["Internal/subscriber","Internal/creator","Internal/publisher","Internal/everyone","Internal/devops","admin","Internal/analytics","Internal/observer","Internal/integration_dev","customer"]} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,097]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"ServiceProviderName":"apim_publisher","Claims":{"http://wso2.org/claims/username":"a***n","http://wso2.org/claims/userid":"b2fad880-11b5-4fa1-b5e4-d1ef2e68f953","http://wso2.org/claims/role":"I********************************************************************************************************************************************************************r","http://wso2.org/claims/userprincipal":"a***n"}} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,103]  INFO {AUDIT_LOG} - Initiator : b2fad880-11b5-4fa1-b5e4-d1ef2e68f953 | Action : StoreSession | Data : { {"traceId":"fa5a5b3b-5427-4565-9ab7-c34717f797ed","RememberMe":false,"sessionContextId":"92b98e9f336c9b7d8349848ee6d8fc9a5e56cd3ace60e5d5cf95d1604385bc41","AuthenticatedUserTenantDomain":"carbon.super","AuthenticatedUser":"a***n","LastAccessedTimestamp":1747296598100} } | Result : Success 
+TID: [-1234] [2025-05-15 13:39:58,104]  INFO {AUDIT_LOG} - Initiator : b2fad880-11b5-4fa1-b5e4-d1ef2e68f953 | Action : Login | Target : ApplicationAuthenticationFramework | Data : { "ContextIdentifier" : "4485df0b-6850-4534-8812-d652b6feed23","AuthenticatedUser" : "a***n","AuthenticatedUserTenantDomain" : "carbon.super","ServiceProviderName" : "apim_publisher","RequestType" : "oidc","RelyingParty" : "khdvFkyjN2yjjh0Umxi0Gqgc8aca","AuthenticatedIdPs" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3c28yIiwiZXhwIjoxNzQ3Mjk2NjAxMDk1LCJpYXQiOjE3NDcyOTY1OTgwOTUsImlkcHMiOlt7ImlkcCI6IkxPQ0FMIiwiYXV0aGVudGljYXRvciI6IkJhc2ljQXV0aGVudGljYXRvciJ9XX0.UJMsgZkroNP7YHSo4nENANcsPIwd4XO-VtA3uG_ZYfo","User Agent" : "null","RemoteAddress" : "null","UserStoreDomain" : "PRIMARY" } | Result : Success 
+TID: [-1234] [2025-05-15 13:39:58,169]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-List Target=null Data={"Claim Value":"a***n","Users":["a***n"],"Claim":"http://wso2.org/claims/username"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,170]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,171]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,171]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,754]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Value Target=a***n Data={"Claim":"http://wso2.org/claims/organization"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,755]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Value Target=a***n Data={"Claim":"http://wso2.org/claims/organization"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,756]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Value Target=a***n Data={"Claim":"http://wso2.org/claims/organization"} Outcome=Success
+TID: [-1234] [2025-05-15 13:39:58,759]  INFO {AUDIT_LOG} - GET /api/am/publisher/settings user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:58,759]  INFO {AUDIT_LOG} - GET /api/am/publisher/tenants?state=active user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:58,759]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:58,860]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions?query=deployed%3Atrue user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:58,860]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:58,896]  INFO {AUDIT_LOG} - GET /api/am/publisher/me/organization-information user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:58,897]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/swagger user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:58,911]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/swagger user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:39:58,923]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/swagger user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:01,994]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:20,117]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:20,656]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:29,194]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:29,697]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:39,343]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:39,849]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:44,393]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:44,895]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:52,418]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:52,928]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:56,545]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:57,043]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:59,446]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:40:59,943]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:04,978]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:05,476]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:11,188]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:11,683]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:19,817]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:20,305]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:22,580]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:23,093]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:27,954]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:28,458]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:30,620]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:31,118]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:31,896]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:32,380]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:36,486]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:36,976]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:40,827]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:41,329]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:43,347]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:43,859]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:47,304]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:41:47,802]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:09,981]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:10,486]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:16,435]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:16,932]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:24,457]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:24,967]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:29,726]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:30,227]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:35,538]  INFO {AUDIT_LOG} - GET /api/am/publisher/linter-custom-rules?apiId=9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:36,034]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:46,054]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/validate-openapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:46,072]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/asyncapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:46,125]  INFO {AUDIT_LOG} - PUT /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/swagger user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [] [2025-05-15 13:42:46,189]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 13:42:46,189]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 13:42:46,189]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 13:42:46,201]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 13:42:46,201]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 13:42:46,201]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,702]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,702]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,702]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,729]  INFO {AUDIT_LOG} - {"performedBy":"admin","action":"updated","type":"API","info":{"provider":"admin","name":"BookStore","context":"/bookstore/1.0.0","version":"1.0.0"}}
+TID: [] [2025-05-15 13:42:46,737]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 13:42:46,737]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 13:42:46,737]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,761]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:46,802]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/asyncapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:46,951]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,951]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,951]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,958]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,958]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:46,958]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:50,169]  INFO {AUDIT_LOG} - DELETE /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions/673c5111-6e2d-4d8d-9fcb-05bda3abe8dd user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,239]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,262]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/asyncapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,275]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,336]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/asyncapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,395]  INFO {AUDIT_LOG} - POST /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/deploy-revision?revisionId=71713119-1298-49a0-b8b6-410cbbeb49b1 user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,463]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions?query=deployed%3Atrue user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,463]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/revisions user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,487]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/asyncapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,555]  INFO {AUDIT_LOG} - GET /api/am/publisher/apis/9831e519-1314-4b7b-b139-65c1842a4127/asyncapi user: admin@carbon.super app: khdvFkyjN2yjjh0Umxi0Gqgc8aca
+TID: [-1234] [2025-05-15 13:42:50,997]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:50,997]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:50,997]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:56,024]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:56,025]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:56,025]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [] [2025-05-15 13:42:56,123]  INFO {AUDIT_LOG} - {"performedBy":"SYSTEM: carbon.super","action":"undeployed","type":"API","info":"9831e519-1314-4b7b-b139-65c1842a4127"}
+TID: [] [2025-05-15 13:42:56,137]  INFO {AUDIT_LOG} - {"performedBy":"SYSTEM: carbon.super","action":"deployed","type":"API","info":"9831e519-1314-4b7b-b139-65c1842a4127"}
+TID: [-1234] [2025-05-15 13:42:56,140]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:56,140]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2025-05-15 13:42:56,140]  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Values Target=a***n Data={"Claims":{},"Profile":"default"} Outcome=Success
