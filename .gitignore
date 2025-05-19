@@ -6,3 +6,5 @@ wso2carbon.pubkey.pem
 wso2carbon.privkey.pem
 bookstore_client/node_modules/.cache/default-development/24.pack
 bookstore_client/node_modules/.cache/default-development/24.pack
+bookstore_client/node_modules/.cache/default-development/29.pack
+/bookstore_client/node_modules

@@ -1,22 +1,125 @@
-[2025-05-14 12:52:35,477]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 12:54:36,303]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 12:55:20,513]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 12:55:38,894]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 12:58:04,654]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:01:31,193]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:01:36,323]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:02:29,142]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:02:30,012]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:02:48,411]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:50:08,109]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:50:16,282]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:51:30,390]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:51:39,236]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 13:53:38,556]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 14:22:00,516]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 14:23:38,298]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 14:36:09,516]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 14:44:07,686]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 14:44:41,329]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 15:41:23,625]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Empty client certificate chain
-[2025-05-14 16:12:00,074] ERROR {org.apache.synapse.mediators.v2.ForEachMediatorV2} - Expression payload.Data.Orders did not resolve to a valid array
+[2025-05-19 11:45:00,061] ERROR {org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor} - #replace. Mis-match detected between number of formatters and arguments java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.getReplacementValue(RegexTemplateProcessor.java:273)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:159)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:64)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:206)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:199)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:123)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:112)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.eip.Target.mediateMessage(Target.java:256)
+	at org.apache.synapse.mediators.eip.Target.mediate(Target.java:111)
+	at org.apache.synapse.mediators.v2.ForEachMediatorV2.mediate(ForEachMediatorV2.java:143)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.filters.FilterMediator.mediate(FilterMediator.java:172)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorWorker.run(MediatorWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[2025-05-19 11:45:00,062] ERROR {org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor} - #replace. Mis-match detected between number of formatters and arguments java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.getReplacementValue(RegexTemplateProcessor.java:273)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:159)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:64)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:206)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:199)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:123)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:112)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.eip.Target.mediateMessage(Target.java:256)
+	at org.apache.synapse.mediators.eip.Target.mediate(Target.java:111)
+	at org.apache.synapse.mediators.v2.ForEachMediatorV2.mediate(ForEachMediatorV2.java:143)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.filters.FilterMediator.mediate(FilterMediator.java:172)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorWorker.run(MediatorWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[2025-05-19 11:45:00,063] ERROR {org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor} - #replace. Mis-match detected between number of formatters and arguments java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.getReplacementValue(RegexTemplateProcessor.java:273)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:159)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:64)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:206)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:199)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:123)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:112)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.eip.Target.mediateMessage(Target.java:256)
+	at org.apache.synapse.mediators.eip.Target.mediate(Target.java:111)
+	at org.apache.synapse.mediators.v2.ForEachMediatorV2.mediate(ForEachMediatorV2.java:143)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.filters.FilterMediator.mediate(FilterMediator.java:172)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorWorker.run(MediatorWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[2025-05-19 11:45:00,063] ERROR {org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor} - #replace. Mis-match detected between number of formatters and arguments java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.getReplacementValue(RegexTemplateProcessor.java:273)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:159)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:64)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:206)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:199)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:123)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:112)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.eip.Target.mediateMessage(Target.java:256)
+	at org.apache.synapse.mediators.eip.Target.mediate(Target.java:111)
+	at org.apache.synapse.mediators.v2.ForEachMediatorV2.mediate(ForEachMediatorV2.java:143)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.filters.FilterMediator.mediate(FilterMediator.java:172)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorWorker.run(MediatorWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[2025-05-19 11:45:00,064] ERROR {org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor} - #replace. Mis-match detected between number of formatters and arguments java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.getReplacementValue(RegexTemplateProcessor.java:273)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:159)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:64)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:206)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:199)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:123)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:112)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.eip.Target.mediateMessage(Target.java:256)
+	at org.apache.synapse.mediators.eip.Target.mediate(Target.java:111)
+	at org.apache.synapse.mediators.v2.ForEachMediatorV2.mediate(ForEachMediatorV2.java:143)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.filters.FilterMediator.mediate(FilterMediator.java:172)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:132)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:79)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorWorker.run(MediatorWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+

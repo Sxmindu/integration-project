@@ -21,6 +21,7 @@ const Home = () => {
     const [fetch, setFetch] = useState(5);
 
     useEffect(() => {
+        console.log(auth)
         const getDetails = async () => {
 
             try {
