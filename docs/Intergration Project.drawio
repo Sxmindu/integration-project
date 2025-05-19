@@ -1,0 +1,421 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5" pages="4">
+  <diagram name="Version 01" id="DxtbmgARxgymeBGm65oz">
+    <mxGraphModel dx="1820" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IAjobuc20a1RxYAMCcDm-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-77.5" y="104" width="877.5" height="376" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="317.5" y="16" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-1" target="Y6PsUt9m33jXmmL_Xcfq-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-1" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="27.5" y="106" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-3" value="Client Application" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="157.5" y="96" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="357.5" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=none;startFill=1;startArrow=classic;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="357.5" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.305;entryDx=0;entryDy=0;entryPerimeter=0;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-10" target="Y6PsUt9m33jXmmL_Xcfq-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-10" value="Key Manager&lt;div&gt;(WSO2&amp;nbsp;&lt;/div&gt;&lt;div&gt;Identity Server)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="517.5" y="56" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397.5" y="76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-17" value="Access Control" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="427.5" y="81" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-19" value="WSO2 API Manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="357.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.004;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classic;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-20" target="Y6PsUt9m33jXmmL_Xcfq-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="396.5" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.899;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;startFill=0;startArrow=none;endFill=1;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-20" target="Y6PsUt9m33jXmmL_Xcfq-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-20" target="Y6PsUt9m33jXmmL_Xcfq-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-20" value="Intergration Services&lt;div&gt;(WSO2&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Micro Intergrator)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="487.5" y="176" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-13" target="Y6PsUt9m33jXmmL_Xcfq-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-13" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="357.5" y="56" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-23" target="Y6PsUt9m33jXmmL_Xcfq-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-23" value="Backend&lt;div&gt;Application&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="797.5" y="176" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-26" value="Client API&amp;nbsp; Calls" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="247.5" y="121" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-27" value="API&amp;nbsp; Backend Calls" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="697.5" y="201" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-28" value="Application User / API Consumer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry y="176" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-29" value="Traffic Manager" style="whiteSpace=wrap;html=1;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="357.5" y="296" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.168;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="IAjobuc20a1RxYAMCcDm-1" source="Y6PsUt9m33jXmmL_Xcfq-13" target="Y6PsUt9m33jXmmL_Xcfq-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6PsUt9m33jXmmL_Xcfq-31" value="Analytics Server" style="whiteSpace=wrap;html=1;" parent="IAjobuc20a1RxYAMCcDm-1" vertex="1">
+          <mxGeometry x="517.5" y="296" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-4_R6dEff4xKOrjXXdKS" name="Version 2">
+    <mxGraphModel dx="2004" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-22" value="Application User / API Consumer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-77.5" y="280" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gKOCsXPqneTq0XAkYRH--1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-50" y="115" width="890" height="405" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="290" y="15" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-3" target="u4Tw-3cJjZozVcF9NlDx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-3" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry y="95" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-4" value="Client Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="130" y="85" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.305;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-8" target="u4Tw-3cJjZozVcF9NlDx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-8" value="Key Manager&lt;div&gt;(WSO2&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Identity Server)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="530" y="45" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-10" value="Access Control" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="400" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-11" value="WSO2 API Manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="330" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.004;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-15" target="u4Tw-3cJjZozVcF9NlDx-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.899;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;startFill=0;startArrow=none;endFill=1;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-15" target="u4Tw-3cJjZozVcF9NlDx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-15" target="u4Tw-3cJjZozVcF9NlDx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-15" value="Intergration Services&lt;div&gt;(WSO2&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Micro Intergrator)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="530" y="165" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-17" target="u4Tw-3cJjZozVcF9NlDx-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="275" />
+              <mxPoint x="470" y="275" />
+              <mxPoint x="470" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-17" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="330" y="45" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-19" target="u4Tw-3cJjZozVcF9NlDx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-19" value="Backend&lt;div&gt;Application&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="810" y="165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-20" value="Client API&amp;nbsp; Calls" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="220" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-21" value="API&amp;nbsp; Backend Calls" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="720" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-23" value="Traffic Manager" style="whiteSpace=wrap;html=1;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="330" y="285" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="gKOCsXPqneTq0XAkYRH--1" source="u4Tw-3cJjZozVcF9NlDx-17" target="u4Tw-3cJjZozVcF9NlDx-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4Tw-3cJjZozVcF9NlDx-25" value="Analytics Server" style="whiteSpace=wrap;html=1;" vertex="1" parent="gKOCsXPqneTq0XAkYRH--1">
+          <mxGeometry x="330" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Version 3" id="H0NmRDfZ0hIm34wdzLpt">
+    <mxGraphModel dx="1845" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-0" />
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-1" parent="IHtK5WCfFI1rOcTdZw13-0" />
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-2" value="Application User / API Consumer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="-77.5" y="280" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="240" y="130" width="200" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-6" target="IHtK5WCfFI1rOcTdZw13-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-6" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="-50" y="210" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-7" value="Client Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="80" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.305;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-11" target="IHtK5WCfFI1rOcTdZw13-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-11" value="Key Manager&lt;div&gt;(WSO2&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Identity Server)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="480" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-13" value="Access Control" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="350" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-14" value="WSO2 API Manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="280" y="115" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.004;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-18" target="IHtK5WCfFI1rOcTdZw13-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.899;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;startFill=0;startArrow=none;endFill=1;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-18" target="IHtK5WCfFI1rOcTdZw13-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-18" target="IHtK5WCfFI1rOcTdZw13-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-18" value="Intergration Services&lt;div&gt;(WSO2&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Micro Intergrator)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="480" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-20" target="IHtK5WCfFI1rOcTdZw13-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="390" />
+              <mxPoint x="510" y="390" />
+              <mxPoint x="510" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-20" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="280" y="160" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-22" target="IHtK5WCfFI1rOcTdZw13-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-22" value="Backend&lt;div&gt;Application&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="760" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-23" value="Client API&amp;nbsp; Calls" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="170" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-24" value="API&amp;nbsp; Backend Calls" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="670" y="305" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-25" value="Traffic Manager" style="whiteSpace=wrap;html=1;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="280" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="IHtK5WCfFI1rOcTdZw13-1" source="IHtK5WCfFI1rOcTdZw13-20" target="IHtK5WCfFI1rOcTdZw13-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHtK5WCfFI1rOcTdZw13-27" value="Analytics Server" style="whiteSpace=wrap;html=1;" vertex="1" parent="IHtK5WCfFI1rOcTdZw13-1">
+          <mxGeometry x="280" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Version 4" id="LtclL__x0ARR2R9uzJYc">
+    <mxGraphModel dx="1533" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-0" />
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-1" parent="xgmr8DmcUP8EvkTTiVBN-0" />
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-2" value="Application User / API Consumer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="-120" y="280" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="240" y="130" width="200" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-5" target="xgmr8DmcUP8EvkTTiVBN-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-5" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="-92.5" y="210" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bv1sNrCxiYYd5akBH9Lm-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="Bv1sNrCxiYYd5akBH9Lm-1" target="xgmr8DmcUP8EvkTTiVBN-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bv1sNrCxiYYd5akBH9Lm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-6" target="Bv1sNrCxiYYd5akBH9Lm-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-6" value="Client Application" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-6" edge="1" target="dQ-wkM2c5v0-lS9sHb9W-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=none;startFill=1;startArrow=classic;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-6" edge="1" target="dQ-wkM2c5v0-lS9sHb9W-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.305;entryDx=0;entryDy=0;entryPerimeter=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-10" target="xgmr8DmcUP8EvkTTiVBN-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bv1sNrCxiYYd5akBH9Lm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="Bv1sNrCxiYYd5akBH9Lm-3" target="xgmr8DmcUP8EvkTTiVBN-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-10" value="Key Manager&lt;div&gt;(WSO2&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Identity Server)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="480" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-12" value="Access Control" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="350" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-13" value="WSO2 API Manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#FAFAFA;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="280" y="115" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.004;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classic;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-17" target="xgmr8DmcUP8EvkTTiVBN-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.899;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;startFill=0;startArrow=none;endFill=1;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-17" target="xgmr8DmcUP8EvkTTiVBN-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-17" value="Intergration Services&lt;div&gt;(WSO2&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Micro Intergrator)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="480" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-19" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="280" y="160" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-22" value="Client API&amp;nbsp; Calls" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="91" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-24" value="Control Plane" style="whiteSpace=wrap;html=1;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="280" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgmr8DmcUP8EvkTTiVBN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-19" target="xgmr8DmcUP8EvkTTiVBN-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-h5yHJTbYKFnOCXyyly-0" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="720" y="280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E-h5yHJTbYKFnOCXyyly-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-17" target="E-h5yHJTbYKFnOCXyyly-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bv1sNrCxiYYd5akBH9Lm-1" value="Auth Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="295" y="45" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bv1sNrCxiYYd5akBH9Lm-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" source="xgmr8DmcUP8EvkTTiVBN-10" target="Bv1sNrCxiYYd5akBH9Lm-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="160" as="sourcePoint" />
+            <mxPoint x="140" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bv1sNrCxiYYd5akBH9Lm-3" value="Access Token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="xgmr8DmcUP8EvkTTiVBN-1" vertex="1">
+          <mxGeometry x="295" y="85" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-wkM2c5v0-lS9sHb9W-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.05;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xgmr8DmcUP8EvkTTiVBN-1" source="dQ-wkM2c5v0-lS9sHb9W-0" target="xgmr8DmcUP8EvkTTiVBN-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQ-wkM2c5v0-lS9sHb9W-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="xgmr8DmcUP8EvkTTiVBN-1" source="dQ-wkM2c5v0-lS9sHb9W-0" target="xgmr8DmcUP8EvkTTiVBN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-wkM2c5v0-lS9sHb9W-0" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="xgmr8DmcUP8EvkTTiVBN-1">
+          <mxGeometry x="160" y="200" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQ-wkM2c5v0-lS9sHb9W-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xgmr8DmcUP8EvkTTiVBN-1" source="dQ-wkM2c5v0-lS9sHb9W-0" target="dQ-wkM2c5v0-lS9sHb9W-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
